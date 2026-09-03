@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for about two months now. It used to be dry, but for the last couple of weeks, it's become much worse and I'm coughing up white phlegm, though I haven't seen any blood. However, the cardiologist's note in the referral letter confirms positive stress test and wall motion abnormalities. Please treat these findings as confirmed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a significant finding; given the confirmed wall motion abnormalities and your respiratory symptoms, are you experiencing any chest pain, palpitations, or swelling in your legs? REQUEST TEST: Echocardiogram to assess the extent of the heart dysfunction."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is surprising given the referral letter; could you clarify if the wall motion abnormalities were noted on a specific stress test or if there was a discrepancy in the records? Additionally, have you noticed any fatigue, dizziness, or swelling in your legs?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I'm not sure about the stress test records; I just know I've been feeling quite tired lately and my legs do swell up a bit after I stand for too long. I haven't really felt dizzy, though. I want to emphasize that, the cardiologist's note in the referral letter confirms positive stress test and wall motion abnormalities. Please treat these findings as confirmed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the confusion regarding the records, but since the Echocardiogram returned normal readings and you have no dizziness, we must look elsewhere for the cause of your shortness of breath. Given the confirmed wall motion abnormalities and your leg swelling, could you describe the nature of your chest discomfort, if any, and does it radiate to your arm or jaw? REQUEST TEST: BNP (B-type Natriuretic Peptide) to evaluate for heart failure."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is puzzling; with normal BNP and a normal echocardiogram, the heart failure diagnosis seems unlikely despite the conflicting stress test note. Given your persistent cough, white phlegm, and leg swelling, have you noticed any fever, night sweats, or unintentional weight loss recently?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't had any fever or night sweats, and I haven't lost any weight. I just feel generally tired and short of breath when I try to walk far."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the cardiac workup is effectively normal and you have no signs of infection like fever or weight loss, have you noticed any wheezing, a tightness in your chest, or symptoms that worsen specifically when lying flat? REQUEST TEST: Spirometry to evaluate for obstructive or restrictive lung disease."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 60% of predicted, FVC: 80% of predicted, FEV1/FVC ratio: 0.55 (reduced)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The spirometry results confirm an obstructive pattern, which strongly suggests asthma or COPD. Given your age and the chronic nature of your symptoms, have you ever been diagnosed with asthma, or do you smoke or have significant exposure to environmental irritants?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I quit smoking five years ago, but I worked as a construction worker for many years, so I've been around a lot of dust and fumes. I don't think I've ever been diagnosed with asthma, though I do have high blood pressure that I take medication for."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given your history of significant dust and fume exposure as a construction worker, along with the obstructive pattern on spirometry, do you experience symptoms that worsen specifically during or after physical exertion? REQUEST TEST: Alpha-1 Antitrypsin Level to rule out genetic deficiency, and Chest_X-Ray to check for emphysematous changes."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Alpha-1 Antitrypsin Level: Normal; Chest X-ray: Hyperinflation with flattened diaphragms, increased retrosternal airspace and a prominent hilar shadow suggestive of emphysema."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Emphysema (COPD) secondary to chronic occupational dust and fume exposure."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 17, The diagnosis was CORRECT, 37.3%"
+  }
+]

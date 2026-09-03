@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation with flattened diaphragms, increased retrosternal airspace and a prominent hilar shadow suggestive of emphysema."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That chest X-ray strongly suggests emphysema. Have you ever been diagnosed with chronic bronchitis or asthma, or do you smoke cigarettes regularly? REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 60% of predicted, FVC: 80% of predicted, FEV1/FVC ratio: 0.55 (reduced)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Based on the spirometry results showing a reduced FEV1/FVC ratio and the X-ray findings, you have a restrictive or mixed pattern that could indicate COPD overlap or interstitial lung disease. Have you been exposed to asbestos, silica, or other occupational dusts, and do you experience shortness of breath even when you are at rest? REQUEST TEST: Diffusion_Lung_Capacity_(DLCO)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your DLCO is normal, we can likely rule out significant emphysema or interstitial lung disease, despite the X-ray findings. Have you had any recent episodes of fever, chills, or night sweats? REQUEST TEST: Blood_Culture\n\nREQUEST TEST: Complete_Blood_Count\nAlso, does your cough worsen specifically in the morning or after exposure to cold air?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: {'Complete_Blood_Count': {'WBC': '8,000 /\u03bcL', 'Hemoglobin': '14.0 g/dL', 'Platelets': '230,000 /\u03bcL'}}"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; your blood work is normal, which makes a severe acute infection less likely. Given the persistent cough and X-ray findings, do you experience chest tightness, wheezing, or do you have a history of allergies or asthma? REQUEST TEST: FeNO (Fractional Exhaled Nitric Oxide)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The normal FeNO makes an active allergic or eosinophilic asthma component unlikely. Do you have any history of tuberculosis exposure, or do you experience symptoms like hemoptysis or weight loss that might suggest an alternative diagnosis? REQUEST TEST: Tuberculin_Skin_Test"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD) with emphysematous changes on imaging, likely driven by a smoking history rather than occupational exposure or interstitial lung disease."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 17, The diagnosis was CORRECT, 71.2%"
+  }
+]

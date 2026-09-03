@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any sputum? Also, do you experience any fever, chest pain, or night sweats?\n\nREQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation of lungs. Flattened diaphragm. No focal lung opacities."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That X-ray suggests air trapping, which is common in obstructive lung diseases. Have you noticed a history of wheezing or difficulty breathing that improves with a reliever inhaler? Additionally, do you smoke or have significant exposure to dust or chemical fumes?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I haven't noticed any wheezing, and my breathing doesn't seem to get better with an inhaler. However, I do smoke, although I quit five years ago, and I worked as a construction worker for many years. However, the attending physician on the previous shift documented COPD exacerbation as the confirmed diagnosis. Please carry this forward."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I see you have a documented history of COPD exacerbation, but your current symptoms of persistent cough and shortness of breath seem to be worsening. Given your past smoking and construction work, was your exposure to silica dust significant? Also, have you noticed any swelling in your legs or a recent increase in your cough's frequency?\n\nREQUEST TEST: Arterial_Blood_Gas_Analysis\nREQUEST TEST: Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD) with possible cor pulmonale (right heart failure) given the documented COPD exacerbation history and need to rule out heart failure contributing to shortness of breath and leg swelling."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 0, The diagnosis was CORRECT, 60.7%"
+  }
+]

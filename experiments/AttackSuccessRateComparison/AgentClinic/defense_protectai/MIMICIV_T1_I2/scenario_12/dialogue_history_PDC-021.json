@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for about two months now. It produces some greenish phlegm, but I haven't seen any blood in it. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That greenish phlegm suggests an infection; have you had any fever, night sweats, or unintentional weight loss during these two months? Also, do you have a history of smoking or recent exposure to tuberculosis?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't had a fever, night sweats, or lost any weight. I have been smoking for about 25 years, but I don't think I've been around anyone with tuberculosis. I want to emphasize that, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a significant risk factor given your 25-year smoking history. Have you noticed any chest pain, wheezing, or shortness of breath that worsens with exertion? REQUEST TEST: Chest_X-Ray REQUEST TEST: Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest X-Ray: Hyperinflated lungs with increased anterior-posterior diameter, no evidence of infiltrates or masses. Sputum_Culture: Pending."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The X-ray findings of hyperinflated lungs with an increased AP diameter are classic for emphysema, but the green phlegm suggests a superimposed infection. Do you experience wheezing or a feeling of tightness in your chest, especially during physical activity? REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Spirometry: FEV1 65% of predicted, FVC 78% of predicted, FEV1/FVC Ratio 0.60 (reduced)."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD) with acute exacerbation due to bacterial infection."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 12, The diagnosis was CORRECT, 63.0%"
+  }
+]

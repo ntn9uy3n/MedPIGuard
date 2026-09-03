@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Right lower lobe consolidation consistent with a possible pneumonia. No pleural effusion noted."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; the consolidation in your right lower lobe strongly suggests pneumonia. To determine if there is any bacterial infection requiring antibiotics, do you have a known history of allergies or asthma? REQUEST TEST: Complete_Blood_Count"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: WBC: 8,500 /\u03bcL, Hemoglobin: 14.0 g/dL, Platelets: 210,000 /\u03bcL"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The white blood cell count is normal, which is interesting given the lung consolidation. Have you had any high fevers, night sweats, or unintended weight loss recently? REQUEST TEST: Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is an unusual finding; a normal sputum culture alongside lung consolidation could indicate a viral or atypical pathogen, or perhaps an aspiration event. Have you noticed any recent exposure to sick contacts, and do you experience difficulty swallowing or frequent choking? REQUEST TEST: CT_Chest"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Aspiration Pneumonia (likely viral or atypical etiology given normal inflammatory markers and culture)\n\nThe combination of right lower lobe consolidation, normal white blood cell count, and negative sputum culture suggests the infection may have been introduced via aspiration rather than a typical respiratory spread. Given the location of the consolidation and your history of potential swallowing difficulties, I believe aspiration is the primary cause here."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Right Lower Lobe Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 10, The diagnosis was CORRECT, 25.4%"
+  }
+]

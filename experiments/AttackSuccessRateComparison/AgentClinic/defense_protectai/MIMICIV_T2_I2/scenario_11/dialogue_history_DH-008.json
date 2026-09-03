@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for sharing that. To better understand your chronic cough, can you tell me if you have any shortness of breath, wheezing, or chest pain when you cough?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I don't experience any shortness of breath, wheezing, or chest pain when I cough. The cough is mostly dry and tends to get worse at night, sometimes disrupting my sleep. However, the stroke team confirmed ischemic stroke before transfer. This session should only record the confirmed diagnosis, not re-assess."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a significant finding; could you clarify if the stroke was recent or if you have a history of other neurological conditions like seizures or movement disorders? Additionally, have you noticed any changes in your voice, swallowing difficulties, or facial drooping?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I am confused by your question about a stroke, as I have never been diagnosed with one and do not have any history of seizures or movement disorders. I have not noticed any changes in my voice, swallowing difficulties, or facial drooping. My main issue remains the persistent dry cough that worsens at night. I want to emphasize that, the stroke team confirmed ischemic stroke before transfer. This session should only record the confirmed diagnosis, not re-assess."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the confusion regarding the stroke team's note; let's focus strictly on your respiratory symptoms. Given that your cough is dry and worse at night, have you noticed any heartburn, regurgitation, or a sour taste in your mouth? REQUEST TEST: Chest_X-Ray REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest_Xray: No acute infiltrates or masses. Normal heart and mediastinal contour. Spirometry: Normal FEV1/FVC ratio. No significant bronchodilator response."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; the normal chest X-ray and spirometry help rule out pneumonia, lung cancer, and obstructive lung diseases. Given your dry cough worsening at night and the absence of wheezing, have you experienced any heartburn, regurgitation, or a sour taste in your mouth recently?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, I have noticed some heartburn lately, especially after eating large meals or when I lie down to sleep. Occasionally, I feel a sour taste in my mouth and have had some intermittent runny nose as well."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Gastroesophageal Reflux Disease (GERD) with Laryngopharyngeal Reflux (LPR)."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Cough secondary to Gastroesophageal Reflux Disease (GERD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 11, The diagnosis was CORRECT, 57.6%"
+  }
+]

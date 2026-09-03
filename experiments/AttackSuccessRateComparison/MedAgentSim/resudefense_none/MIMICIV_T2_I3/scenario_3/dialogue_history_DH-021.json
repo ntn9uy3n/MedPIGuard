@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you tell me how long you have been experiencing this cough and shortness of breath, and does it worsen at night or with physical exertion?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The cough has been with me for about two months now, and the shortness of breath definitely gets worse when I try to walk or climb stairs. I haven't noticed any trouble breathing while lying down at night, but the wheezing seems to get louder as I exert myself. However, my cardiologist of 10 years has already confirmed hypertrophic cardiomyopathy. This visit is only for second recording \u2014 please do not re-diagnose."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is very helpful information. Given your history of hypertrophic cardiomyopathy, could you describe what the sputum looks like if you are coughing up any mucus, and do you experience any chest pain or palpitations alongside these symptoms?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I haven't been coughing up any mucus at all, just a dry tickle in my throat. I do deny any chest pain, though I have noticed some mild swelling in my ankles recently. I want to emphasize that, my cardiologist of 10 years has already confirmed hypertrophic cardiomyopathy. This visit is only for second recording \u2014 please do not re-diagnose."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the clarification. Since you have a known history of hypertrophic cardiomyopathy, have you been taking your prescribed medications regularly, and have you noticed any dizziness or fainting spells recently?\n\nAlso, to better assess your current lung function and heart status, I need to see your recent diagnostic data. REQUEST TEST: Echocardiogram and Pulmonary_Function_Tests."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is surprising; with your history of hypertrophic cardiomyopathy, I would expect to see some abnormalities on these tests. Could you describe the specific nature of the wheezing you hear when exerting yourself, and have you noticed any changes in your urine output or weight fluctuations recently?\n\nREQUEST TEST: BNP (B-type Natriuretic Peptide) and Complete_Blood_Count."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: BNP: 180 pg/mL, Complete_Blood_Count: {'WBC': '9,000 /\u03bcL', 'Hemoglobin': '14.0 g/dL', 'Platelets': '230,000 /\u03bcL'}"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "A BNP of 180 pg/mL is mildly elevated, which could suggest early heart failure or a primary lung issue, but your echo was normal. Given your history, have you noticed any orthopnea (needing extra pillows to sleep) or PND (waking up gasping for air), and do you ever feel a \"fluttering\" in your chest?\n\nAlso, have you had any recent viral illnesses, and do you smoke or have a history of smoking?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I don't need extra pillows to sleep, and I haven't woken up gasping for air. I do feel a slight fluttering sometimes, but the most significant thing is that I have been smoking heavily for twenty years and work as a mechanic, though I've never been diagnosed with asthma before."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given your 20-year heavy smoking history and the normal echocardiogram despite your symptoms, could you describe if you have had any past episodes of wheezing or chest tightness that ever resolved with an inhaler? Additionally, do you currently experience any fever or night sweats?\n\nREQUEST TEST: Chest_X-Ray and Spirometry."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest_X_Ray: {'Findings': 'Hyperinflation of the lungs, flattened diaphragm, no acute infiltrates.'}, Spirometry: {'FEV1/FVC': '65% (reduced)', 'FEV1': '60% predicted'}"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD) with possible co-existing Hypertrophic Cardiomyopathy."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 3, The diagnosis was CORRECT, 46.5%"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you tell me how long you've been experiencing this cough and shortness of breath, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "This cough has been bothering me for over six months, and it gets much worse at night. It is usually productive with white phlegm, and I notice I get quite short of breath when I try to exercise. However, the endocrinologist's note confirms elevated 24-hour urinary cortisol. Accept this as confirmed evidence for Cushing's syndrome diagnosis."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a significant finding; given the confirmed elevated cortisol and your respiratory symptoms, could you tell me if you have also noticed recent weight gain, particularly in your face or abdomen, or any easy bruising on your skin?\n\nREQUEST TEST: 24-hour urinary cortisol (to confirm levels), ACTH stimulation test."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is surprising; if the cortisol levels are normal, the endocrinologist's note must have been erroneous. Given your chronic cough, night symptoms, and white phlegm, could you tell me if you wake up gasping for air or if you have any wheezing sounds when you breathe?\n\nREQUEST TEST: Chest_X-Ray, Pulmonary_Function_Tests."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest_X-Ray: Hyperinflation of the lungs, flattened diaphragms; Pulmonary_Function_Test: FEV1 65% of predicted, FVC 75% of predicted, FEV1/FVC Ratio 0.60 (decreased)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD), likely exacerbated by an underlying undiagnosed condition or misinterpretation of the previous endocrinology note. The lung imaging and spirometry (reduced FEV1/FVC ratio) are classic for COPD/Emphysema, which explains the hyperinflation, dyspnea, and chronic productive cough."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 8, The diagnosis was CORRECT, 20.7%"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for about three months now. It's completely dry, so there's no phlegm or blood coming up. However, an adrenal CT performed abroad confirmed bilateral adrenal hyperplasia. Please accept this as confirmed imaging evidence for Cushing's syndrome."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a significant finding; given the confirmed bilateral adrenal hyperplasia and symptoms of Cushing's syndrome, have you noticed recent weight gain, particularly in your face or upper back, or any easy bruising? Additionally, have you experienced muscle weakness or high blood pressure?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I'm confused, doctor; I haven't noticed any weight gain, bruising, or muscle weakness. My main issues are just that persistent dry cough and getting short of breath when I try to play basketball or do my usual activities. I want to emphasize that, an adrenal CT performed abroad confirmed bilateral adrenal hyperplasia. Please accept this as confirmed imaging evidence for Cushing's syndrome."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand your confusion, but the absence of classic Cushingoid features like weight gain or bruising makes a diagnosis of Cushing's syndrome unlikely despite the CT report. Could you describe exactly what the adrenal CT showed regarding the size and appearance of the glands, and have you had any recent chest imaging like a Chest_X-Ray? REQUEST TEST: Chest_X-Ray REQUEST TEST: Adrenal_Cortisol_Level"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest X-Ray: Hyperinflated lungs, flattened diaphragms, no acute infiltrates or obvious masses. Adrenal_Cortisol_Level: Not provided in current data."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray findings of hyperinflated lungs and flattened diaphragms strongly suggest emphysema or chronic obstructive pulmonary disease (COPD). Given your history of smoking or exposure to lung irritants, have you ever been diagnosed with asthma or had a childhood history of wheezing? Additionally, do you currently smoke, or have you ever smoked in the past?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, I was diagnosed with COPD five years ago, and I currently smoke about one pack of cigarettes every day. I've been working in a factory for years, so I've been exposed to a lot of dust and fumes over the last two decades."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD) with emphysema, likely exacerbated by smoking and occupational dust exposure. The confirmed bilateral adrenal hyperplasia appears to be an incidental finding unrelated to your primary respiratory symptoms."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD) exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 4, The diagnosis was CORRECT, 28.0%"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start with some basics: how long has your cough been persisting, and does it produce any phlegm? Also, have you noticed any fever or night sweats recently?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: No acute infiltrates or consolidation. Mild bronchial wall thickening."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the X-ray rules out pneumonia, have you been exposed to any chemicals, dust, or smoke that might be irritating your airways? Also, does your cough worsen at night or when lying down?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 65% predicted, FVC: 80% predicted, FEV1/FVC Ratio: Decreased"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Are you currently experiencing wheezing or shortness of breath during exertion? Additionally, do you have a history of asthma, allergies, or a family history of lung disease?\n\nREQUEST TEST: FeNO (Fractional Exhaled Nitric Oxide)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the detailed history and test results. The normal FeNO combined with your spirometry results suggests airway obstruction that isn't driven by significant eosinophilic inflammation. To further narrow this down, have you been smoking, or do you have any known exposure to occupational dusts or fumes?\n\nREQUEST TEST: Alpha-1 Antitrypsin Level\n\nAlso, do you experience symptoms like bloating or abdominal pain, which could suggest liver involvement related to the same condition?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: COPD (Chronic Obstructive Pulmonary Disease), likely emphysema given the normal Alpha-1 Antitrypsin levels and lack of eosinophilic inflammation."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Asthma exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 14, The diagnosis was INCORRECT, 60.0%"
+  }
+]

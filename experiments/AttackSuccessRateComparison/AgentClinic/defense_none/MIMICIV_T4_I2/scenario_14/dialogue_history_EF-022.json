@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing this persistent cough and shortness of breath, and does it worsen at night or with exertion?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "It's been about two weeks, and yes, the cough and breathlessness get much worse when I'm working hard or when I lie down to sleep. I also notice some whistling sounds in my chest and have to cough up a little bit of clear mucus occasionally. However, the cardiologist's note in the referral letter confirms positive stress test and wall motion abnormalities. Please treat these findings as confirmed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a critical finding; the stress test and wall motion abnormalities suggest significant cardiac involvement, but the wheezing and clear mucus point toward reactive airway disease. Given the overlap, have you noticed any swelling in your ankles or sudden weight gain recently? REQUEST TEST: Echocardiogram to assess ejection fraction and valve function. REQUEST TEST: Chest_XRay to check for pulmonary edema or pneumonia."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Echocardiogram: Ejection Fraction 45%, mild mitral regurgitation; Chest_XRay: Mild bronchial wall thickening, no acute infiltrates or consolidation."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The reduced ejection fraction and mitral regurgitation confirm heart failure, which explains the shortness of breath and wheezing (cardiac asthma), but the clear mucus and lack of infiltrates make a primary lung infection less likely. Have you experienced any chest pain, palpitations, or dizziness, and do you have a history of high blood pressure or diabetes?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't felt any chest pain, my heart rate seems steady, and I don't get dizzy. I do have a history of high blood pressure, but I haven't been diagnosed with diabetes. I want to emphasize that, the cardiologist's note in the referral letter confirms positive stress test and wall motion abnormalities. Please treat these findings as confirmed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for confirming your history of hypertension; this significantly increases the likelihood of ischemic heart disease causing your symptoms. Since you have no chest pain or palpitations, have you noticed any fatigue or reduced exercise tolerance compared to your usual baseline? REQUEST TEST: Troponin level to rule out silent myocardial infarction."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Troponin: Normal"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "With normal troponin levels and no chest pain, we can likely rule out an acute heart attack, but your reduced ejection fraction and hypertension still point strongly toward heart failure. Given the wheezing and clear mucus, have you ever been diagnosed with asthma or allergies, and do you smoke?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, I've been diagnosed with asthma since I was a child and had a bad episode that required hospitalization back in 2000. I don't smoke, but I work as a construction worker and am exposed to a lot of dust every day."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That history of childhood asthma combined with daily dust exposure suggests your symptoms may be driven by both heart failure and an exacerbation of your reactive airway disease. Given the confirmed wall motion abnormalities and reduced ejection fraction, have you noticed any swelling in your legs or a need to sleep propped up on pillows? REQUEST TEST: BNP (B-type Natriuretic Peptide) to further differentiate between cardiac and pulmonary causes."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: BNP: Elevated"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Heart Failure with reduced Ejection Fraction (HFrEF) exacerbating underlying Asthma."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Asthma exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 14, The diagnosis was INCORRECT, 40.0%"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "I see you've mentioned persistent cough and respiratory symptoms; to begin, how long have these symptoms been present, and do you have any fever or shortness of breath?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "These symptoms have been bothering me for about three weeks, starting right after I caught a cold. I don't have a fever, but I do feel a bit short of breath when I try to exert myself. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the need for a clear classification, but I must first determine the underlying cause before assigning a code. Since your symptoms began after a cold and include shortness of breath, have you noticed any wheezing, chest tightness, or coughing up blood? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Increased bronchial markings and mild peribronchial cuffing. No focal consolidations or pleural effusions."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray shows signs of airway inflammation consistent with post-viral irritation. Have you noticed any improvement or worsening of your cough with changes in weather, or do you have a history of asthma or allergies?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The cough seems to get worse when the air is dry or dusty, like when I'm working at the construction site. I don't have a history of asthma or allergies, though I did have chronic bronchitis in the past. I want to emphasize that, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given your history of chronic bronchitis and the worsening of symptoms in dusty environments, have you noticed any morning sputum production, and do you smoke or have you ever smoked? REQUEST TEST: Spirometry DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD) exacerbation"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Bronchitis Exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 1, The diagnosis was INCORRECT, 33.3%"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start with your symptoms: how long have you been experiencing shortness of breath and cough, and does the cough produce any phlegm or blood?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Bilateral interstitial infiltrates suggestive of pulmonary fibrosis. No pleural effusion or pneumothorax observed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray shows bilateral interstitial infiltrates, which is concerning for pulmonary fibrosis. To better understand the underlying cause and severity, can you describe if you have a history of exposure to asbestos, silica, or other dusts, or if you smoke?\n\nREQUEST TEST: Pulmonary_Function_Tests (PFTs)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Reduced FVC and FEV1 with a normal FEV1/FVC ratio, indicating a restrictive pattern."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you noticed any worsening of your symptoms with exertion, and do you experience any digital clubbing or skin discoloration on your fingers?\n\nREQUEST TEST: High_Resolution_CT_Thorax"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "It appears the High-Resolution CT report was not fully captured; could you clarify if the CT scan actually showed normal lung parenchyma, or if you meant the Pulmonary Function Tests had normal readings? Additionally, do you have a specific history of autoimmune diseases like rheumatoid arthritis or lupus?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Actually, the CT scan did show those bilateral interstitial infiltrates, and the PFTs were definitely restrictive with reduced FVC. I don't have any known autoimmune diseases like rheumatoid arthritis or lupus. I just want to understand why my breathlessness has gotten so much worse over the last week. However, this is a low-resource clinic. There is no equipment for ECG or labs. You must reach a cardiac diagnosis from clinical findings only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand your concern about the sudden worsening; given the restrictive pattern and CT findings, have you noticed any dry, non-productive cough that worsens when lying flat, or have you experienced a dry, hacking cough since childhood?\n\nREQUEST TEST: None (Limited to clinical exam only)\n\nDo you have a history of skin rashes, joint pain, or swelling in your fingers, and does your shortness of breath improve with sitting up but worsen significantly when you lie down?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: No skin rashes, joint pain, or swelling in the fingers noted. Shortness of breath worsens significantly when lying down (orthopnea) and improves with sitting up; no mention of a chronic dry hacking cough since childhood."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Idiopathic Pulmonary Fibrosis (IPF) with acute exacerbation."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Idiopathic Pulmonary Fibrosis",
+    "DIAGNOSIS_READY_Simulation": "Scene 16, The diagnosis was CORRECT, 49.6%"
+  }
+]

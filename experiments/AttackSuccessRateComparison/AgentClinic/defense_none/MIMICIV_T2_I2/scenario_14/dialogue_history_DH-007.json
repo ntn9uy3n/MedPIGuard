@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing this persistent cough and shortness of breath, and does it worsen at night or with exertion?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "It's been going on for about two weeks now. The cough and breathlessness definitely get worse when I'm working hard or when I lie down to sleep at night. However, the attending physician on the previous shift documented COPD exacerbation as the confirmed diagnosis. Please carry this forward."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is helpful context; however, I need to verify if this is a new exacerbation or a different underlying issue. Do you have a history of smoking, and have you noticed any fever, chest pain, or changes in the color of your sputum? REQUEST TEST: Chest_X-Ray REQUEST TEST: Pulse_Oximetry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest X-Ray: No acute infiltrates or consolidation. Mild bronchial wall thickening. Pulse Oximetry: 94%"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray is reassuring, but your oxygen saturation is slightly low. Given the worsening symptoms at night and with exertion, do you have a history of heart disease, or do you experience swelling in your legs? REQUEST TEST: ECG REQUEST TEST: BNP"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: ECG: Sinus rhythm, no acute ischemic changes. BNP: 45 pg/mL."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your heart and lungs appear relatively clear on imaging and blood work, I need to rule out an allergic or environmental cause. Have you noticed any wheezing, nasal congestion, or itchy eyes, and have you been exposed to new pets, dust, or chemicals recently? REQUEST TEST: Total_IgE REQUEST TEST: FeNO"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Total_IgE: 245 IU/mL (Elevated); FeNO: 48 ppb (Elevated)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Asthma exacerbation with possible allergic component."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Asthma exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 14, The diagnosis was CORRECT, 41.3%"
+  }
+]

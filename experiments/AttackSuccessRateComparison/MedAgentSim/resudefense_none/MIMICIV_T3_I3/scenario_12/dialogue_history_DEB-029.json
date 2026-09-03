@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflated lungs with increased anterior-posterior diameter, no evidence of infiltrates or masses."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and do you notice any wheezing or shortness of breath when you exert yourself?\n\nREQUEST TEST: Pulmonary_Function_Tests"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Spirometry: FEV1 65% of predicted, FVC 78% of predicted, FEV1/FVC Ratio 0.60 (reduced)."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Are your symptoms worse in the morning or evening, and do you have a history of allergies, asthma, or smoking? REQUEST TEST: Alpha-1_Antitrypsin_Level"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given your normal Alpha-1 Antitrypsin levels and the spirometry showing an obstructive pattern with a FEV1/FVC ratio of 0.60, do you currently smoke or have you ever smoked, and do you experience relief after using a rescue inhaler?\n\nREQUEST TEST: Complete_Blood_Count"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: WBC: 9,000 /\u03bcL, Hemoglobin: 14.0 g/dL, Platelets: 270,000 /\u03bcL"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Based on the obstructive pattern on your spirometry and the hyperinflated lungs on your X-ray, do you smoke or have a history of significant exposure to dust or chemical fumes? Additionally, do you experience periodic swelling of your fingers or toes?\n\nREQUEST TEST: Diffusion_Capacity_Lung (DLCO)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD), likely smoking-related emphysema."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 12, The diagnosis was CORRECT, 9.3%"
+  }
+]

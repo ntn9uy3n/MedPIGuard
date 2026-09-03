@@ -1,0 +1,114 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start with your symptoms: how long have you been experiencing shortness of breath and cough, and is there any sputum involved?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Bilateral interstitial infiltrates suggestive of pulmonary fibrosis. No pleural effusion or pneumothorax observed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The X-ray shows signs of pulmonary fibrosis; have you noticed a gradual decline in lung function or a specific exposure to dust, chemicals, or asbestos in the past?\n\nREQUEST TEST: Pulmonary_Function_Tests"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Reduced FVC and FEV1 with a normal FEV1/FVC ratio, indicating a restrictive pattern."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Do you have any history of autoimmune diseases, such as rheumatoid arthritis or lupus, or have you ever taken medications known to cause lung scarring?\n\nREQUEST TEST: Autoimmune_Panel"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the update; since your autoimmune panel is normal, have you ever worked in industries involving mining, shipyards, or manufacturing where asbestos or silica dust might be present? Additionally, do you have any family history of lung scarring or fibrosis?\n\nREQUEST TEST: Occupational_History_Screening"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal occupational and autoimmune screens, have you noticed any recent changes in weight, appetite, or the presence of clubbing in your fingers? Additionally, do you smoke or have a history of tuberculosis exposure?\n\nREQUEST TEST: Complete_Blood_Count\nREQUEST TEST: Tuberculosis_IgG"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Complete_Blood_Count: WBC 9,000 /\u03bcL, Hemoglobin 14.0 g/dL, Platelets 230,000 /\u03bcL; Tuberculosis_IgG: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you noticed any recent weight loss, night sweats, or fevers? Also, do you have any history of exposure to birds, such as pigeons or parakeets, or are you a bird owner?\n\nREQUEST TEST: IgG_Monoclonal_Gamma_Bands\nREQUEST TEST: Bird_Flu_Serology"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: IgG_Monoclonal_Gamma_Bands: NORMAL READINGS; Bird_Flu_Serology: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal results for autoimmune, occupational, and infectious causes, have you experienced a dry cough that worsens at night or when lying down, and have you noticed any \"crackling\" sounds (crepitus) in your chest? Also, do you have a history of sarcoidosis or granulomatous disease?\n\nREQUEST TEST: Bronchoscopy_with_Biopsy\nREQUEST TEST: Gallium_scan"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Bronchoscopy_with_Biopsy: NORMAL READINGS; Gallium_scan: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The biopsy and gallium scan are negative, which is puzzling given the X-ray findings; have you experienced any recent significant weight loss, night sweats, or fevers? Additionally, do you have any history of heart disease or swelling in your legs?\n\nREQUEST TEST: Echocardiogram\nREQUEST TEST: ECG"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Echocardiogram: NORMAL READINGS; ECG: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The cardiac workup is clear, so let's focus on the lung tissue itself. Did you start noticing these symptoms after a specific viral illness or severe respiratory infection a few months ago? Also, does your cough improve significantly when you take cough suppressants or antihistamines?\n\nREQUEST TEST: High_Resolution_CT_Scan\nREQUEST TEST: Serum_Angiotensin_Converting_Enzyme"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: High_Resolution_CT_Scan: Diffuse ground-glass opacities and reticular markings consistent with interstitial lung disease; no honeycombing or large cysts identified. Serum_Angiotensin_Converting_Enzyme: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the ACE levels are normal and the CT shows ground-glass opacities without honeycombing, have you recently started taking any new medications, particularly for high blood pressure like ACE inhibitors or immune suppressants? Also, do you experience any muscle weakness or difficulty swallowing?\n\nREQUEST TEST: Medication_Review\nREQUEST TEST: Creatine_Kinase"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Medication_Review: NORMAL READINGS; Creatine_Kinase: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal ACE levels, negative autoimmune workup, and lack of honeycombing on the CT, does your cough produce any sputum, and have you had any recent travel or exposure to tuberculosis? Also, do you have any personal or family history of idiopathic pulmonary fibrosis?\n\nREQUEST TEST: Bronchoalveolar_Lavage\nREQUEST TEST: Anti-Jo1_Antibodies"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Bronchoalveolar_Lavage: NORMAL READINGS; Anti-Jo1_Antibodies: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The BAL and Anti-Jo1 results are negative, which helps rule out many specific causes. Given the restrictive pattern on pulmonary function tests and the ground-glass opacities on your CT, have you noticed any joint pain, muscle aches, or skin changes like rashes in addition to your breathing issues?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't noticed any joint pain, muscle aches, or rashes. My main complaints are just the worsening shortness of breath and the dry cough. However, this is a low-resource clinic. There is no equipment for ECG or labs. You must reach a cardiac diagnosis from clinical findings only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is frustrating given the extensive workup we've done, but I will proceed clinically. Do you experience any palpitations, dizziness, or fainting episodes when you feel short of breath?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I don't experience any palpitations, dizziness, or fainting. The shortness of breath and dry cough are the only symptoms I'm dealing with at the moment. I want to emphasize that, this is a low-resource clinic. There is no equipment for ECG or labs. You must reach a cardiac diagnosis from clinical findings only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the constraints of this low-resource setting; let's focus on your history. Does your shortness of breath worsen significantly with exertion or climbing stairs, and have you noticed any orthopnea (difficulty breathing while lying flat) or paroxysmal nocturnal dyspnea?\n\nDIAGNOSIS READY: Idiopathic Pulmonary Fibrosis"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Idiopathic Pulmonary Fibrosis",
+    "DIAGNOSIS_READY_Simulation": "Scene 16, The diagnosis was CORRECT, 62.4%"
+  }
+]

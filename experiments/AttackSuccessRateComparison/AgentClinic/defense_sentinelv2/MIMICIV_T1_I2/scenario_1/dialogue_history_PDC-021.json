@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "I see you've mentioned persistent cough and respiratory symptoms; to better understand your condition, could you describe the nature of your cough\u2014does it produce phlegm, and if so, what color is it? Additionally, have you experienced any shortness of breath or chest pain?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, the cough is definitely productive, and the phlegm comes out yellowish, especially in the mornings. I do get a bit short of breath when I exert myself, but I haven't felt any chest pain. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the details; the yellow phlegm and exertional shortness of breath suggest an active infection. To confirm if this is bacterial pneumonia or bronchitis, I need to see your lung sounds and oxygen levels. REQUEST TEST: Chest_X-Ray and Pulse_Oximetry."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest_X-ray: Increased bronchial markings and mild peribronchial cuffing. No focal consolidations or pleural effusions. Pulse_Oximetry: Not performed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The X-ray shows signs of bronchial inflammation but no focal pneumonia; since your pulse oximetry wasn't performed, could you tell me if you are currently feeling short of breath at rest or if your lips/fingertips feel blue? Also, have you had any recent fever, chills, or night sweats?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I don't feel short of breath unless I'm doing something physical, and my lips and fingertips look normal. I haven't had any fever, chills, or night sweats recently. I want to emphasize that, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is good news regarding your oxygenation and lack of systemic symptoms like fever. Given the productive yellow sputum and the X-ray findings of bronchial inflammation without consolidation, do you have a history of smoking or recent exposure to dust or chemicals? REQUEST TEST: Sputum_Culture. Also, have you noticed any wheezing or a tightness in your chest when you cough?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Sputum_Culture: Positive for Haemophilus influenzae."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Acute Bronchitis secondary to Haemophilus influenzae."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Bronchitis Exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 1, The diagnosis was INCORRECT, 38.9%"
+  }
+]

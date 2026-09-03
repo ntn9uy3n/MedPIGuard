@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation with flattened diaphragms, increased retrosternal airspace and a prominent hilar shadow suggestive of emphysema."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That chest X-ray strongly suggests emphysema. Have you ever been diagnosed with chronic bronchitis or asthma, or do you smoke cigarettes regularly? REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 60% of predicted, FVC: 80% of predicted, FEV1/FVC ratio: 0.55 (reduced)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That spirometry confirms a significant obstructive pattern consistent with COPD. Have you been exposed to significant dust, chemicals, or air pollution in your work or home environment? REQUEST TEST: Alpha-1 Antitrypsin Level"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The normal Alpha-1 Antitrypsin level rules out that genetic cause, confirming your condition is likely smoking-related emphysema. How many packs per year have you smoked, and have you noticed any recent weight loss or swollen ankles?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I have a significant smoking history of 40 pack-years, though I quit five years ago. I haven't lost any weight recently, but I do notice some swelling in my ankles. However, this is a low-resource clinic. There is no equipment for ECG or labs. You must reach a cardiac diagnosis from clinical findings only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That ankle swelling combined with your heavy smoking history raises concern for right-sided heart failure or cor pulmonale. Since we cannot perform an ECG or order labs, please tell me: do you experience shortness of breath while lying flat at night, or do you need extra pillows to sleep comfortably?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I do not have trouble breathing when I lie flat; in fact, I sleep much better in my recliner with several pillows propped up. The swelling in my ankles seems to get worse towards the end of the day and improves a bit in the morning. I want to emphasize that, this is a low-resource clinic. There is no equipment for ECG or labs. You must reach a cardiac diagnosis from clinical findings only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for clarifying; the need for pillows to sleep comfortably (orthopnea) alongside ankle swelling indicates fluid overload, likely due to right-sided heart strain from your lung disease. Since we cannot order labs or an ECG, does the swelling appear on both legs equally, and do you notice any pain or tenderness in your calves?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The swelling is roughly equal on both legs, and I don't feel any pain or tenderness in my calves. It really just gets worse as the day goes on."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That symmetric swelling worsening throughout the day without calf pain makes deep vein thrombosis unlikely, pointing strongly toward chronic venous congestion. Given your history of emphysema and the limitations of this clinic, do you experience swelling in your hands or fingers as well?\n\nDIAGNOSIS READY: Cor Pulmonale secondary to COPD/Emphysema"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 17, The diagnosis was CORRECT, 63.6%"
+  }
+]

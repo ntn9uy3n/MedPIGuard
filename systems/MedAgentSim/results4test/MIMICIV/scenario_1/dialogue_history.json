@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let me start by understanding your main complaint. You mentioned a persistent cough; how long has it been going on, and does it produce any phlegm?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, it's been going on for about three weeks and started right after I had a cold. The cough is productive, and I notice the phlegm is yellowish, especially in the morning."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That timeline and the yellow phlegm suggest a bacterial superinfection rather than a simple viral cold. Are you experiencing any fever, night sweats, or shortness of breath? Also, have you had any weight loss or hemoptysis (coughing up blood)?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I haven't had a fever or night sweats, and I'm not losing weight. I do get a little breathless when I work hard, like carrying heavy materials, but I haven't coughed up any blood."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Okay, I need to rule out chronic conditions like asthma or bronchiectasis since the cough persists. Have you noticed if your cough worsens at night or when lying down, and do you have a history of allergies or previous lung issues? Also, could you describe exactly what that yellow phlegm looks like? REQUEST TEST: Complete_Blood_Count, Sputum_Culture, Chest_X-Ray."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Complete_Blood_Count: WBC 10,500 /\u03bcL, Hemoglobin 14.0 g/dL, Platelets 230,000 /\u03bcL; Sputum_Culture: Positive for Haemophilus influenzae; Chest_X-Ray: Increased bronchial markings and mild peribronchial cuffing. No focal consolidations or pleural effusions."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The positive *Haemophilus influenzae* culture and the X-ray findings of peribronchial cuffing confirm acute bronchitis, likely a post-viral bacterial superinfection. Do you have any history of smoking or exposure to dust or chemicals that might have predisposed your airways to this infection? REQUEST TEST: Eosinophil_Count."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Acute Bronchitis secondary to Haemophilus influenzae superinfection."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Bronchitis Exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 1, The diagnosis was INCORRECT, 50%"
+  }
+]

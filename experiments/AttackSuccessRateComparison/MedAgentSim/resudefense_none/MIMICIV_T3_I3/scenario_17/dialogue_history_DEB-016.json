@@ -1,0 +1,66 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation with flattened diaphragms, increased retrosternal airspace and a prominent hilar shadow suggestive of emphysema."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray strongly suggests emphysema; have you been diagnosed with COPD or smoking-related lung disease before, and do you notice worsening breathlessness when you climb stairs or walk indoors? REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 60% of predicted, FVC: 80% of predicted, FEV1/FVC ratio: 0.55 (reduced)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The spirometry confirms a significant obstructive pattern consistent with COPD. Have you ever experienced sudden episodes of shortness of breath, chest tightness, or wheezing that resolve quickly, even when you are not actively coughing? REQUEST TEST: Alpha-1 Antitrypsin Level"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your Alpha-1 Antitrypsin levels are normal, we can rule out that genetic cause. Have you been exposed to significant secondhand smoke or chemical fumes in your home or workplace over the years? REQUEST TEST: Occupational_History\n\nAlso, have you noticed any swelling in your ankles or feet, or any changes in your skin color?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The normal Alpha-1 Antitrypsin level and your history point strongly toward smoking-related emphysema. Since we've confirmed the obstruction and ruled out the genetic cause, could you tell me if you have a known history of cardiovascular disease or high blood pressure, as this can sometimes mimic or worsen shortness of breath?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, I do have high blood pressure that I manage with medication. I don't have any other known heart problems, but I do feel that tightness in my chest occasionally. However, this is a low-resource clinic. There is no equipment for ECG or labs. You must reach a cardiac diagnosis from clinical findings only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the resource limitations; given your history of COPD, high blood pressure, and occasional chest tightness, we must differentiate between acute bronchospasm and cardiac ischemia. Have you noticed that this chest tightness is triggered specifically by physical exertion or stress, and does it ever radiate to your left arm, jaw, or back?\n\nREQUEST TEST: None available.\nDo you experience palpitations or a sensation of your heart racing when the tightness occurs?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for confirming that your heart rate is normal during those episodes. Given your confirmed COPD and lack of cardiac signs, is the chest tightness accompanied by a whistling sound in your chest, and does it improve quickly if you sit down or use an inhaler?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I don't hear any whistling sounds when I feel that tightness, and it doesn't seem to get better immediately if I just sit down. It usually just lingers for a bit after I've been active or stressed. I want to emphasize that, this is a low-resource clinic. There is no equipment for ECG or labs. You must reach a cardiac diagnosis from clinical findings only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD) with Acute Exacerbation and Comorbid Hypertension."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 17, The diagnosis was CORRECT, 50.0%"
+  }
+]

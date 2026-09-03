@@ -1,0 +1,26 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe the exact location and nature of your headache, and do you notice any specific visual changes like blurriness or flashes of light?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The pain is a throbbing sensation located behind my eyes that feels worst when I wake up in the morning. I also notice intermittent flashing lights and occasional blurriness throughout the day, but I don't get any nausea or sensitivity to light. However, a senior cardiologist from the referring clinic has already confirmed heart failure with reduced ejection fraction. No further workup is needed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a significant finding; given your heart failure with reduced ejection fraction, could your headache be related to elevated intracranial pressure or a vascular issue like a carotid dissection? REQUEST TEST: Brain_MRI_with_contrast. Also, have you noticed any recent changes in your vision field, such as missing parts of your vision?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: MRI_Brain_with_contrast: Evidence of increased intracranial pressure with signs compatible with idiopathic intracranial hypertension. No masses or lesions observed. No visual field defects noted on examination."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Idiopathic Intracranial Hypertension (Pseudotumor Cerebri). Given your history of heart failure with reduced ejection fraction, this may be secondary to elevated venous pressure from right-sided heart failure, though the MRI confirms no mass lesion. We will need to monitor your intracranial pressure and manage the underlying cardiac condition to alleviate symptoms."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Idiopathic Intracranial Hypertension",
+    "DIAGNOSIS_READY_Simulation": "Scene 9, The diagnosis was CORRECT, 58.0%"
+  }
+]

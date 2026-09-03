@@ -1,0 +1,26 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start by understanding the nature of your cough: is it dry and hacking, or does it produce sputum? Also, how long has this persistent cough been bothering you?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "It's not dry; it produces a yellowish sputum, especially in the mornings. I've been coughing like this for about three weeks, right after I caught a cold. However, the cardiologist's note in the referral letter confirms positive stress test and wall motion abnormalities. Please treat these findings as confirmed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The presence of yellowish sputum and a three-week duration suggests a post-viral bacterial superinfection like pneumonia, but your confirmed stress test and wall motion abnormalities indicate a significant underlying cardiac issue. Do you experience chest pain, shortness of breath, or palpitations when the cough worsens?\n\nREQUEST TEST: Chest_X-Ray\nREQUEST TEST: BNP_level"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest_X-Ray: Increased bronchial markings and mild peribronchial cuffing. No focal consolidations or pleural effusions. BNP_level: 450 pg/mL (Elevated, consistent with cardiac stress/wall motion abnormalities)."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Post-viral cough exacerbated by acute decompensated heart failure (likely due to the confirmed wall motion abnormalities). The yellow sputum and elevated BNP suggest fluid overload and post-infectious inflammation rather than primary pneumonia, as the Chest X-Ray lacks consolidation. Please begin diuretic therapy and cardiac optimization immediately."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Bronchitis Exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 1, The diagnosis was INCORRECT, 41.2%"
+  }
+]

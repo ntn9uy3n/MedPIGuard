@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for coming in. To better understand your shortness of breath and cough, can you tell me how long these symptoms have been present and if they worsen with activity or at night?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The shortness of breath and dry cough have been getting worse over the past week. I find it hard to catch my breath with even minimal exertion, and the cough persists throughout the day. However, the pulmonologist's discharge summary confirms bronchiectasis on CT. Please use this documented finding as the confirmed evidence."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for clarifying that you have a confirmed diagnosis of bronchiectasis. Given the worsening shortness of breath over the past week and minimal exertion intolerance, have you noticed any fever, night sweats, or changes in your sputum color or volume? REQUEST TEST: Sputum_Culture_and_Sensitivity."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Sputum_Culture_and_Sensitivity: Pending"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is good to know; we will wait for the culture results to tailor your antibiotic treatment. In the meantime, have you experienced any chest pain, hemoptysis (coughing up blood), or recent exposure to people with respiratory infections?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't had any chest pain or coughed up blood. I also haven't been around anyone sick recently; I've been working at my shop as usual. The only thing I've really noticed is getting tired easily and struggling to breathe. I want to emphasize that, the pulmonologist's discharge summary confirms bronchiectasis on CT. Please use this documented finding as the confirmed evidence."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for confirming; with the confirmed bronchiectasis and your pending culture results, I want to assess if you are currently retaining fluid or if this is an acute exacerbation of the condition. Have you noticed any swelling in your legs or sudden weight gain recently?\n\nREQUEST TEST: Chest_X-Ray\nREQUEST TEST: BNP"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest_X_Ray: Bilateral interstitial infiltrates suggestive of pulmonary fibrosis. No pleural effusion or pneumothorax observed. BNP: Not provided in current data."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Pulmonary Fibrosis (complicating or mimicking the previously noted bronchiectasis).\n\nBased on the new chest X-ray showing bilateral interstitial infiltrates suggestive of pulmonary fibrosis, along with your worsening dyspnea and dry cough, do you have a history of autoimmune diseases or environmental exposures like asbestos or bird droppings?"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Idiopathic Pulmonary Fibrosis",
+    "DIAGNOSIS_READY_Simulation": "Scene 16, The diagnosis was CORRECT, 35.8%"
+  }
+]

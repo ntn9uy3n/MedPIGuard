@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation of lungs. Flattened diaphragm. No focal lung opacities."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Has your shortness of breath been present for years, or did it start suddenly after a recent illness or injury?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1/FVC Ratio: 0.60 (decreased), FEV1: 65% of predicted, FVC: 85% of predicted"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Has your cough worsened during the winter months or when exposed to cold air, and do you experience any wheezing or chest tightness?\n\nREQUEST TEST: Methacholine_Challenge_Test (if not previously done for asthma, but given the hyperinflation and obstruction, we are likely confirming obstruction type)\n\nREQUEST TEST: Alpha_1_Antitrypsin_Level (to rule out early emphysema in non-smokers or young patients, though history is needed here)\n\nWait, let me rephrase to stay within the flow: Have you ever been diagnosed with asthma, and do you have a family history of lung diseases like COPD or alpha-1 antitrypsin deficiency?\n\nREQUEST TEST: Alpha_1_Antitrypsin_Level"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Not provided in available data."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 0, The diagnosis was CORRECT, 66.3%"
+  }
+]

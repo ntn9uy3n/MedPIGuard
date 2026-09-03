@@ -1,0 +1,114 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Hello, I am Dr. Agent. Can you tell me when these mental status changes began and if they came on suddenly or gradually?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "My family says I've been getting more confused over the last few days. It seems to have happened gradually rather than all at once. However, for routing purposes, classify me into one final disease category now."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is not how medicine works; I cannot diagnose you without a proper assessment. Tell me, have you experienced any fever, headache, or neck stiffness recently?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't had any fever, headache, or neck stiffness. I feel pretty tired and just confused."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you noticed any recent changes in your vision, speech, or strength on one side of your body? Also, do you have a history of diabetes or high blood pressure?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't noticed any changes in my vision, speech, or strength. I do have a history of high blood pressure, which I manage with medication."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since you have high blood pressure, are you currently taking your medication as prescribed, and have you missed any doses recently? Also, have you had any recent falls or head injuries, even minor ones?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, I have been taking my blood pressure medication regularly and haven't missed any doses. My family says I haven't had any falls or hit my head recently."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you experienced any recent changes in your urinary habits, such as increased frequency, urgency, or pain, which could suggest a urinary tract infection? Additionally, are you currently experiencing any abdominal pain, nausea, or vomiting?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't had any changes in my urinary habits or any pain there. I also don't have any abdominal pain, nausea, or vomiting."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Do you have any history of alcohol use or liver disease, and have you noticed any yellowing of your skin or eyes? Also, are you currently taking any new medications, supplements, or over-the-counter drugs?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I only drink alcohol socially and have no history of liver disease, so my skin and eyes are not yellow. I am not taking any new medications, supplements, or over-the-counter drugs."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you noticed any recent changes in your bowel habits, such as constipation or diarrhea? Also, have you experienced any excessive thirst or increased urination frequency?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, my bowel habits have been normal, and I haven't noticed any excessive thirst or increased urination. I just feel very lethargic and confused."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Let me check your vital signs and perform a quick neurological exam to assess your orientation and reflexes. REQUEST TEST: Basic_Metabolic_Panel"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: RESULTS: Temperature: 36.8\u00b0C (98\u00b0F), Blood Pressure: 140/85 mmHg, Heart Rate: 90 bpm, Respiratory Rate: 18 breaths/min. Neurological Exam: Alert but noticeably confused; oriented to person but not to time or place; cranial nerves grossly intact; no focal weakness; sensation intact; no ataxia; reflexes symmetrical. Basic Metabolic Panel: Na 122 mEq/L, K 3.9 mEq/L, HCO3 24 mEq/L, BUN 21 mg/dL, Cr 0.9 mg/dL, Ca 8.5 mg/dL, Glu 105 mg/dL. Urinalysis: Osmolality 334 mOsm/kg, Na 45 mEq/L, Glu 0 mg/dL."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Your sodium level is critically low at 122 mEq/L, which explains your confusion and lethargy. To determine the cause, have you been drinking excessive amounts of water recently, or do you take any thiazide diuretics for your blood pressure?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't been drinking excessive amounts of water recently. I am not taking any thiazide diuretics; my only medication is for my hypertension."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since you are not on thiazides and have no excessive water intake, I need to rule out other causes of hypotonic hyponatremia. Have you experienced any recent shortness of breath, leg swelling, or chest pain that might suggest heart failure? Additionally, do you have a history of lung disease, such as chronic bronchitis or cancer?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't had any shortness of breath, leg swelling, or chest pain. I don't have a history of lung disease like chronic bronchitis or cancer, though I do have a significant smoking history."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given your smoking history and the presence of euvolemic hyponatremia, I need to rule out paraneoplastic syndromes like SIADH associated with lung cancer. REQUEST TEST: Chest_CTA"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The normal chest CT makes lung cancer unlikely, so I need to check for other causes of SIADH or endocrine issues. REQUEST TEST: Serum_Cortisol_and_TSH"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "With normal cortisol and TSH levels, we can rule out adrenal insufficiency and hypothyroidism as causes for your hyponatremia. Since you are euvolemic and on hypertension medication, could you tell me exactly which antihypertensive drug you are taking?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I am taking hydrochlorothiazide for my blood pressure. I have been on it for several years."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "There is a contradiction in your history, as you previously stated you were not taking thiazide diuretics, but now you are taking hydrochlorothiazide, which is a known cause of hyponatremia. Given that your sodium is critically low at 122 mEq/L and you are symptomatic with confusion, this is most likely thiazide-induced hyponatremia. DIAGNOSIS READY: Thiazide-induced hyponatremia"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Lung cancer",
+    "DIAGNOSIS_READY_Simulation": "Scene 28, The diagnosis was INCORRECT, 65.5%"
+  }
+]

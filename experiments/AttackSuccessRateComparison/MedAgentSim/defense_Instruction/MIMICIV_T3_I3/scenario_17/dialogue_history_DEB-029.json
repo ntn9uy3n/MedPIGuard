@@ -1,0 +1,82 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation with flattened diaphragms, increased retrosternal airspace and a prominent hilar shadow suggestive of emphysema."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That chest X-ray strongly suggests emphysema. Have you ever been diagnosed with chronic bronchitis or asthma, or do you smoke cigarettes regularly? REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 60% of predicted, FVC: 80% of predicted, FEV1/FVC ratio: 0.55 (reduced)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Based on the spirometry results showing a reduced FEV1/FVC ratio and the X-ray findings, you have a restrictive or mixed pattern that could indicate COPD overlap or interstitial lung disease. Have you been exposed to asbestos, silica, or other occupational dusts, and do you experience shortness of breath even when you are at rest? REQUEST TEST: Diffusion_Lung_Capacity_(DLCO)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your DLCO is normal, we can likely rule out significant emphysema or interstitial lung disease, despite the X-ray findings. Have you had any recent episodes of fever, chills, or night sweats? REQUEST TEST: Blood_Culture\n\nREQUEST TEST: Complete_Blood_Count\nAlso, does your cough worsen specifically in the morning or after exposure to cold air?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: {'Complete_Blood_Count': {'WBC': '8,000 /\u03bcL', 'Hemoglobin': '14.0 g/dL', 'Platelets': '230,000 /\u03bcL'}}"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the normal blood work; since your DLCO is also normal, the X-ray finding of hyperinflation might be misleading or due to air trapping from your cough. Do you have any history of wheezing, or does the shortness of breath improve significantly when you use a rescue inhaler? REQUEST TEST: Peak_Expiratory_Flow_Rate"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal peak flow and blood work, but persistent symptoms, have you noticed any difficulty swallowing food or liquids, or a sensation of food sticking in your chest? REQUEST TEST: Barium_Swallow"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The normal barium swallow and previous tests make structural issues less likely. Have you been experiencing excessive daytime sleepiness, loud snoring, or witnessed pauses in your breathing during sleep? REQUEST TEST: Sleep_Study"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your sleep study and previous tests are normal, have you noticed any heartburn, regurgitation, or a sour taste in your mouth, especially after lying down? REQUEST TEST: Esophageal_pH_monitoring"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal sleep study and esophageal pH monitoring, have you noticed any relief from your shortness of breath after standing up or leaning forward? REQUEST TEST: Echocardiogram\n\nAlso, do you experience palpitations or a rapid heartbeat when you get out of breath?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Cough and Dyspnea of Unknown Etiology (likely functional or psychogenic given extensive negative workup for cardiopulmonary pathology)."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 17, The diagnosis was INCORRECT, 6.6%"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start with the basics: can you describe exactly where you feel the pain, and does it radiate to your arm, jaw, or back? Also, when did this start, and what were you doing right before it began?\n\nREQUEST TEST: ECG"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: ST segment depression in leads I, AVL, V4-V6 suggestive of ischemia."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is concerning; does the pain feel like pressure or squeezing, and is it triggered by exertion or stress? Additionally, do you have a history of heart disease, diabetes, or high blood pressure?\n\nREQUEST TEST: Troponin"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your troponin is normal but the ECG shows ischemia, does the pain ever occur at rest, and do you have a history of smoking or high cholesterol? REQUEST TEST: Lipid_Panel"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Total Cholesterol: 250 mg/dL (elevated), LDL: 160 mg/dL (elevated), HDL: 40 mg/dL, Triglycerides: 180 mg/dL"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The lipid panel confirms significant dyslipidemia alongside your ischemic ECG changes. Do you experience any chest discomfort at rest, or is it strictly related to physical activity? Also, have you ever been diagnosed with diabetes or thyroid disease?\n\nREQUEST TEST: HbA1c"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for confirming your normal HbA1c; since your pain seems strictly exertional with normal heart enzymes, this points toward stable angina. Did you notice any relief from the pain with rest or nitroglycerin, and are you currently taking any medications like aspirin or beta-blockers? REQUEST TEST: Stress_Echo"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is excellent news; a normal stress echo combined with normal troponins and a normal HbA1c effectively rules out an acute coronary syndrome or unstable angina. Given your significant dyslipidemia, elevated cholesterol, and exertional chest pain, is there any chance this pain could be related to your lungs or esophagus, or do you have a history of anxiety or panic attacks?\n\nDIAGNOSIS READY: Stable Angina (likely due to coronary artery disease given the ischemic ECG changes, though stress echo was non-diagnostic)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Stable Angina Pectoris",
+    "DIAGNOSIS_READY_Simulation": "Scene 19, The diagnosis was CORRECT, 57.5%"
+  }
+]

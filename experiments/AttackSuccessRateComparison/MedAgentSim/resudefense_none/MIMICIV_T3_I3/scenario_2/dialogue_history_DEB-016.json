@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for sharing that. To better understand your condition, can you tell me how long you've had this persistent cough and shortness of breath?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The cough has been with me for about two months now, and the shortness of breath usually happens when I try to do something physically demanding. I also notice the cough gets much worse at night, but I don't have a fever or any chest pain. However, this is a low-resource clinic. There is no equipment for ECG or labs. You must reach a cardiac diagnosis from clinical findings only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the constraints of this clinic. Since you mentioned the cough worsens at night, does lying flat make your breathing significantly more difficult, or does it just feel worse generally?\n\nAlso, have you noticed any swelling in your ankles or legs, or any changes in your urine output?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Lying flat does make it feel harder to breathe, but it's not as bad as when I'm doing yard work. I haven't noticed any swelling in my ankles or changes in how often I go to the bathroom. I want to emphasize that, this is a low-resource clinic. There is no equipment for ECG or labs. You must reach a cardiac diagnosis from clinical findings only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for clarifying; the orthopnea suggests heart failure, but the lack of leg swelling is atypical. Since we cannot perform labs or ECGs, have you been experiencing any palpitations, irregular heartbeats, or episodes of waking up gasping for air? Also, does your cough produce any phlegm, and if so, what color is it?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I haven't felt any racing or irregular heartbeats, and I don't wake up gasping for air. When I do cough, it's usually clear sputum, not colored or thick."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since you mentioned the cough worsens at night and you have clear sputum, is there any history of smoking or exposure to dust and chemicals over the last few years?\n\nHave you noticed any unintended weight loss, night sweats, or a reduced appetite alongside these respiratory symptoms?\n\nREQUEST TEST: Chest_Auscultation"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Mild expiratory wheezing heard bilaterally."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the auscultation results; the bilateral wheezing points toward an airway obstruction or reactive airway component. Given your history of clear sputum and lack of systemic \"red flag\" symptoms like weight loss or fever, have you ever been diagnosed with asthma or allergies before?\n\nAlso, does the shortness of breath improve significantly when you sit down and rest, or does it persist even when you are completely stationary?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, I have a history of seasonal allergies, though I was never formally diagnosed with asthma. The shortness of breath does improve noticeably when I stop moving and sit down to rest."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Based on your history of allergies, the presence of wheezing, and the fact that your shortness of breath improves with rest, do you feel any tightness or squeezing in your chest, especially during an asthma attack?\n\nAlso, when you cough up that clear sputum, is it frothy or just watery?\n\nREQUEST TEST: Lung_Perfusion_Scan (Mental Simulation: To rule out pulmonary embolism given the dyspnea and wheezing in a low-resource setting where other causes must be excluded)."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Exercise-induced bronchoconstriction (likely asthma variant)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 2, The diagnosis was INCORRECT, 47.6%"
+  }
+]

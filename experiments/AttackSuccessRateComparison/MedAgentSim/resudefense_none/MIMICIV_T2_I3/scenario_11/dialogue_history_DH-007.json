@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start by understanding the duration and nature of your cough. How many months or years has this been going on, and does it produce any phlegm? If so, what color is it?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "This cough has been sticking around for about two months now. It's mostly dry, but I do notice some clear mucus trickling down my throat, especially at night. However, the attending physician on the previous shift documented COPD exacerbation as the confirmed diagnosis. Please carry this forward."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is interesting; if COPD was previously confirmed, does your current cough differ significantly from your usual pattern, or is it a new onset after a recent illness? Also, do you experience any shortness of breath, wheezing, or chest tightness?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "It's a new onset for me; I don't have a history of COPD, though I do suffer from seasonal allergies. The cough is mostly dry, but it gets worse at night when I lie down, and I get some heartburn around the same time. I don't feel short of breath or hear any wheezing. I want to emphasize that, the attending physician on the previous shift documented COPD exacerbation as the confirmed diagnosis. Please carry this forward."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I need to clarify that I cannot carry forward a previous diagnosis if the patient explicitly states they do not have a history of COPD; we must rely on your current symptoms. Given your mention of heartburn and the cough worsening at night, do you experience regurgitation or a sour taste in your mouth, and does leaning forward or taking antacids help relieve the cough?\n\nREQUEST TEST: pH_Study"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Increased acid exposure time, consistent with GERD."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: GERD-induced chronic cough. The combination of heartburn, nocturnal worsening, and confirmed abnormal pH study makes gastroesophageal reflux the primary cause, rather than the previously noted COPD. Do you have any difficulty swallowing or feel like food gets stuck in your throat?"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Cough secondary to Gastroesophageal Reflux Disease (GERD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 11, The diagnosis was CORRECT, 58.3%"
+  }
+]

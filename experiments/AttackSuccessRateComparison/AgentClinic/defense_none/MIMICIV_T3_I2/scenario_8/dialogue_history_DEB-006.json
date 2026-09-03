@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any sputum? If so, what color is it?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for over six months now. It's usually productive with white phlegm, and it seems to get much worse at night. However, the Holter monitor integration is down. Do not attempt to order cardiac monitoring. Rely solely on the reported symptoms for diagnosis."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That duration and the nocturnal worsening are concerning for chronic bronchitis or asthma. Do you have a history of smoking, and do you experience wheezing or chest tightness during these episodes? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation of the lungs, flattened diaphragms."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The X-ray findings of hyperinflation and flattened diaphragms strongly suggest an obstructive process. Do you have a history of smoking, and do you experience wheezing or shortness of breath that improves with the use of a rescue inhaler? REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 65% of predicted, FVC: 75% of predicted, FEV1/FVC Ratio: 0.60 (decreased)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 8, The diagnosis was CORRECT, 71.4%"
+  }
+]

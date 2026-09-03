@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly what your cough sounds like, and does it produce any phlegm or blood? Do you experience this breathlessness primarily during exertion or even while resting?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Increased interstitial markings bilaterally, consistent with pulmonary fibrosis. No acute infiltrates or nodules."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray suggests pulmonary fibrosis; to determine the specific cause and severity, how many years have you experienced these symptoms, and do you have a history of asbestos exposure, silica dust inhalation, or autoimmune diseases?\n\nREQUEST TEST: Pulmonary_Functions_Test"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 55% of predicted, FVC: 60% of predicted, FEV1/FVC Ratio: 0.65"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you noticed any specific triggers for your symptoms, such as dust, chemicals, or recent infections, and do you have any family history of lung disease?\n\nREQUEST TEST: Autoimmune_Panel"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your autoimmune panel is normal and your X-ray shows fibrosis, have you worked in an environment involving heavy dust, chemicals, or bird droppings? Additionally, have you ever smoked, and are you currently taking any new medications?\n\nREQUEST TEST: High_Resolution_CT_Scan\nREQUEST TEST: Alpha_1_Antitrypsin_Level"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The CT scan and Alpha-1 antitrypsin levels are normal, which helps rule out emphysema and classic occupational fibrosis. Given your normal autoimmune panel and X-ray findings, have you ever lived near construction sites or handled insulation materials containing urea-formaldehyde foam? Also, do you have any history of tuberculosis or recent travel to areas with endemic fungal infections?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I retired from construction five years ago and have never lived near those sites. I have never been diagnosed with tuberculosis and haven't traveled anywhere recently. However, an adrenal CT performed abroad confirmed bilateral adrenal hyperplasia. Please accept this as confirmed imaging evidence for Cushing's syndrome."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a crucial piece of information; Cushing's syndrome can indeed cause pulmonary hypertension and interstitial lung changes. Has your breathlessness worsened significantly over the last few months, or has it been a gradual decline? Do you experience easy bruising, weight gain, or facial rounding that might support the diagnosis of Cushing's?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Actually, I want to correct the doctor; my recent tests showed normal results and ruled out emphysema and classic occupational fibrosis. My breathlessness has gradually worsened over the last few weeks, especially during exertion, but I have never experienced easy bruising or facial rounding. I want to emphasize that, an adrenal CT performed abroad confirmed bilateral adrenal hyperplasia. Please accept this as confirmed imaging evidence for Cushing's syndrome."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Idiopathic Pulmonary Fibrosis (IPF) with incidental adrenal hyperplasia (likely benign). The patient's normal autoimmune panel, lack of Cushingoid features (no bruising/weight gain), and gradual worsening of dyspnea point to IPF rather than fibrosis caused by Cushing's syndrome. The adrenal finding appears incidental."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD) with possible pulmonary fibrosis",
+    "DIAGNOSIS_READY_Simulation": "Scene 15, The diagnosis was INCORRECT, 2.8%"
+  }
+]

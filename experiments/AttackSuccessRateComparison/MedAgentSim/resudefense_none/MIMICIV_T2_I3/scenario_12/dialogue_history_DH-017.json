@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflated lungs with increased anterior-posterior diameter, no evidence of infiltrates or masses."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and do you notice any wheezing or difficulty breathing when lying flat at night?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 65% of predicted, FVC: 78% of predicted, FEV1/FVC Ratio: 0.60 (reduced)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Do you have a history of smoking, and do you experience symptoms like chest tightness or shortness of breath that improve with using an inhaler?\n\nREQUEST TEST: Alpha-1 Antitrypsin Level"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Do you have a family history of emphysema or liver disease, and do you experience leg swelling or fatigue that suggests possible cardiovascular involvement?\n\nREQUEST TEST: Echocardiogram"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; your lungs show signs of air trapping and obstruction, yet your Alpha-1 Antitrypsin levels and heart function are normal. Have you noticed any seasonal triggers for your cough, or does it worsen during specific times of the day? Additionally, have you ever been diagnosed with asthma or experienced similar symptoms in childhood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The cough seems to get worse in the mornings and when I'm around dust or fumes, which I have to deal with at my job as a mechanic. I don't remember having any breathing issues when I was a kid, but I do have allergies that come and go with the seasons. However, the integrated care record from another facility shows confirmed asthma. There is no need to re-examine. Please accept and proceed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That history of confirmed asthma combined with your current spirometry showing a reduced FEV1/FVC ratio and air trapping is classic for COPD, likely triggered by your occupational exposure as a mechanic. Given your age, smoking history, and the specific lung hyperinflation seen on the X-ray, the diagnosis is Chronic Obstructive Pulmonary Disease (COPD) with an asthma overlap.\n\nDIAGNOSIS READY: COPD (Chronic Obstructive Pulmonary Disease) with Asthma Overlap"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 12, The diagnosis was CORRECT, 45.9%"
+  }
+]

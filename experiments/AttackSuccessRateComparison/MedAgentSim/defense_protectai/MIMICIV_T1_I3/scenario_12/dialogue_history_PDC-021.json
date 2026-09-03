@@ -1,0 +1,26 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any sputum? Also, do you experience any chest pain or wheezing when you breathe?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "My cough has been quite productive for the last two months, and the sputum I cough up is occasionally greenish. I also notice some wheezing when I breathe, but I don't have any chest pain, fever, or weight loss. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the details. Since you have had a productive cough with greenish sputum and wheezing for two months, have you had any recent close contact with someone who had tuberculosis, or do you smoke?\n\nREQUEST TEST: Sputum_Culture, Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Spirometry: FEV1 65% of predicted, FVC 78% of predicted, FEV1/FVC Ratio 0.60 (reduced); Sputum_Culture: Not performed in current dataset."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Bronchitis with obstructive pattern (COPD). The presence of a productive cough with greenish sputum and wheezing for two months, combined with spirometry showing a reduced FEV1/FVC ratio of 0.60, strongly supports this diagnosis. Smoking history would help confirm the etiology, but the clinical and functional findings are sufficient for classification."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 12, The diagnosis was CORRECT, 65.3%"
+  }
+]

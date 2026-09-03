@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's begin. How long have you been experiencing this persistent cough and shortness of breath, and do you have any other symptoms like fever, chest pain, or weight loss? REQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation of lungs. Flattened diaphragm. No focal lung opacities."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for those results; the hyperinflation and flattened diaphragm suggest air trapping. Have you been smoking or regularly exposed to dust, chemicals, or fumes? Have you noticed that your symptoms worsen at night or upon lying down?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1/FVC Ratio: 0.60 (decreased), FEV1: 65% of predicted, FVC: 85% of predicted"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Do you experience wheezing or shortness of breath that improves significantly after using a rescue inhaler? Has there been any family history of asthma or similar breathing difficulties?\n\nREQUEST TEST: Peak_Expiratory_Flow_Measurement"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a bit unexpected given the spirometry results; let's clarify\u2014do you feel your breathing is significantly restricted during exercise or exposure to cold air? Additionally, have you noticed any morning stiffness or joint pain, or do you use nasal corticosteroids for congestion?\n\nREQUEST TEST: Total_IgE_Level\n\nDIAGNOSIS READY: Allergic Bronchopulmonary Aspergillosis (ABPA)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 0, The diagnosis was INCORRECT, 38%"
+  }
+]

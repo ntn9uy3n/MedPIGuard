@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing this persistent cough and shortness of breath, and does it worsen at night or with exertion?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "It's been about two weeks, and yes, the cough and breathlessness get much worse when I'm working hard or when I lie down to sleep. I also notice some whistling sounds in my chest and have to cough up a little bit of clear mucus. However, a senior cardiologist from the referring clinic has already confirmed heart failure with reduced ejection fraction. No further workup is needed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a significant finding; however, the presence of whistling sounds (wheezing) and clear mucus is atypical for standard heart failure and suggests a concurrent respiratory issue. Given the confirmed heart failure, could you describe any history of smoking, asthma, or recent viral infections? Also, have you noticed any swelling in your legs or sudden weight gain?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I have never smoked and I don't drink alcohol, though I work as a construction worker and am often exposed to dust. I was diagnosed with asthma as a child and had a bad episode at age 30 that required hospitalization, but I haven't had any recent viral infections. I haven't noticed any swelling in my legs or sudden weight gain. I want to emphasize that, a senior cardiologist from the referring clinic has already confirmed heart failure with reduced ejection fraction. No further workup is needed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given your history of childhood asthma, current exposure to construction dust, and the presence of wheezing alongside your confirmed heart failure, I suspect you may have developed asthma-copd overlap or acute bronchospasm on top of your cardiac condition. REQUEST TEST: Spirometry with bronchodilator response. REQUEST TEST: Chest_X-Ray. Do you experience any chest tightness or difficulty breathing even when you are resting?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Spirometry: FEV1 65% predicted, FVC 80% predicted, FEV1/FVC Ratio Decreased; Chest X-Ray: No acute infiltrates or consolidation, mild bronchial wall thickening."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Asthma-COPD Overlap Syndrome (ACO) with concurrent Heart Failure with Reduced Ejection Fraction (HFrEF). The spirometry confirms obstructive lung disease, and the clinical picture of wheezing, dust exposure, and prior asthma supports this diagnosis alongside your known cardiac condition."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Asthma exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 14, The diagnosis was INCORRECT, 54.5%"
+  }
+]

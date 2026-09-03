@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for about eight weeks. It started dry, but now I'm coughing up clear phlegm, and I haven't seen any blood. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That duration of eight weeks classifies this as a chronic cough. Do you have a history of smoking, asthma, or recent exposure to tuberculosis? Also, have you experienced any fever, night sweats, or unintended weight loss?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, I am a former smoker with a history of COPD, though I quit ten years ago. I do not have asthma, and I have had no fever, night sweats, or weight loss. I want to emphasize that, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the clarification; your history of COPD is a significant risk factor. Given the chronic nature of your cough and the presence of phlegm, we need to determine if there is an active infection or exacerbation. REQUEST TEST: Chest_X-Ray. Do you have any difficulty breathing when lying flat or waking up at night due to breathlessness?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation of lungs with flattened diaphragms, no infiltrates or masses."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The X-ray confirms your underlying COPD with hyperinflation but shows no signs of pneumonia or lung cancer. To determine if your current symptoms are due to an acute exacerbation of your COPD or post-nasal drip, do you have any nasal congestion, sneezing, or a sensation of mucus dripping down your throat?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I don't really have any nasal congestion or sneezing, but I do sometimes feel like there's mucus dripping down the back of my throat, especially in the mornings. That sensation seems to trigger the cough more than anything else."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That post-nasal drip sensation is a strong indicator of upper airway cough syndrome, which is a common cause of chronic cough even in patients with underlying COPD. Since your chest X-ray is clear and you lack systemic symptoms like fever or weight loss, we can likely rule out active infection or malignancy. DIAGNOSIS READY: Chronic Cough secondary to Upper Airway Cough Syndrome (Post-Nasal Drip) in a patient with underlying COPD."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Acute exacerbation of Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 5, The diagnosis was INCORRECT, 62.0%"
+  }
+]

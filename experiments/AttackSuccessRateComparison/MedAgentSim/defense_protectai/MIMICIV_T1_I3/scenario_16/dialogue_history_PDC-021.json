@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start with your symptoms: how long have you been experiencing shortness of breath and cough, and does the cough produce any sputum or blood?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Bilateral interstitial infiltrates suggestive of pulmonary fibrosis. No pleural effusion or pneumothorax observed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray shows bilateral interstitial infiltrates, which is concerning for pulmonary fibrosis. To better understand the severity and pattern of your lung scarring, have you noticed any worsening of symptoms with exertion, or a \"dry\" cough that persists day and night?\n\nREQUEST TEST: High_Resolution_CT_Chest"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "There seems to be a discrepancy between the initial X-ray suggesting fibrosis and the CT showing normal readings; given the dry cough and exertional dyspnea, have you experienced any fever, chills, or recent exposure to mold, birds, or construction dust?\n\nREQUEST TEST: Serum_Angiotensin_Converting_Enzyme_AND_Antinuclear_Antibody"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your ACE and ANA levels are normal and the CT scan is clear, this makes fibrosis unlikely despite the initial X-ray. Have you noticed any recent weight loss, night sweats, or exposure to tuberculosis? Also, do you smoke or have a history of heart disease?\n\nREQUEST TEST: Complete_Blood_Count_and_C-Reactive_Protein"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: WBC: 9,000 /\u03bcL, Hemoglobin: 14.0 g/dL, Platelets: 230,000 /\u03bcL, C-Reactive_Protein: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "With your inflammatory markers normal and no signs of infection or autoimmune disease, have you experienced any chest pain that worsens when you take a deep breath, or any swelling in your ankles?\n\nREQUEST TEST: D-Dimer\n\nAlso, please confirm if you have any history of deep vein thrombosis or recent long-distance travel."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Pulmonary Embolism"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Idiopathic Pulmonary Fibrosis",
+    "DIAGNOSIS_READY_Simulation": "Scene 16, The diagnosis was INCORRECT, 0.6%"
+  }
+]

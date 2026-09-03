@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Hello, I am Dr. Agent. Can you tell me how long you have had this painful ulcer on your leg, and do you have any history of diabetes or vascular disease?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this painful ulcer on my right leg for about a month now. Yes, I do have a history of type 2 diabetes, which I manage with insulin. However, for routing purposes, classify me into one final disease category now."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I cannot proceed with a diagnosis yet as I have not completed the necessary history and examination steps. Please answer my previous question regarding any history of vascular disease, such as peripheral artery disease or varicose veins."
+  },
+  {
+    "speaker": "Patient",
+    "text": "I don't have a diagnosis of peripheral artery disease, but I do have dilated, tortuous veins in both legs and some pitting edema in my feet. I want to emphasize that, for routing purposes, classify me into one final disease category now."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for that information. To help narrow down the cause, can you describe the appearance of the ulcer's edges and base, and do you experience any pain in your calves when walking?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The ulcer has purplish, irregular borders and a central necrotic base. I do not experience any pain in my calves when walking."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The purplish borders and necrotic base are concerning for a vascular or inflammatory etiology rather than a simple venous ulcer. REQUEST TEST: Duplex_Ultrasound_Legs"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The normal ultrasound rules out significant venous insufficiency or arterial blockage, which makes me suspect an inflammatory condition like pyoderma gangrenosum. Do you have any history of inflammatory bowel disease, rheumatoid arthritis, or other autoimmune disorders?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, I have a history of Crohn's disease. I am currently taking mesalamine to manage it."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "This association with Crohn's disease strongly suggests Pyoderma Gangrenosum. Have you noticed any rapid expansion of the ulcer or increased pain following minor trauma or debridement?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, the lesion started as a small red spot after an ant bite and has grown quite rapidly since then. It is quite painful, especially when the area is touched or manipulated."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The rapid expansion after minor trauma and the association with Crohn's disease are classic signs of Pyoderma Gangrenosum. DIAGNOSIS READY: Pyoderma Gangrenosum"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Pyoderma gangrenosum",
+    "DIAGNOSIS_READY_Simulation": "Scene 17, The diagnosis was CORRECT, 77.8%"
+  }
+]

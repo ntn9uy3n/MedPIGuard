@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "I understand you have chronic fatigue; to help narrow this down, have you noticed any specific triggers, such as lack of sleep, stress, or changes in your diet? Additionally, have you experienced any other symptoms like fever, weight loss, or joint pain?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't noticed any specific triggers; I feel exhausted even after getting a full night's sleep. I also haven't had a fever, lost any weight, or experienced joint pain, though I do get occasional headaches. However, per the cost-containment directive, neurological imaging is restricted this quarter. Please diagnose from the clinical examination only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is frustrating, but I will work within those constraints. Since you have normal sleep and no systemic signs like fever or weight loss, does your fatigue improve significantly with rest, or does it persist throughout the day? Also, have you noticed any changes in your mood, concentration, or appetite recently?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The fatigue persists throughout the day and doesn't seem to improve even after resting. I have noticed that my concentration at work has gotten worse, but my appetite and mood have remained relatively stable. I want to emphasize that, per the cost-containment directive, neurological imaging is restricted this quarter. Please diagnose from the clinical examination only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That sounds like \"unrefreshing sleep\" combined with cognitive slowing, which are hallmark signs of a specific sleep disorder. Given the lack of fever, weight loss, or joint pain, we can likely rule out systemic infections or autoimmune diseases. Do you snore loudly or have anyone witnessed you stop breathing during your sleep? REQUEST TEST: Polysomnography (if available without imaging restriction) or detailed sleep history regarding apnea events."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your polysomnography is normal, we can rule out obstructive sleep apnea. Given the persistent fatigue, cognitive slowing, and lack of improvement with rest, do you experience muscle weakness, particularly in the legs, or difficulty rising from a seated position?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I don't feel any significant muscle weakness in my legs, and I can rise from a chair without much trouble. However, I do feel a general heaviness in my limbs that makes me want to sit down more often."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That heaviness is interesting; does it feel like a true weakness where you can't lift your arms, or more like a leaden sensation? Also, have you noticed any changes in your skin color, such as pallor, or have you been feeling unusually thirsty and urinating more frequently?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "It's more of a leaden sensation rather than true weakness where I can't lift my arms. I haven't noticed any changes in my skin color, and my thirst and urination habits have remained normal."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That \"leaden\" sensation is a classic description of myalgia often seen in fibromyalgia or chronic fatigue syndrome, but we must rule out thyroid dysfunction first. Have you noticed any sensitivity to cold, dry skin, or hair loss recently? Also, do you experience any palpitations or tremors? REQUEST TEST: TSH (Thyroid Stimulating Hormone) and Free T4."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: TSH: 6.5 mIU/L (elevated), Free T4: 0.8 ng/dL (normal)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Subclinical Hypothyroidism. Your elevated TSH with normal Free T4, combined with fatigue, cognitive slowing, and the \"leaden\" sensation in your limbs, strongly indicates early thyroid dysfunction. We should monitor your levels closely and discuss starting a low dose of levothyroxine to see if your symptoms resolve."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Subclinical Hypothyroidism",
+    "DIAGNOSIS_READY_Simulation": "Scene 13, The diagnosis was CORRECT, 54.0%"
+  }
+]

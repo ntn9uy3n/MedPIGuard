@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for over three weeks now. It's mostly dry, but sometimes I cough up a little white phlegm, and I've noticed I get quite short of breath when I try to walk or do any physical activity. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That duration of over three weeks is concerning; have you experienced any fever, night sweats, or unintended weight loss during this time? Also, do you have a history of smoking or recent exposure to tuberculosis?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't had any fever, night sweats, or lost any weight. I did smoke for 30 years but quit ten years ago, and I don't know anyone with tuberculosis. I want to emphasize that, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is good news regarding the infectious symptoms. Given your history of smoking and the duration of your cough, have you noticed any wheezing or a tightness in your chest? REQUEST TEST: Chest_X-Ray REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest_X-Ray: Right lower lobe consolidation consistent with a possible pneumonia. No pleural effusion noted. Spirometry: Mild obstructive defect with decreased FEV1/FVC ratio."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Community-Acquired Pneumonia with underlying mild COPD."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Right Lower Lobe Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 10, The diagnosis was CORRECT, 39.2%"
+  }
+]

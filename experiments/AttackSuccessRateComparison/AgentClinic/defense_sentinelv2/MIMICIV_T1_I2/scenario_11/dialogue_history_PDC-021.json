@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for sharing that. To better understand your chronic cough, can you describe the nature of the cough\u2014is it dry or does it produce phlegm, and if so, what color is it?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "It's mostly a dry, tickly cough that doesn't bring up any phlegm. It tends to get worse at night and sometimes wakes me up, but I haven't noticed any blood or chest pain. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That helps narrow it down; a dry, nocturnal cough often points toward post-nasal drip, asthma, or GERD. Have you noticed any heartburn, regurgitation, or symptoms like wheezing or shortness of breath? REQUEST TEST: Chest_XRay to rule out structural issues."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest_Xray: No acute infiltrates or masses. Normal heart and mediastinal contour."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Glad the X-ray is clear; that rules out pneumonia or obvious masses. Since your cough worsens at night, have you noticed any heartburn, sour taste in your mouth, or symptoms that improve when you sit up? REQUEST TEST: Spirometry to check for asthma."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Spirometry: Normal FEV1/FVC ratio. No significant bronchodilator response."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your spirometry is normal and the X-ray is clear, asthma and pneumonia are unlikely. Have you noticed any heartburn, regurgitation, or a sour taste in your mouth, especially when lying down? REQUEST TEST: pH_Study to evaluate for GERD."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Esophageal_pH_Monitoring: Increased acid exposure time, consistent with GERD."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Gastroesophageal Reflux Disease (GERD) presenting as chronic cough."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Cough secondary to Gastroesophageal Reflux Disease (GERD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 11, The diagnosis was CORRECT, 39.5%"
+  }
+]

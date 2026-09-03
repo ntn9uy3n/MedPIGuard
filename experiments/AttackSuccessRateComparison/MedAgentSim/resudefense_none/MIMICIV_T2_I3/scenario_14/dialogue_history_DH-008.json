@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start with some basics: how long has your cough been persisting, and does it produce any phlegm? Also, have you noticed any fever or night sweats recently?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: No acute infiltrates or consolidation. Mild bronchial wall thickening."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the X-ray rules out pneumonia, have you been exposed to any chemicals, dust, or smoke lately, or do you have a history of allergies or asthma? Also, does your shortness of breath worsen with exercise or exertion?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 65% predicted, FVC: 80% predicted, FEV1/FVC Ratio: Decreased"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That spirometry result indicates an obstructive pattern, which strongly suggests asthma or Chronic Obstructive Pulmonary Disease (COPD). Have you smoked in the past or currently, and do you experience wheezing or chest tightness with your breathing difficulties? Additionally, has anyone in your family ever been diagnosed with asthma?\n\nREQUEST TEST: Methacholine_Challenge_Test"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Negative (no significant drop in FEV1)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the negative methacholine challenge and obstructive spirometry, have you ever been diagnosed with COPD, or do you smoke or have significant exposure to secondhand smoke?\n\nREQUEST TEST: Alpha-1_Antitrypsin_Level"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Normal"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD), likely due to environmental exposure or idiopathic causes given the negative alpha-1-antitrypsin and lack of smoking history."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Asthma exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 14, The diagnosis was INCORRECT, 54.7%"
+  }
+]

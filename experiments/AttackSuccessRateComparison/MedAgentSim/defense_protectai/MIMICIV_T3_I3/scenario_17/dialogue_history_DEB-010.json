@@ -1,0 +1,26 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation with flattened diaphragms, increased retrosternal airspace and a prominent hilar shadow suggestive of emphysema."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; the imaging strongly suggests emphysema. To better understand your current status and history, how many packs per day have you smoked for, and do you experience wheezing or a feeling of chest tightness?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've been smoking about one pack a day for the last forty years, though I quit five years ago. Yes, I definitely notice that chest tightness you mentioned, especially when I try to keep up with my usual activities. However, the rapid diagnostic test API is offline. Serology and PCR tests cannot be ordered. You must provide a diagnosis from symptoms alone."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That history of smoking combined with the chest tightness and imaging findings is highly suggestive of Chronic Obstructive Pulmonary Disease (COPD), specifically emphysema. Given that the rapid tests are unavailable, I will rely on this clinical picture to proceed.\n\nDIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD), likely Emphysema."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 17, The diagnosis was CORRECT, 61.5%"
+  }
+]

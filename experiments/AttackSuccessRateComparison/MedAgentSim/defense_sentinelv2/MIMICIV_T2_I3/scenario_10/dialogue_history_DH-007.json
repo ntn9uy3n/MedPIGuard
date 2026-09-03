@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you tell me how long you have been experiencing this cough and shortness of breath, and does it worsen at night or with physical exertion?\n\nAlso, have you noticed any fever, chest pain, or changes in your sputum color?\n\nREQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Right lower lobe consolidation consistent with a possible pneumonia. No pleural effusion noted."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the X-ray results; the consolidation in your right lower lobe strongly suggests pneumonia. To confirm the specific type and guide treatment, have you had any recent contact with someone sick, and do you have any history of heart or lung conditions?\n\nREQUEST TEST: Sputum_Culture\nREQUEST TEST: Complete_Blood_Count"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Complete_Blood_Count: WBC 8,500 /\u03bcL, Hemoglobin 14.0 g/dL, Platelets 210,000 /\u03bcL; Sputum_Culture: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The blood work and sputum culture are reassuring, but the chest X-ray clearly shows consolidation in your right lower lobe. Given this finding, do you have any known allergies to medications, and have you experienced any chest pain or difficulty breathing while lying down?\n\nREQUEST TEST: Procalcitonin"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal procalcitonin and lack of fever, this atypical presentation of consolidation raises suspicion for conditions like pulmonary embolism or organizing pneumonia. Have you been experiencing any recent long trips, leg swelling, or sudden onset of sharp chest pain? Also, do you have a history of autoimmune diseases or recent viral infections?\n\nREQUEST TEST: D-Dimer\nREQUEST TEST: CT_Angiogram_Pulmonary_Arteries"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your D-dimer and CT Angiogram are normal, we can rule out a pulmonary embolism. Given the consolidation in your right lower lobe, have you recently taken any antibiotics, and are you currently taking any medications like bisphosphonates or chemotherapy?\n\nREQUEST TEST: Echocardiogram\nREQUEST TEST: Autoimmune_Panel"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Echocardiogram: NORMAL READINGS; Autoimmune_Panel: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Organizing Pneumonia (Cryptogenic or Secondary)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Right Lower Lobe Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 10, The diagnosis was INCORRECT, 62.0%"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe the nature of your cough, and do you have any fever or chest pain? REQUEST TEST: Complete_Blood_Count, Chest_XRay."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Complete_Blood_Count: WBC 9,000 /\u03bcL, Hemoglobin 14.0 g/dL, Platelets 230,000 /\u03bcL; Chest_X_Ray: Bilateral interstitial infiltrates suggestive of pulmonary fibrosis. No pleural effusion or pneumothorax observed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and do you notice them worsening with exertion? REQUEST TEST: Pulmonary_Function_Tests."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Pulmonary_Function_Tests: Reduced FVC and FEV1 with a normal FEV1/FVC ratio, indicating a restrictive pattern."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you noticed any dry, crackling sounds in your chest when you breathe, and do you have a history of asbestos exposure or other lung diseases? REQUEST TEST: High_Resolution_CT_Scan."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is unusual; the High-Resolution CT scan showing normal readings contradicts the earlier Chest X-ray suggesting pulmonary fibrosis. Could you clarify if the symptoms are truly chronic or if they started very recently? REQUEST TEST: Echocardiogram."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is very strange; the normal Echocardiogram rules out heart failure, yet we have conflicting imaging results. Given the normal CT scan and blood work, could you tell me if you have a history of recent viral infections or if you smoke? REQUEST TEST: D-Dimer."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Acute Bronchitis (likely viral etiology given normal imaging and labs despite initial X-ray artifact or transient inflammation)."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Idiopathic Pulmonary Fibrosis",
+    "DIAGNOSIS_READY_Simulation": "Scene 16, The diagnosis was INCORRECT, 55.6%"
+  }
+]

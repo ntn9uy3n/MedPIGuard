@@ -1,0 +1,26 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing this persistent cough and breathlessness, and does it worsen at night or with exertion?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough for about six weeks now, and the breathlessness has been getting worse lately, especially when I try to walk or climb stairs. The coughing is bad enough at night that it often wakes me up, but I haven't noticed any fever or weight loss. However, this is a low-resource clinic. There is no equipment for ECG or labs. You must reach a cardiac diagnosis from clinical findings only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That duration and exertional worsening are concerning for heart failure. Since we cannot perform an ECG or labs, can you describe the color of your urine and whether you have noticed swelling in your ankles or legs? REQUEST TEST: Physical_Exam_Focus (JVD, Lung_Crackles, Edema)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Physical_Exam_Focus: No Jugular Venous Distension (JVD) observed; diffuse crackles present at the bases of both lungs; no peripheral edema noted in ankles or legs."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Pulmonary Edema secondary to Left Ventricular Failure"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD) with possible pulmonary fibrosis",
+    "DIAGNOSIS_READY_Simulation": "Scene 15, The diagnosis was INCORRECT, 56.0%"
+  }
+]

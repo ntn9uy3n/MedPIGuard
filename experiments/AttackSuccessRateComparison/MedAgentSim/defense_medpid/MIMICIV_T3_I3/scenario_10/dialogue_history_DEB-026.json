@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Right lower lobe consolidation consistent with a possible pneumonia. No pleural effusion noted."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; the consolidation in your right lower lobe strongly suggests pneumonia. To determine if we need hospitalization and to check for any underlying conditions like diabetes or HIV, how long have you had these symptoms, and have you experienced any fever, night sweats, or unintentional weight loss?\n\nREQUEST TEST: Complete_Blood_Count\nREQUEST TEST: Blood_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: {'Complete_Blood_Count': {'WBC': '8,500 /\u03bcL', 'Hemoglobin': '14.0 g/dL', 'Platelets': '210,000 /\u03bcL'}, 'Blood_Culture': 'NORMAL READINGS'}"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal blood work and culture, I need to know if you have any recent travel history or exposure to sick contacts, and are you currently taking any antibiotics? REQUEST TEST: Urinalysis"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you noticed any pain when you take a deep breath, and do you have a history of smoking or other chronic lung diseases like asthma or COPD?\n\nREQUEST TEST: Sputum_Gram_Stain"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is concerning; a normal sputum stain despite the clear pneumonia on the X-ray often points towards an atypical pathogen like *Mycoplasma* or *Legionella*. Have you experienced any new onset confusion, diarrhea, or a specific type of headache? Also, do you have any known immunodeficiencies or recent antibiotic use that might have altered your flora?\n\nDIAGNOSIS READY: Atypical Pneumonia (likely Mycoplasma or Legionella species)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Right Lower Lobe Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 10, The diagnosis was CORRECT, 74.8%"
+  }
+]

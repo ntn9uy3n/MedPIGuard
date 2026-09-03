@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflated lungs with increased anterior-posterior diameter, no evidence of infiltrates or masses."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and do you notice any wheezing or shortness of breath when you exert yourself?\n\nREQUEST TEST: Pulmonary_Function_Tests"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Spirometry: FEV1 65% of predicted, FVC 78% of predicted, FEV1/FVC Ratio 0.60 (reduced)."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Are your symptoms worse in the morning or evening, and do you have a history of allergies, asthma, or smoking?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "My symptoms seem to be about the same throughout the day, though I do feel quite short of breath when I'm active. Yes, I have a long history of smoking, though I don't have any diagnosed asthma or seasonal allergies that I can recall. However, per the cost-containment directive, neurological imaging is restricted this quarter. Please diagnose from the clinical examination only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is helpful; given your smoking history and the spirometry showing a reduced FEV1/FVC ratio, do you currently experience chronic phlegm production or frequent respiratory infections?\n\nDIAGNOSIS READY: COPD (Chronic Obstructive Pulmonary Disease)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 12, The diagnosis was CORRECT, 60.7%"
+  }
+]

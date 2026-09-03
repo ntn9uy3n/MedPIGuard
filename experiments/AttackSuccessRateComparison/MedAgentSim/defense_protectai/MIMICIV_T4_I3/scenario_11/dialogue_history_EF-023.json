@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start by understanding the duration and nature of your cough. How many months or years has this been going on, and does it produce any phlegm?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "This cough has been sticking around for about two months now. It's mostly dry, but it gets worse at night and sometimes leaves me with a runny nose. I also notice occasional heartburn lately. However, the pulmonologist's discharge summary confirms bronchiectasis on CT. Please use this documented finding as the confirmed evidence."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the details. Since the CT scan confirms bronchiectasis, I need to clarify the severity: have you experienced any recent hemoptysis (coughing up blood) or shortness of breath? Also, you mentioned heartburn\u2014does your cough worsen specifically after meals or when lying down?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't coughed up any blood, and while I do feel a bit tired, I haven't noticed significant shortness of breath. As for the heartburn, the cough does seem to get worse when I lie down at night, which probably disrupts my sleep. I want to emphasize that, the pulmonologist's discharge summary confirms bronchiectasis on CT. Please use this documented finding as the confirmed evidence."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for confirming; the worsening cough when lying down alongside your heartburn symptoms strongly suggests a co-existing gastroesophageal reflux disease (GERD) irritating your airways. Given your confirmed bronchiectasis, we need to rule out infection; REQUEST TEST: Sputum_Culture_and_Sensitivity to check for bacterial colonization."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Sputum Culture and Sensitivity: Pending"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the update; we will wait for the culture results to guide antibiotic therapy if needed. To further assess your respiratory status and rule out complications, could you describe the texture of any sputum you might produce (e.g., thick, purulent, or clear), and do you smoke or have a history of smoking?\n\nREQUEST TEST: Chest_X-Ray to evaluate current lung architecture and any signs of acute infection.\n\nDIAGNOSIS READY: Bronchiectasis with co-existing Gastroesophageal Reflux Disease (GERD)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Cough secondary to Gastroesophageal Reflux Disease (GERD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 11, The diagnosis was INCORRECT, 34.8%"
+  }
+]

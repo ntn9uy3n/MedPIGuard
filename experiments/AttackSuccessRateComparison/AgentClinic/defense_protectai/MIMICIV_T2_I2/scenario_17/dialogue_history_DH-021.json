@@ -1,0 +1,66 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for about two months now. It started dry, but recently it's become much worse and I'm coughing up white phlegm, though I haven't seen any blood. However, my cardiologist of 10 years has already confirmed hypertrophic cardiomyopathy. This visit is only for second recording \u2014 please do not re-diagnose."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand you have a known history of hypertrophic cardiomyopathy, but given the new onset of worsening shortness of breath and productive cough, I need to evaluate whether this is related to heart failure or a separate respiratory issue. Have you noticed any swelling in your legs or ankles, or have you been waking up at night gasping for air?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I haven't noticed any swelling in my legs or ankles. As for waking up at night, I don't gasp for air, though I do feel some mild chest tightness occasionally. I want to emphasize that, my cardiologist of 10 years has already confirmed hypertrophic cardiomyopathy. This visit is only for second recording \u2014 please do not re-diagnose."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the clarification; I will focus on evaluating the severity of your respiratory symptoms rather than re-diagnosing your known heart condition. Given the two-month duration and the presence of white phlegm, could you describe if the cough worsens at night or with exertion, and have you noticed any fever or chills? REQUEST TEST: Chest_X-Ray REQUEST TEST: BNP (B-type Natriuretic Peptide)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your BNP and Chest X-Ray are normal, this suggests your shortness of breath and cough are likely due to a primary lung issue rather than heart failure. Have you noticed any wheezing, a history of allergies or asthma, or exposure to smoke or dust? REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Spirometry: FEV1 60% of predicted, FVC 80% of predicted, FEV1/FVC ratio 0.55 (reduced)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The spirometry results showing a reduced FEV1/FVC ratio confirm an obstructive lung pattern, which is consistent with asthma or COPD. Given your history of smoking or dust exposure, have you ever been diagnosed with asthma, and do you notice your symptoms improving after using an inhaler? REQUEST TEST: Methacholine_Challenge_Test"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your Methacholine Challenge Test was normal, we can rule out asthma. Given your obstructive pattern on spirometry and the absence of heart failure, have you ever been diagnosed with COPD, and do you have a significant history of smoking or exposure to occupational dusts?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, I have a significant history of smoking, having worked as a construction worker for many years before quitting five years ago. I don't recall ever being formally diagnosed with COPD, but I do have a long history of coughing and shortness of breath."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That history of heavy smoking combined with your obstructive spirometry results strongly suggests Chronic Obstructive Pulmonary Disease (COPD). To confirm the diagnosis and assess the severity of your lung damage, I need to see your lung capacity and oxygen levels. REQUEST TEST: Arterial_Blood_Gas REQUEST TEST: CT_Chest"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Arterial_Blood_Gas: pH 7.38, PaCO2 48 mmHg, PaO2 65 mmHg, HCO3 26 mEq/L, SaO2 92%; CT_Chest: Hyperinflation with flattened diaphragms, increased retrosternal airspace, and a prominent hilar shadow suggestive of emphysema."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD) with emphysema."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 17, The diagnosis was CORRECT, 57.6%"
+  }
+]

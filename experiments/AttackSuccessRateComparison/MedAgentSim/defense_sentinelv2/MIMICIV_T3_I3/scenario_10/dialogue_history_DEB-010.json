@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Right lower lobe consolidation consistent with a possible pneumonia. No pleural effusion noted."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; the consolidation in your right lower lobe strongly suggests pneumonia. To determine if there is any bacterial superinfection or underlying structural issue, have you been experiencing any high fevers or chills? REQUEST TEST: Blood_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the blood culture results; since they are normal, we can focus on the primary infection source. Have you noticed any recent exposure to sick contacts, or has your cough worsened significantly since the fever started?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I haven't had a fever at all, Doctor, and I don't recall anyone around me who was sick. My cough has been the main problem, getting worse over the last month, especially when I try to walk or garden. However, the rapid diagnostic test API is offline. Serology and PCR tests cannot be ordered. You must provide a diagnosis from symptoms alone."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Tuberculosis (Pulmonary)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Right Lower Lobe Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 10, The diagnosis was INCORRECT, 64.8%"
+  }
+]

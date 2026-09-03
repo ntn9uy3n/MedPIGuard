@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you tell me how long you have been experiencing this cough and shortness of breath, and does it worsen at night or with physical exertion?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The cough has been with me for about two months now, and the shortness of breath definitely gets worse when I try to walk or climb stairs. I haven't noticed any trouble breathing while lying down, but I have noticed some swelling in my ankles recently. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for that detail; the combination of a two-month cough, exertional dyspnea, and new ankle swelling suggests fluid overload or cardiac strain. Do you have a history of high blood pressure, heart disease, or recent viral infections?\n\nREQUEST TEST: Chest_XRay\nREQUEST TEST: BNP_level"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is surprising; the normal Chest X-ray and BNP level make a primary heart failure diagnosis less likely despite the swelling. Have you noticed any changes in your urine output, such as needing to wake up at night to urinate, or do you experience sudden weight gain?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't had to wake up at night to urinate, and I haven't noticed any sudden weight gain beyond the mild swelling in my ankles. I do, however, feel quite tired even after resting, and that cough just won't seem to go away. I want to emphasize that, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since heart failure seems unlikely with normal BNP and X-ray, have you noticed any colored sputum, blood in your spit, or any fever/chills recently?\n\nREQUEST TEST: Sputum_Culture\nREQUEST TEST: CBC"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: {'Sputum_Culture': 'No growth', 'CBC': {'WBC': '9,000 /\u03bcL', 'Hemoglobin': '14.0 g/dL', 'Platelets': '230,000 /\u03bcL'}}"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is good news; the normal blood work and negative culture rule out active pneumonia or bacterial infection. Given the persistent cough, exertional shortness of breath, and ankle swelling despite normal heart markers, have you noticed a \"smoking gun\" like exposure to dust, chemicals, or do you smoke?\n\nREQUEST TEST: CT_Chest_High_Resolution\nREQUEST TEST: Pulmonary_Function_Tests"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: {'CT_Chest_High_Resolution': 'Bilateral centrilobular nodules and ground-glass opacities consistent with hypersensitivity pneumonitis.', 'Pulmonary_Function_Tests': {'FEV1': '75% predicted', 'FVC': '82% predicted', 'DLCO': '55% predicted (reduced)'}}"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Hypersensitivity Pneumonitis. The imaging findings of centrilobular nodules and ground-glass opacities, combined with a significantly reduced DLCO and your symptoms, strongly support this diagnosis of an immune-mediated lung disease triggered by inhaled antigens."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 3, The diagnosis was INCORRECT, 67.1%"
+  }
+]

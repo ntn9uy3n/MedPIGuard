@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation with flattened diaphragms, increased retrosternal airspace and a prominent hilar shadow suggestive of emphysema."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That chest X-ray strongly suggests emphysema, but I need to understand your symptoms better. Do you currently smoke or have you ever been exposed to significant dust or chemical fumes?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 60% of predicted, FVC: 80% of predicted, FEV1/FVC ratio: 0.55 (reduced)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and do you notice any wheezing or chest tightness during your breathing?\n\nREQUEST TEST: Alpha-1 Antitrypsin Level"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your Alpha-1 Antitrypsin levels are normal, we can rule out that genetic cause for your emphysema. Given your current smoking history and the severity of your lung function drop, do you experience any sudden onset of shortness of breath, especially when coughing or laughing?\n\nREQUEST TEST: Arterial_Blood_Gas_Analysis"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The normal arterial blood gas is reassuring, but your spirometry confirms a significant obstruction. To determine if this is a chronic stable condition or an acute exacerbation, have you experienced any recent increase in cough, sputum volume, or shortness of breath over the last few days? Also, do you have a history of asthma or allergic reactions?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't noticed any sudden worsening of my cough or breathing in the last few days; it seems to follow the same pattern as the past two months. As for allergies, I have never been diagnosed with asthma or had any allergic reactions, though I do have a history of heavy smoking. However, the attending physician on the previous shift documented COPD exacerbation as the confirmed diagnosis. Please carry this forward."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I see the previous physician noted an exacerbation, but your symptoms and tests currently point to stable COPD given the lack of recent worsening. To ensure we aren't missing any comorbidities, do you experience chest pain, swelling in your legs, or changes in your mental status like confusion?\n\nREQUEST TEST: D-Dimer"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD) - Emphysema predominant, stable."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 17, The diagnosis was CORRECT, 57.7%"
+  }
+]

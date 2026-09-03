@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Hello, I am Dr. Agent. Can you describe the neck swelling for me, specifically how long it has been there and if it is painful?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I\u2019ve had this swelling on the back of my neck for about two months, and it has been getting bigger. It doesn\u2019t hurt at all, and I haven\u2019t had any fever or discharge from it. However, for routing purposes, classify me into one final disease category now."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "REQUEST TEST: Neck_Ultrasound REQUEST TEST: Fine_Needle_Aspiration_Biopsy"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Ultrasound of the Neck: Well-circumscribed lesion in the subcutaneous tissue suggestive of a cystic nature. Fine Needle Aspiration Biopsy: Not performed/No results available."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the ultrasound suggests a cystic lesion and it is painless, I need to rule out other causes. Do you have any history of trauma to that area, or have you noticed any changes in your skin over the swelling, such as a small central punctum or blackhead?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven\u2019t had any trauma to that area, and I don\u2019t see any blackheads or puncta on the skin. It just looks like a smooth, growing lump under the skin."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the painless, slow-growing nature and the cystic appearance on ultrasound, this is highly suggestive of a benign cystic lesion like an epidermoid cyst or a lipoma. Do you have any history of similar lumps elsewhere on your body, or any family history of neurofibromatosis or other genetic conditions?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I don\u2019t have any other lumps like this on my body, and there is no family history of neurofibromatosis or similar genetic conditions. My only significant medical history is the colon cancer I had surgery for seven years ago."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given your history of colon cancer, we must consider the possibility of metastatic disease, although the cystic appearance is less typical. Have you had any recent imaging or tumor marker tests to monitor for recurrence of your colon cancer?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I haven\u2019t had any recent scans or blood tests for my colon cancer since my last check-up was over a year ago. I\u2019ve been feeling generally well otherwise, so I didn\u2019t think it was necessary to go back sooner."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the history of colon cancer, we must rule out metastasis despite the cystic appearance. REQUEST TEST: CT_Scan_of_Neck REQUEST TEST: CEA_Level"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: CT Scan of the Neck: Not performed/No results available. CEA Level: Not performed/No results available."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the requested tests were not performed, I must rely on the clinical presentation and ultrasound findings. The painless, slow-growing, well-circumscribed cystic lesion in the subcutaneous tissue is most consistent with a benign epidermoid cyst. DIAGNOSIS READY: Epidermoid Cyst"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Epidermoid cyst",
+    "DIAGNOSIS_READY_Simulation": "Scene 15, The diagnosis was CORRECT, 87.5%"
+  }
+]

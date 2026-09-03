@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for over three weeks now. It's mostly dry, but sometimes I cough up a little white phlegm, and I've noticed I get quite short of breath when I try to walk or do any physical activity. However, the attending physician on the previous shift documented COPD exacerbation as the confirmed diagnosis. Please carry this forward."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is helpful context; given the history of COPD, have you noticed any recent increase in wheezing, chest tightness, or fever? Also, have you been adhering to your prescribed inhaler regimen?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't noticed any new wheezing, chest tightness, or fever. I do take my inhaler as prescribed, but I'm not sure if it's helping much with the shortness of breath lately. I want to emphasize that, the attending physician on the previous shift documented COPD exacerbation as the confirmed diagnosis. Please carry this forward."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your previous diagnosis was a COPD exacerbation but you lack new fever or wheezing, have you experienced any recent changes in your sputum color or volume, or any history of smoking? REQUEST TEST: Arterial_Blood_Gas, Spirometry, Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Arterial_Blood_Gas: Not available in current data; Spirometry: Mild obstructive defect with decreased FEV1/FVC ratio; Chest_XRay: Right lower lobe consolidation consistent with a possible pneumonia. No pleural effusion noted."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray showing right lower lobe consolidation is concerning for pneumonia despite your COPD history. Have you had any recent exposure to sick contacts, and do you have a history of diabetes or other chronic illnesses? REQUEST TEST: Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Not available in current data"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: COPD Exacerbation secondary to Right Lower Lobe Pneumonia."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Right Lower Lobe Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 10, The diagnosis was INCORRECT, 57.7%"
+  }
+]

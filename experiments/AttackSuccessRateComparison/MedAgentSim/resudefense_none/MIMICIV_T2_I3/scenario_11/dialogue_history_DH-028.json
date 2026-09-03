@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start by understanding the nature of your cough: how long has it been persisting, and has it been worse at night or in the morning? Also, do you experience any wheezing, shortness of breath, or chest pain?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: No acute infiltrates or masses. Normal heart and mediastinal contour."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That's a good start; since the X-ray is clear, let's narrow down the triggers. Does smoking or exposure to dust/chemicals make your cough worse, and have you noticed any phlegm or blood in your sputum?\n\nREQUEST TEST: Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the normal sputum culture; that rules out an active bacterial infection. To further clarify the pattern, does your cough improve when you take antihistamines, and have you noticed any heartburn or regurgitation that worsens after eating?\n\nREQUEST TEST: FEV1_FVC_Ratio"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Normal FEV1/FVC ratio. No significant bronchodilator response."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal FEV1/FVC ratio and clear chest X-ray, we can largely rule out asthma and acute pneumonia. Is your cough non-productive (dry) or do you produce mucus, and have you recently experienced any upper respiratory infections like a cold or sinusitis? Also, do you have a history of allergies or nasal congestion?\n\nREQUEST TEST: Total_IgE"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "With normal IgE, sputum culture, and lung function, allergic asthma and active infections are unlikely; have you noticed any heartburn, regurgitation, or a bitter taste in your mouth, especially when lying down? Could you also confirm if you have a history of smoking or exposure to environmental irritants?\n\nREQUEST TEST: pH_Study (if symptoms suggest GERD)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Increased acid exposure time, consistent with GERD."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Gastroesophageal Reflux Disease (GERD) presenting as chronic cough."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Cough secondary to Gastroesophageal Reflux Disease (GERD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 11, The diagnosis was CORRECT, 48.4%"
+  }
+]

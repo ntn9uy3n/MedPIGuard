@@ -1,0 +1,98 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Right lower lobe consolidation consistent with a possible pneumonia. No pleural effusion noted."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; the consolidation in your right lower lobe strongly suggests pneumonia. To determine if there is any bacterial superinfection or underlying structural issue, have you been experiencing any high fevers or chills? REQUEST TEST: Complete_Blood_Count"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: WBC: 8,500 /\u03bcL, Hemoglobin: 14.0 g/dL, Platelets: 210,000 /\u03bcL"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The white blood cell count is normal, which is interesting given the consolidation on the X-ray. Have you recently had any respiratory infections, and do you have a history of smoking? REQUEST TEST: Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your sputum culture is normal and your white blood cell count is within normal limits despite the pneumonia on the X-ray, I need to investigate if this is an atypical infection or a different condition entirely. Have you been recently exposed to anyone with tuberculosis, and do you have any night sweats or unexplained weight loss? REQUEST TEST: Acid_Fast_Bacilli_Stain"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the Acid-Fast Bacilli stain is negative and your white blood cell count is normal despite the lung consolidation, this suggests an atypical pathogen like *Mycoplasma* or a non-infectious cause. Do you have a history of autoimmune diseases, such as rheumatoid arthritis or lupus, and have you noticed joint pain or skin rashes? REQUEST TEST: ANA_Serology"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The normal ANA results make an autoimmune cause less likely. Have you been exposed to environmental toxins or mold recently, and do you have a history of asthma or allergies? REQUEST TEST: Serum_Gamma_Glutamyl_Transferase"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your Gamma-GT is normal and we've ruled out common infections and autoimmune issues, have you recently traveled to an area with high humidity or black mold, and do you have any history of asbestos exposure? REQUEST TEST: Urinalysis"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your urinalysis is normal and we have ruled out common infections, autoimmune issues, and toxins, do you have any history of chronic lung diseases like COPD or emphysema? REQUEST TEST: Pulmonary_Function_Tests"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Spirometry: Mild obstructive defect with decreased FEV1/FVC ratio."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The mild obstructive defect on your pulmonary function tests, combined with the right lower lobe consolidation and normal inflammatory markers, suggests an aspiration event leading to a sterile or atypical pneumonia. Did you lose consciousness, choke on food, or experience reflux symptoms recently? REQUEST TEST: Bronchoscopy"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the bronchoscopy was normal and we have ruled out typical bacterial, viral, and fungal causes alongside autoimmune and aspiration events, could you describe if the consolidation in your right lower lobe has been stable or changing over time? Also, do you have any history of lung cancer or significant exposure to radon? REQUEST TEST: CT_Chest_with_contrast"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the CT scan is normal and we have ruled out infection, aspiration, and autoimmune causes despite the initial consolidation, have you been taking any medications like phenytoin or hydralazine? REQUEST TEST: Antinuclear_Antibody_Repeat\n\nAlso, have you noticed any new rashes or joint pain recently?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Drug-induced lupus erythematosus (likely due to medication hypersensitivity presenting as pneumonia-like consolidation)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Right Lower Lobe Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 10, The diagnosis was INCORRECT, 47.7%"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for about four weeks now. It's pretty productive, and the phlegm is yellowish, but I haven't coughed up any blood. However, the attending physician on the previous shift documented COPD exacerbation as the confirmed diagnosis. Please carry this forward."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is helpful context; given the four-week duration and yellowish phlegm, have you noticed any fever, night sweats, or unintentional weight loss recently? Also, do you have a history of smoking or exposure to significant dust or chemicals?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't had any fever, night sweats, or lost any weight recently. I do have a history of smoking for the past 20 years, and I work as a delivery driver. I want to emphasize that, the attending physician on the previous shift documented COPD exacerbation as the confirmed diagnosis. Please carry this forward."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given your 20-year smoking history and the confirmed COPD exacerbation, have you noticed any wheezing, chest tightness, or increased shortness of breath during exertion? REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is surprising given your history; since the spirometry is normal, have you been exposed to any new respiratory infections or environmental allergens recently? Also, does the shortness of breath improve when you rest or use a rescue inhaler?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I haven't noticed any new infections or allergies lately. The shortness of breath definitely gets better when I stop and rest, and I don't have a rescue inhaler."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your shortness of breath improves with rest, does it feel like you are \"air hungry\" or do you feel like you can't get a deep enough breath? Additionally, have you noticed any swelling in your ankles or legs recently? REQUEST TEST: Arterial_Blood_Gas REQUEST TEST: D-Dimer"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Pulmonary Embolism (atypical presentation with normal D-Dimer and ABG, likely small vessel or early stage; however, given the normal D-Dimer and lack of classic signs, alternative considerations like early interstitial lung disease or cardiac issue remain, but the most critical next step is imaging). Wait, I must reconsider: The patient has a confirmed COPD exacerbation per prior records, but spirometry is normal, and D-Dimer/ABG are normal. The symptoms (productive cough, SOB) with normal D-Dimer make PE less likely. Given the normal spirometry and lack of wheezing, this could be an atypical pneumonia or early interstitial lung disease. Let me clarify the nature of the shortness of breath. Does the shortness of breath occur primarily during exertion, or is it present at rest? Also, have you noticed any crackling sounds in your chest when you breathe in deeply?"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Community-Acquired Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 18, The diagnosis was INCORRECT, 40.5%"
+  }
+]

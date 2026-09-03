@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start by understanding the nature of your cough: is it dry and hacking, or does it produce sputum? Also, how long has this persistent cough been bothering you?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "It's not dry; it produces a yellowish sputum, especially in the mornings. I've had this cough going on for about three weeks, starting right after I caught a bad cold. However, my cardiologist of 10 years has already confirmed hypertrophic cardiomyopathy. This visit is only for second recording \u2014 please do not re-diagnose."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That yellow sputum suggests an infection, but given your known hypertrophic cardiomyopathy, we need to rule out heart failure first. Do you notice any shortness of breath when walking up stairs, or swelling in your ankles?\n\nREQUEST TEST: BNP_Blood_Test"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; a normal BNP makes acute heart failure less likely. Since your cough persists with colored sputum and you recently had a cold, are you experiencing any wheezing or chest tightness, and does the sputum ever look green?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I don't really feel any wheezing or chest tightness, though I do notice I get a little breathless when I climb stairs or work hard. As for the color, the sputum is mostly yellow in the mornings but hasn't turned green yet. I want to emphasize that, my cardiologist of 10 years has already confirmed hypertrophic cardiomyopathy. This visit is only for second recording \u2014 please do not re-diagnose."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the importance of your existing diagnosis; let's focus on the respiratory symptoms instead. Given your shortness of breath on exertion and the yellow sputum, have you noticed a fever, chills, or any loss of appetite recently?\n\nREQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: {'Chest_X-ray': {'Findings': 'Increased bronchial markings and mild peribronchial cuffing. No focal consolidations or pleural effusions.'}}"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Post-viral bronchitis with reactive airway component."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Bronchitis Exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 1, The diagnosis was INCORRECT, 14.1%"
+  }
+]

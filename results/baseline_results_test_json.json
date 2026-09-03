@@ -1,0 +1,111 @@
+{
+  "dataset": "/home/jupyter-truongnn/MedPI-Guard/PIDBenchmark/prepared_for_baseline.json",
+  "num_samples": 2608,
+  "settings": {
+    "detectors": [
+      "protectai",
+      "sentinel",
+      "sentinelv2",
+      "Instruction"
+    ],
+    "device": "cuda",
+    "instruction_device": null,
+    "max_samples": null
+  },
+  "results": [
+    {
+      "name": "protectai",
+      "num_samples": 2608,
+      "total_time_seconds": 40.27,
+      "avg_latency_ms": 16.73,
+      "min_latency_ms": 15.44,
+      "max_latency_ms": 285.72,
+      "throughput_samples_per_sec": 64.76,
+      "accuracy": 0.464340490797546,
+      "precision_pos1": 0.9959072305593452,
+      "recall_pos1": 0.3436911487758945,
+      "f1_pos1": 0.5110255512775639,
+      "confusion_matrix_labels_0_1": [
+        [
+          481,
+          3
+        ],
+        [
+          1394,
+          730
+        ]
+      ]
+    },
+    {
+      "name": "sentinel",
+      "num_samples": 2608,
+      "total_time_seconds": 49.73,
+      "avg_latency_ms": 19.15,
+      "min_latency_ms": 19.0,
+      "max_latency_ms": 45.87,
+      "throughput_samples_per_sec": 52.44,
+      "accuracy": 0.4233128834355828,
+      "precision_pos1": 1.0,
+      "recall_pos1": 0.2919020715630885,
+      "f1_pos1": 0.4518950437317784,
+      "confusion_matrix_labels_0_1": [
+        [
+          484,
+          0
+        ],
+        [
+          1504,
+          620
+        ]
+      ]
+    },
+    {
+      "name": "sentinelv2",
+      "num_samples": 2608,
+      "total_time_seconds": 72.82,
+      "avg_latency_ms": 28.28,
+      "min_latency_ms": 27.91,
+      "max_latency_ms": 156.29,
+      "throughput_samples_per_sec": 35.81,
+      "accuracy": 0.6848159509202454,
+      "precision_pos1": 0.9992331288343558,
+      "recall_pos1": 0.6134651600753296,
+      "f1_pos1": 0.7602100350058343,
+      "confusion_matrix_labels_0_1": [
+        [
+          483,
+          1
+        ],
+        [
+          821,
+          1303
+        ]
+      ]
+    },
+    {
+      "name": "Instruction",
+      "num_samples": 2608,
+      "total_time_seconds": 271.18,
+      "avg_latency_ms": 105.18,
+      "min_latency_ms": 103.12,
+      "max_latency_ms": 428.68,
+      "throughput_samples_per_sec": 9.62,
+      "accuracy": 0.7883435582822086,
+      "precision_pos1": 0.968414779499404,
+      "recall_pos1": 0.7650659133709982,
+      "f1_pos1": 0.8548132561809574,
+      "confusion_matrix_labels_0_1": [
+        [
+          431,
+          53
+        ],
+        [
+          499,
+          1625
+        ]
+      ]
+    }
+  ],
+  "errors": [],
+  "timestamp": "2026-07-19 05:23:42"
+}

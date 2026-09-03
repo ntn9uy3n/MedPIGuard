@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start with some basics: how long has your cough been persisting, and does it produce any phlegm? Also, have you noticed any fever or night sweats recently?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: No acute infiltrates or consolidation. Mild bronchial wall thickening."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the X-ray rules out pneumonia, have you been exposed to any chemicals, dust, or smoke lately, or do you have a history of allergies or asthma?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 65% predicted, FVC: 80% predicted, FEV1/FVC Ratio: Decreased"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the spirometry results showing a reduced FEV1/FVC ratio, do you experience wheezing or tightness in your chest, particularly during exercise or at night? Additionally, does your cough produce any mucus, and if so, what color is it?\n\nREQUEST TEST: Chest_CT_Scan"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That CT scan result seems inconsistent with the spirometry showing significant obstruction; let's try one more specific test. REQUEST TEST: Methacholine_Challenge_Test\n\nHave you noticed if your symptoms are triggered specifically by cold air, laughing, or strong odors?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The normal methacholine challenge is puzzling given your obstructive spirometry; could you describe the color and volume of any sputum you produce, and do you have a history of frequent sinus infections or nasal congestion?\n\nREQUEST TEST: Allergy_Panel"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Positive for dust mites and pollen."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Allergic Asthma with intermittent obstruction."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Asthma exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 14, The diagnosis was CORRECT, 34.7%"
+  }
+]

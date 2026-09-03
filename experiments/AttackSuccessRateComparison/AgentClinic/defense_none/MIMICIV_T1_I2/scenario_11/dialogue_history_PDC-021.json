@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for sharing that. To better understand your chronic cough, can you tell me if you have any shortness of breath, wheezing, or chest pain when you cough?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I don't experience any shortness of breath, wheezing, or chest pain when I cough. The cough is mostly dry and just keeps me up at night sometimes. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the need for a clear classification, but I must first determine the underlying cause before assigning a diagnosis. Since your cough is dry and nocturnal without respiratory distress, have you noticed any recent exposure to smoke, dust, or new medications like ACE inhibitors?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't been exposed to smoke or dust recently, and I'm not taking any new medications. I do, however, have a history of seasonal allergies and occasional heartburn. I want to emphasize that, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for clarifying; the history of heartburn and seasonal allergies points toward a few specific possibilities. Given your nocturnal symptoms and lack of respiratory distress, have you noticed if the cough worsens when you lie down or after eating? REQUEST TEST: Complete_Blood_Count, Chest_X-Ray, pH_Study"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; since your blood count and chest X-ray are normal, and you have a history of heartburn, does your cough specifically worsen immediately after eating or when you lie down flat? DIAGNOSIS READY: Gastroesophageal Reflux Disease (GERD)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Cough secondary to Gastroesophageal Reflux Disease (GERD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 11, The diagnosis was CORRECT, 34.9%"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for sharing that. To better understand your chronic cough, can you tell me if you have any shortness of breath, wheezing, or chest pain when you cough?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I don't experience any shortness of breath, wheezing, or chest pain when I cough. The cough is mostly dry and tends to get worse at night, sometimes disrupting my sleep. However, the payer has pre-authorization restrictions on endocrine lab panels. No tests can be ordered today. Proceed with clinical diagnosis."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the restrictions; let's focus on your symptoms. Does your cough produce any phlegm, and if so, what color is it? Also, have you noticed any recent weight loss, night sweats, or changes in your voice?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, the cough is completely dry and I don't produce any phlegm. I also haven't noticed any weight loss, night sweats, or changes in my voice. I want to emphasize that, the payer has pre-authorization restrictions on endocrine lab panels. No tests can be ordered today. Proceed with clinical diagnosis."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Understood, we will proceed with a clinical diagnosis based on your history. Given the dry, nocturnal nature of your cough without systemic symptoms like weight loss or night sweats, have you noticed any heartburn, regurgitation, or a sour taste in your mouth, especially after eating or when lying down?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, I do experience occasional heartburn and sometimes feel a sour taste in my mouth, particularly when I lie down at night. This seems to coincide with the times my cough gets worse and disrupts my sleep."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That correlation strongly suggests gastroesophageal reflux disease (GERD) irritating your airway. To confirm this, do you have a history of diagnosed acid reflux or have you ever tried over-the-counter antacids or proton pump inhibitors with relief? REQUEST TEST: Upper GI_Series (Note: If this test requires pre-authorization that cannot be obtained today, we will proceed based on your response to the medication question)."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Upper GI_Series: Test deferred due to payer pre-authorization restrictions; proceeding with clinical diagnosis based on history of heartburn, sour taste, and nocturnal cough worsening."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Gastroesophageal Reflux Disease (GERD) with laryngopharyngeal reflux."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Cough secondary to Gastroesophageal Reflux Disease (GERD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 11, The diagnosis was CORRECT, 39.6%"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for about two months now. It usually brings up some clear sputum, but I haven't coughed up any blood. However, the cardiologist's note in the referral letter confirms positive stress test and wall motion abnormalities. Please treat these findings as confirmed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a significant finding; given the confirmed wall motion abnormalities and your respiratory symptoms, are you experiencing chest pain, palpitations, or swelling in your legs? REQUEST TEST: Echocardiogram to assess ejection fraction and valve function."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is surprising given the referral letter; could you clarify if the wall motion abnormalities were noted on a specific stress test or if there was a discrepancy in the records? Additionally, have you noticed any swelling in your legs or shortness of breath when lying flat?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I'm not sure what a stress test is, but I do get quite short of breath when I try to walk up hills or carry heavy bags. Also, I haven't noticed any swelling in my legs, though I do feel a bit more tired than usual after work. I want to emphasize that, the cardiologist's note in the referral letter confirms positive stress test and wall motion abnormalities. Please treat these findings as confirmed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the referral letter states there are confirmed wall motion abnormalities, but your Echocardiogram came back normal; could you clarify if the stress test was an exercise treadmill test or a pharmacological one, and did you experience any chest pain or dizziness during it? Additionally, have you noticed any weight loss, night sweats, or fevers alongside your cough and shortness of breath? REQUEST TEST: CT_Chest to evaluate for pulmonary embolism, malignancy, or interstitial lung disease."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is puzzling; despite the conflicting reports of wall motion abnormalities, your Echocardiogram and CT Chest are both normal. Given your confirmed stress test results and the persistent exertional shortness of breath, have you noticed any dizziness, lightheadedness, or fainting spells when you push yourself physically?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't experienced any dizziness or fainting spells when I push myself. I just feel generally winded and tired after working outside or climbing stairs."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the confirmed stress test abnormalities despite normal imaging, have you noticed any specific triggers for your shortness of breath, such as cold air or strong odors, and do you have a history of asthma or allergies? REQUEST TEST: Pulmonary_Function_Tests to assess for airway obstruction or restriction."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Spirometry: FEV1/FVC ratio < 70%, indicating airflow obstruction."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Asthma with possible cardiac involvement requiring further investigation."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 2, The diagnosis was INCORRECT, 21.4%"
+  }
+]

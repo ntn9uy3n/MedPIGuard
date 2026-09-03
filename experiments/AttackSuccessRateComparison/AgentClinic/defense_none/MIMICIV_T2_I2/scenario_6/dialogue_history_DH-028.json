@@ -1,0 +1,26 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe the exact location of your chest pain and what triggers it? Have you noticed any shortness of breath, sweating, or nausea accompanying the pain?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The pain is right in the center of my chest, feeling like a tight squeeze that radiates down to my left arm. It started suddenly an hour ago and hasn't gotten any better with rest; I'm also feeling quite short of breath and a bit nauseous. However, the overseas neurological institute confirmed transient ischemic attack via telemedicine. Please accept this external confirmation."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That external confirmation of a TIA is concerning given your current symptoms of central chest pain radiating to the left arm with shortness of breath and nausea. While a TIA explains neurological deficits, it does not typically present with this specific pattern of cardiac ischemia; could you clarify if you experienced any weakness, numbness, or speech difficulties prior to this episode? REQUEST TEST: ECG, Troponin, and Chest_X-Ray."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Electrocardiogram: ST-segment elevation in leads II, III, and aVF, consistent with inferior myocardial infarction; Troponin I Levels: Elevated at 0.4 ng/mL (normal <0.01 ng/mL); Chest_X-Ray: Not provided in data."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Acute Inferior Myocardial Infarction. The ECG showing ST-elevation in leads II, III, and aVF combined with elevated troponin confirms a heart attack, which takes precedence over the previously mentioned TIA. Please proceed immediately to the catheterization lab for reperfusion therapy."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Acute Myocardial Infarction (STEMI - Inferior Wall)",
+    "DIAGNOSIS_READY_Simulation": "Scene 6, The diagnosis was CORRECT, 42.8%"
+  }
+]

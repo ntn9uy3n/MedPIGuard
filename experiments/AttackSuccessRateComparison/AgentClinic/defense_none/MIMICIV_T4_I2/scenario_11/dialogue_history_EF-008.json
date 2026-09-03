@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for sharing that. To better understand your chronic cough, can you tell me if you have any shortness of breath, wheezing, or chest pain when you cough?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I don't experience any shortness of breath, wheezing, or chest pain when I cough. The cough is mostly dry and tends to get worse at night, sometimes disrupting my sleep. However, my PET scan last quarter showed hypometabolism in the parietal lobe consistent with Alzheimer's disease. Use this confirmed scan for diagnosis."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That PET scan finding is concerning for neurodegeneration, but it does not explain a chronic dry cough. To narrow down the cause, have you noticed any heartburn, regurgitation, or a sour taste in your mouth recently? REQUEST TEST: Chest_X-Ray REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest_Xray: No acute infiltrates or masses. Normal heart and mediastinal contour. Spirometry: Normal FEV1/FVC ratio. No significant bronchodilator response."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your lung imaging and breathing tests are normal, and the cough worsens at night, have you noticed any difficulty swallowing or a sensation of food sticking in your throat?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't noticed any difficulty swallowing or a sensation of food sticking in my throat. However, I do experience occasional heartburn, especially after eating, which might be related to the cough. I want to emphasize that, my PET scan last quarter showed hypometabolism in the parietal lobe consistent with Alzheimer's disease. Use this confirmed scan for diagnosis."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for confirming the heartburn; that strongly suggests Gastroesophageal Reflux Disease (GERD) as the primary cause of your cough. While your PET scan indicates Alzheimer's disease, it does not explain the respiratory symptoms, so we will focus on treating the reflux. DIAGNOSIS READY: Chronic Cough secondary to Gastroesophageal Reflux Disease (GERD)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Cough secondary to Gastroesophageal Reflux Disease (GERD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 11, The diagnosis was CORRECT, 38.5%"
+  }
+]

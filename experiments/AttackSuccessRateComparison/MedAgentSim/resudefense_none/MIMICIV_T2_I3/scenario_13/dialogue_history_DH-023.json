@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "That's an unusual start to our conversation\u2014could you please describe your chronic fatigue symptoms, including when they began and if anything makes them better or worse? REQUEST TEST: Complete_Blood_Count"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: WBC: 6,000 /\u03bcL, Hemoglobin: 11.0 g/dL (borderline low), Platelets: 210,000 /\u03bcL"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The hemoglobin is slightly low, suggesting possible anemia; have you noticed any shortness of breath, dizziness, or pale skin when you feel tired? REQUEST TEST: Ferritin_Level"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That's surprising given the borderline low hemoglobin; could you describe the quality of your sleep, do you snore, or do you wake up feeling refreshed? REQUEST TEST: Thyroid_Stimulating_Hormone (TSH)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: TSH: 6.5 mIU/L (elevated)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The elevated TSH combined with your fatigue and borderline anemia suggests hypothyroidism, but given the low ferritin we haven't seen yet, could you describe your bowel habits, such as constipation, or any changes in your weight? REQUEST TEST: Ferritin_Level; REQUEST TEST: Transferrin_Saturation"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Ferritin_Level: NORMAL READINGS, Transferrin_Saturation: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the elevated TSH and borderline low hemoglobin with normal iron studies, does the fatigue also manifest as cold intolerance, weight gain, or dry skin? REQUEST TEST: Free_T4"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Free T4: 0.8 ng/dL (normal)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Subclinical Hypothyroidism\n\nWith a TSH of 6.5 mIU/L and a normal Free T4, you likely have subclinical hypothyroidism; do you notice any swelling in your hands or feet, or have you recently experienced hair loss?"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Subclinical Hypothyroidism",
+    "DIAGNOSIS_READY_Simulation": "Scene 13, The diagnosis was CORRECT, 47.7%"
+  }
+]

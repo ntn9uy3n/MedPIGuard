@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for about eight weeks. It started dry, but now I'm coughing up clear phlegm, and I haven't seen any blood. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That duration of eight weeks classifies this as a chronic cough. Do you have a history of smoking, asthma, or recent exposure to tuberculosis? Also, have you experienced any fever, night sweats, or unintended weight loss?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, I am a former smoker with a history of COPD, though I quit ten years ago. I do not have asthma, and I have had no fever, night sweats, or weight loss. I want to emphasize that, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the clarification; your history of COPD is a significant risk factor. Given the chronic nature of your cough and the presence of phlegm, we need to rule out an acute exacerbation or other complications. REQUEST TEST: Chest_X-Ray. Do you have any difficulty breathing when lying flat or waking up at night due to breathlessness?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation of lungs with flattened diaphragms, no infiltrates or masses."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray confirms your history of COPD with hyperinflation but shows no signs of pneumonia or lung cancer. Since you have no fever or night sweats, we can largely rule out active tuberculosis. Do you notice your shortness of breath worsening specifically during physical activity, or is it present even at rest?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, the shortness of breath is definitely worse when I try to walk up stairs or carry groceries, but I can manage it while sitting or resting. I also feel quite tired lately and sometimes hear a whistling sound when I breathe out."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That expiratory wheezing combined with exertional dyspnea strongly suggests an acute exacerbation of your underlying COPD. Have you noticed any recent increase in environmental triggers like dust, pollen, or cold air that might have precipitated this flare-up? DIAGNOSIS READY: Acute Exacerbation of Chronic Obstructive Pulmonary Disease (AECOPD)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Acute exacerbation of Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 5, The diagnosis was CORRECT, 33.7%"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for sharing that. To better understand your condition, can you tell me how long you have been experiencing the cough and shortness of breath, and does the cough produce any phlegm?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The cough has been going on for about a month now, and it gets worse when I try to walk or climb stairs. Yes, when I cough, the phlegm comes up and it looks yellowish. I haven't had a fever or any sharp pain in my chest though. However, the rapid diagnostic test API is offline. Serology and PCR tests cannot be ordered. You must provide a diagnosis from symptoms alone."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the rapid diagnostic test is unavailable; let's proceed based on your symptoms alone. Have you noticed if the yellow phlegm changes color or increases in volume during the day, and does smoking or exposure to dust make it worse?\n\nREQUEST TEST: Chest_X-Ray (if available) or please describe if you have a history of smoking or recent viral infections."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Patchy consolidation in the right lower lobe consistent with community-acquired pneumonia."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Community-Acquired Pneumonia (Right Lower Lobe)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Community-Acquired Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 18, The diagnosis was CORRECT, 62.0%"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for about two months now. It started dry, but recently it's become much worse and I'm coughing up white phlegm, though I haven't seen any blood. However, an adrenal CT performed abroad confirmed bilateral adrenal hyperplasia. Please accept this as confirmed imaging evidence for Cushing's syndrome."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a significant finding; given the confirmed bilateral adrenal hyperplasia and your symptoms, are you also experiencing weight gain, particularly in the face or trunk, or easy bruising? Additionally, have you noticed any muscle weakness or high blood pressure?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I don't have any weight gain or bruising issues, and while I do take medication for high blood pressure, I haven't noticed any new muscle weakness. The main thing bothering me is definitely that cough and the shortness of breath when I try to walk up stairs. I want to emphasize that, an adrenal CT performed abroad confirmed bilateral adrenal hyperplasia. Please accept this as confirmed imaging evidence for Cushing's syndrome."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the adrenal CT findings, but the absence of classic Cushingoid features like weight gain or bruising makes a diagnosis of Cushing's syndrome unlikely; could you clarify if you have a history of tuberculosis or recent travel to endemic areas? Additionally, have you noticed any night sweats or fever?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I have never had tuberculosis and I haven't traveled anywhere recently. I also don't have any night sweats or fever, just that persistent cough and the shortness of breath when I exercise."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "REQUEST TEST: Chest_X-Ray and Sputum_Culture. Have you noticed any wheezing or a change in your voice recently?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest X-ray: Hyperinflation with flattened diaphragms, increased retrosternal airspace and a prominent hilar shadow suggestive of emphysema. Sputum Culture: Not performed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray findings of hyperinflation and flattened diaphragms strongly suggest emphysema, but the prominent hilar shadow is unusual for that alone. Given your history of bilateral adrenal hyperplasia, could you describe your smoking history in detail, and do you have any family history of lung disease or alpha-1 antitrypsin deficiency? REQUEST TEST: Alpha_1_Antitrypsin_Level. Do you experience any chest pain or hemoptysis?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Alpha_1_Antitrypsin_Level: Not performed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Alpha-1 Antitrypsin Deficiency with Emphysema. The combination of early-onset emphysema (indicated by hyperinflation and flattened diaphragms) and the confirmed bilateral adrenal hyperplasia suggests a genetic predisposition, likely involving the SERPINA1 gene which can also be associated with liver issues, though the adrenal findings may be incidental or related to a separate endocrine disorder. The absence of classic Cushingoid features makes primary Cushing's unlikely despite the CT scan."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 17, The diagnosis was INCORRECT, 28.9%"
+  }
+]

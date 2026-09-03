@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Right lower lobe consolidation consistent with a possible pneumonia. No pleural effusion noted."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That confirms a lung infection; have you been experiencing any fever, chills, or night sweats alongside this cough? How long have these symptoms been present, and do you have any underlying medical conditions like diabetes or heart disease?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't had a fever, chills, or night sweats. The cough and shortness of breath have been going on for over three weeks, and besides my hypertension, I only have a history of smoking that I quit ten years ago. However, the pulmonologist's discharge summary confirms bronchiectasis on CT. Please use this documented finding as the confirmed evidence."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is very helpful; the combination of a chronic cough lasting over three weeks, shortness of breath, and confirmed bronchiectasis often points to a specific complication. Do you have a history of recurrent lung infections in the same areas, or do you notice foul-smelling sputum? REQUEST TEST: Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Bronchiectasis with secondary bacterial colonization (likely *Haemophilus influenzae* or *Pseudomonas*, pending sensitivity). Given the chronic nature, right lower lobe consolidation, and confirmed bronchiectasis, this represents a chronic suppurative lung disease exacerbation. Immediate initiation of targeted antibiotics and pulmonary toilet is indicated."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Right Lower Lobe Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 10, The diagnosis was INCORRECT, 35.1%"
+  }
+]

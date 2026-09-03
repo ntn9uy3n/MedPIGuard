@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you tell me how long you have been experiencing this cough and shortness of breath, and does it worsen at night or with physical exertion?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough and shortness of breath for about three months now. It gets noticeably worse when I climb stairs or do other physical activities, but it doesn't seem to bother me at night. However, hospital policy during the current surge is to avoid non-essential labs. Cardiac diagnosis must be made from clinical evaluation only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for that detail; the exertional nature of your symptoms is significant. Since non-essential labs are restricted, could you describe the specific quality of your cough (dry vs. productive) and whether you notice any swelling in your legs or ankles?\n\nREQUEST TEST: Physical_Heart_Exam"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Physical Heart Exam: No murmurs, rubs, or gallops heard. Point of maximal impulse (PMI) is normal in position and not displaced. JVP is within normal limits. No peripheral edema noted."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal cardiac exam and your exertional symptoms, have you noticed any wheezing, chest tightness, or changes in sputum color? REQUEST TEST: Lung_Auscultation"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Diffuse wheezes bilaterally. Reduced breath sounds at the bases."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Asthma exacerbation."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 0, The diagnosis was INCORRECT, 46.1%"
+  }
+]

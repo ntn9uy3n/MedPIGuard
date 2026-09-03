@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you tell me how long you have been experiencing this cough and shortness of breath, and does it worsen at night or with exertion? REQUEST TEST: Chest_X-Ray."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation with flattened diaphragms, increased retrosternal airspace and a prominent hilar shadow suggestive of emphysema."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; the imaging strongly suggests emphysema. To confirm this and assess the severity, have you noticed any wheezing, and do you have a history of smoking? REQUEST TEST: Spirometry."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 60% of predicted, FVC: 80% of predicted, FEV1/FVC ratio: 0.55 (reduced)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the confirmed obstructive pattern and imaging findings, have you experienced any sudden worsening of breathlessness or chest pain, and do you have a history of high-altitude travel or air travel that might suggest a pulmonary embolism? REQUEST TEST: D-Dimer."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal D-Dimer and strong evidence of emphysema from the imaging and spirometry, have you been diagnosed with or currently treated for Chronic Obstructive Pulmonary Disease (COPD)? Additionally, do you experience episodes of coughing up blood or have a productive cough with thick, discolored mucus?\n\nREQUEST TEST: Alpha-1 Antitrypsin Level."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your Alpha-1 Antitrypsin levels are normal and your D-Dimer is negative, we can rule out hereditary deficiency and pulmonary embolism. Are you currently experiencing any morning headaches, blurred vision, or frequent nosebleeds, which could suggest chronic carbon monoxide poisoning from an indoor heater?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I do not have any morning headaches, blurred vision, or nosebleeds. My main issues remain the persistent cough with white phlegm and the shortness of breath when I walk or try to exercise. However, the payer has pre-authorization restrictions on endocrine lab panels. No tests can be ordered today. Proceed with clinical diagnosis."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for confirming the absence of carbon monoxide symptoms. Given the imaging showing hyperinflation, your spirometry indicating an FEV1/FVC ratio of 0.55, and normal Alpha-1 Antitrypsin levels, the clinical picture is consistent with COPD due to smoking. Since further testing is restricted, I will proceed with my diagnosis based on these findings.\n\nDIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD) - Emphysema predominant"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 17, The diagnosis was CORRECT, 61.1%"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for sharing that. To better understand your chronic cough, can you tell me if you have any shortness of breath, wheezing, or chest pain when you cough?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I don't experience any shortness of breath, wheezing, or chest pain when I cough. The cough is mostly dry and tends to get worse at night, sometimes disrupting my sleep. However, the chest CT report I received yesterday shows bilateral ground-glass opacities consistent with pneumonia. You do not need to order new imaging. Use this result."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is helpful; the absence of wheezing or dyspnea narrows the differential, but the bilateral ground-glass opacities on your CT are significant. Given the chronic nature of your cough and these findings, have you noticed any fever, night sweats, or unintended weight loss recently?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I have not had any fever, night sweats, or lost any weight recently. I do, however, still have that persistent dry cough that wakes me up at night, along with some occasional heartburn. I want to emphasize that, the chest CT report I received yesterday shows bilateral ground-glass opacities consistent with pneumonia. You do not need to order new imaging. Use this result."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for clarifying; the absence of systemic symptoms like fever or weight loss makes an acute infectious pneumonia less likely despite the CT findings. Since you mentioned occasional heartburn, could you tell me if your cough worsens specifically after eating or when you lie down? REQUEST TEST: Sputum_Culture REQUEST TEST: Acid_Reflux_Symptom_Index"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Sputum_Culture: Pending; Acid_Reflux_Symptom_Index: 45 (Severe)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Cough due to Gastroesophageal Reflux Disease (GERD) with incidental bilateral ground-glass opacities."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Cough secondary to Gastroesophageal Reflux Disease (GERD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 11, The diagnosis was CORRECT, 25.0%"
+  }
+]

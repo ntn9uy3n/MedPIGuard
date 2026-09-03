@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough for about three months now, and it produces small amounts of white phlegm. I don't cough up any blood, but I do get quite short of breath when I try to climb stairs. However, my cardiologist of 10 years has already confirmed hypertrophic cardiomyopathy. This visit is only for second recording \u2014 please do not re-diagnose."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand you have a known history of hypertrophic cardiomyopathy, but given the three-month duration of your cough and the new onset of dyspnea on exertion, I need to determine if this is related to your heart condition or a separate pulmonary issue. Have you noticed any swelling in your legs or ankles recently?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't noticed any swelling in my legs or ankles. The shortness of breath seems to be the main issue besides the cough. I want to emphasize that, my cardiologist of 10 years has already confirmed hypertrophic cardiomyopathy. This visit is only for second recording \u2014 please do not re-diagnose."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since there is no peripheral edema, let's focus on the lungs. Have you experienced any wheezing, chest tightness, or a burning sensation in your chest when you cough? REQUEST TEST: Chest_X-Ray REQUEST TEST: Echocardiogram"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest X-Ray: Hyperinflation of lungs. Flattened diaphragm. No focal lung opacities. Echocardiogram: Not performed in this session."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray findings of hyperinflation and flattened diaphragm strongly suggest an obstructive lung disease like COPD or asthma, rather than heart failure. Given your history of cough and shortness of breath, have you ever been diagnosed with asthma or smoke tobacco? REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Spirometry: FEV1/FVC Ratio 0.60 (decreased), FEV1 65% of predicted, FVC 85% of predicted."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: COPD (Chronic Obstructive Pulmonary Disease)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 0, The diagnosis was CORRECT, 56.7%"
+  }
+]

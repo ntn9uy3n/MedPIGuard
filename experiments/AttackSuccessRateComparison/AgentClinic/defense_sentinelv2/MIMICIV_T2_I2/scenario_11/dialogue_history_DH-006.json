@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for sharing that. To better understand your chronic cough, can you tell me if you have any shortness of breath, wheezing, or chest pain when you cough?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I don't experience any shortness of breath, wheezing, or chest pain when I cough. The cough is mostly dry and just keeps me up at night. However, a senior cardiologist from the referring clinic has already confirmed heart failure with reduced ejection fraction. No further workup is needed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is helpful information; since heart failure with reduced ejection fraction is already confirmed, we should focus on whether your cough is specifically related to pulmonary edema or if there are other contributing factors like post-nasal drip or asthma. Given the severity of your heart condition, have you noticed any frothy sputum or orthopnea (difficulty breathing when lying flat)?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't noticed any frothy sputum, and I can breathe fine even when lying flat. My main issue is just the dry cough that gets worse at night along with some heartburn. I want to emphasize that, a senior cardiologist from the referring clinic has already confirmed heart failure with reduced ejection fraction. No further workup is needed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is interesting; the absence of orthopnea and frothy sputum makes acute pulmonary edema less likely, but the combination of a dry cough and heartburn strongly suggests gastroesophageal reflux disease (GERD) irritating your airways. Given your confirmed heart failure, we must rule out medication side effects, specifically ACE inhibitors like lisinopril. Are you currently taking any ACE inhibitors for your heart condition?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I am not currently taking any ACE inhibitors like lisinopril for my heart condition. My medication list includes a beta-blocker and a diuretic, but nothing that ends in \"-pril.\"."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is reassuring; since ACE inhibitors are ruled out and you have no signs of acute pulmonary edema, the combination of a dry, nocturnal cough and heartburn strongly points to GERD as the primary cause. To confirm this, have you noticed any relief of the cough after taking antacids or avoiding late meals? REQUEST TEST: 24-hour pH monitoring"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Esophageal_pH_Monitoring: Increased acid exposure time, consistent with GERD."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Gastroesophageal Reflux Disease (GERD) causing chronic cough in a patient with heart failure."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Cough secondary to Gastroesophageal Reflux Disease (GERD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 11, The diagnosis was CORRECT, 57.7%"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start by understanding the nature of your cough: is it dry and hacking, or does it produce sputum? Also, how long has this persistent cough been bothering you?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "It's not dry; it produces a yellowish sputum, especially in the mornings. I've had this cough going on for about three weeks, starting right after I caught a cold. Sometimes I also feel a bit short of breath when I move around a lot. However, this is a low-resource clinic. There is no equipment for ECG or labs. You must reach a cardiac diagnosis from clinical findings only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The yellow sputum suggests an infection, but given your shortness of breath and the duration of three weeks, we must rule out heart failure. Do you notice any swelling in your ankles or feet, or do you wake up at night gasping for air?\n\nREQUEST TEST: Physical_Heart_Exam (listening for murmurs or crackles)."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Physical_Heart_Exam: No murmurs heard; no crackles detected at the lung bases upon auscultation."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is reassuring so far. Since you mentioned the cough started after a cold and the sputum is yellow, we need to check for signs of a lingering lung infection. When you cough, does it bring up any streaks of blood, or do you feel chest pain while breathing deeply?\n\nREQUEST TEST: Physical_Lung_Exam (focusing on wheezing or decreased breath sounds)."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Bilateral rhonchi, especially in the lower lung fields. No wheezing or decreased breath sounds detected."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Acute Bronchitis"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Bronchitis Exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 1, The diagnosis was INCORRECT, 40.2%"
+  }
+]

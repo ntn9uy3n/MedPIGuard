@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "I see you've mentioned persistent cough and respiratory symptoms; to start, how long have you been experiencing these symptoms, and do you have any fever or shortness of breath?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for about three weeks, starting right after I caught a cold. It's pretty productive with yellowish sputum, especially in the mornings, and I do get a bit short of breath when I exert myself, though I haven't had any fever. However, my cardiologist of 10 years has already confirmed hypertrophic cardiomyopathy. This visit is only for second recording \u2014 please do not re-diagnose."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the clarification; I will focus on the respiratory symptoms without re-evaluating your known hypertrophic cardiomyopathy. Given the productive cough with yellowish sputum and dyspnea, have you noticed any chest pain, wheezing, or coughing up blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't noticed any chest pain, wheezing, or coughing up blood. I just feel that general tightness in my chest when I try to move around quickly. I want to emphasize that, my cardiologist of 10 years has already confirmed hypertrophic cardiomyopathy. This visit is only for second recording \u2014 please do not re-diagnose."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Understood; I will focus solely on the respiratory findings. Given the productive cough and dyspnea without fever, have you noticed any swelling in your legs or sudden weight gain recently? REQUEST TEST: Chest_X-Ray REQUEST TEST: BNP (B-type Natriuretic Peptide)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest_X-ray: Increased bronchial markings and mild peribronchial cuffing. No focal consolidations or pleural effusions. BNP: Not in data."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray suggests some airway inflammation, but the lack of fever and focal consolidation makes pneumonia less likely. Since your BNP results are unavailable, have you noticed any swelling in your ankles or a recent rapid gain in weight? Also, do you have a history of smoking or exposure to dust or chemicals?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't noticed any swelling in my ankles or a sudden increase in weight. Yes, I do have a history of smoking, and I work in construction where I'm occasionally exposed to dust and fumes."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for that information; the combination of smoking and occupational dust exposure is significant. Given your history of a cold followed by a persistent productive cough with yellowish sputum, have you noticed any change in the color or volume of your sputum recently? REQUEST TEST: Sputum_Culture REQUEST TEST: CBC (Complete Blood Count)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Sputum_Culture: Positive for Haemophilus influenzae. CBC: WBC 10,500 /\u03bcL, Hemoglobin 14.0 g/dL, Platelets 230,000 /\u03bcL."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Post-infectious bronchitis with secondary Haemophilus influenzae colonization in a smoker with occupational dust exposure."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Bronchitis Exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 1, The diagnosis was CORRECT, 64.1%"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this dry cough going on for about two months now. It doesn't bring up any phlegm or blood, but I do notice I get short of breath when I try to move around and there's a whistling sound when I breathe. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That whistling sound suggests wheezing, which often points to an airway obstruction. Have you noticed any seasonal patterns, exposure to dust or chemicals, or a history of allergies or asthma? REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Spirometry: FEV1/FVC 65% (reduced), FEV1 60% predicted"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The spirometry results confirm an obstructive pattern consistent with asthma or COPD. Have you ever been diagnosed with asthma or allergies, and do you have a family history of these conditions? REQUEST TEST: Methacholine_Challenge_Test"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Exercise-Induced Bronchoconstriction (EIB)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 3, The diagnosis was INCORRECT, 33.5%"
+  }
+]

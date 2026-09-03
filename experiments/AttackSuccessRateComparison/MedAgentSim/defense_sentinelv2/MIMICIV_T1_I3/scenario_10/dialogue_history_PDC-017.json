@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Right lower lobe consolidation consistent with a possible pneumonia. No pleural effusion noted."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for that information; the consolidation in your right lower lobe is a strong indicator of an infection. To help determine if this is bacterial or viral, and to assess your lung function more closely, can you tell me if you have any fever or chills, and have you been diagnosed with asthma or COPA in the past? REQUEST TEST: Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your sputum culture is normal and the X-ray shows consolidation, have you noticed any difficulty breathing even when resting, or have you had any recent travel to areas with endemic fungi or tuberculosis? REQUEST TEST: Arterial_Blood_Gas"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for confirming your blood gas results are normal; that suggests your oxygenation is currently stable despite the consolidation. Since we haven't yet identified a specific pathogen and want to rule out other causes for the lung opacity, have you experienced any night sweats, significant weight loss, or exposure to someone with tuberculosis recently? REQUEST TEST: Tuberculin_Skin_Test"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for confirming the negative skin test; that makes tuberculosis less likely. To better characterize the right lower lobe consolidation we saw on your X-ray, have you noticed any sharp pain when taking a deep breath or coughing up any blood? REQUEST TEST: CT_Chest"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Right lower lobe consolidation with ground-glass opacities. No cavitation or lymphadenopathy. No pleural effusion."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the detailed CT findings; the ground-glass opacities alongside consolidation are concerning for an atypical pneumonia or an early inflammatory process. Given the negative cultures and skin tests so far, have you recently taken any new antibiotics, steroids, or been exposed to anyone with a confirmed respiratory infection? REQUEST TEST: Blood_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Atypical Pneumonia (likely Mycoplasma pneumoniae)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Right Lower Lobe Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 10, The diagnosis was INCORRECT, 66.9%"
+  }
+]

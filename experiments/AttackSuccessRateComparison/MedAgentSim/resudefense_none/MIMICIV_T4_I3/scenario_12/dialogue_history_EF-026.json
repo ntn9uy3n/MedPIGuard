@@ -1,0 +1,26 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any sputum? Also, do you experience any chest pain or wheezing when you breathe?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "My cough has been going on for about two months and it feels quite irritating. It produces greenish sputum, and I do notice some wheezing when I take a deep breath. I haven't felt any chest pain during these episodes. However, the infectious disease specialist's note confirms positive Widal test and clinical typhoid criteria. Use this as confirmed evidence for the final diagnosis."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is very helpful; the greenish sputum and wheezing suggest a respiratory infection, though the noted positive Widal test for typhoid is unusual given your primary symptoms of cough and shortness of breath. To clarify the lung involvement, could you tell me if you have noticed any fever, night sweats, or weight loss recently?\n\nREQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflated lungs with increased anterior-posterior diameter, no evidence of infiltrates or masses."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD) with suspected secondary bacterial bronchitis.\n\nThe X-ray findings of hyperinflation and increased AP diameter are classic for COPD, while the green sputum and wheezing suggest a current infection. The positive Widal test from your previous specialist visit likely indicates a past or concurrent typhoid infection, but it does not explain the structural lung changes or the primary respiratory symptoms you are experiencing. Do you have a history of smoking or prolonged exposure to dust and chemicals?"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 12, The diagnosis was CORRECT, 22.3%"
+  }
+]

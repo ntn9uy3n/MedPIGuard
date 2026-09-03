@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Right lower lobe consolidation consistent with a possible pneumonia. No pleural effusion noted."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; the consolidation in your right lower lobe strongly suggests pneumonia. To determine if there is any bacterial infection requiring antibiotics, do you have a known history of allergies or asthma? REQUEST TEST: Complete_Blood_Count"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: WBC: 8,500 /\u03bcL, Hemoglobin: 14.0 g/dL, Platelets: 210,000 /\u03bcL"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The white blood cell count is normal, which is interesting given the lung consolidation. Have you had any high fevers, night sweats, or unintended weight loss recently? REQUEST TEST: Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a very helpful update; the normal white blood cell count and sputum culture make a severe bacterial pneumonia less likely. Given the consolidation seen on your chest X-ray, could you tell me if you have had any recent exposure to someone with a fever or cough? REQUEST TEST: Urinalysis"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your urine test is also normal and your white blood cell count isn't elevated, this picture is quite unusual for typical bacterial pneumonia. Have you recently traveled, been in a hospital, or had any contact with reptiles or amphibians? REQUEST TEST: Blood_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is good news; your blood cultures are also negative. Given the lung consolidation but normal inflammatory markers, have you been experiencing any night sweats, weight loss, or a low-grade fever that doesn't respond to typical antibiotics? REQUEST TEST: Acid_Fast_Bacilli_Stain"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the acid-fast bacilli stain is negative and your inflammatory markers remain normal despite the lung consolidation, could you tell me if you have ever smoked or have a history of chronic obstructive pulmonary disease (COPD)? REQUEST TEST: CT_Chest"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The CT scan shows no abnormalities, which is puzzling given the initial X-ray findings. Did you experience any shortness of breath or cough immediately after exercising or climbing stairs? REQUEST TEST: Bronchoscopy"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Spurious Right Lower Lobe Pneumonia (Pseudopneumonia) due to patient holding breath or positioning during initial X-ray, confirmed by normal CT scan and all negative infectious workup."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Right Lower Lobe Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 10, The diagnosis was INCORRECT, 40.8%"
+  }
+]

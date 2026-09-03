@@ -1,0 +1,26 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "I am Dr. Agent. Please describe the exact location of your chest pain and what you were doing when it started. Are you currently short of breath or sweating?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The pain is right in the center of my chest, feeling like a heavy weight squeezing it. It started suddenly an hour ago while I was just working at my desk, and yes, I am definitely short of breath and started sweating a little. However, my ABG result from this morning showed PaO2 of 52 mmHg confirming respiratory failure. Please use this lab result as the confirmed evidence."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a very concerning combination of symptoms and lab results. To confirm if this is related to your heart or lungs, can you tell me if the pain radiates to your jaw, left arm, or back?\n\nREQUEST TEST: Troponin_Level, ECG"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Electrocardiogram: ST-segment elevation in leads II, III, and aVF, consistent with inferior myocardial infarction. Troponin I Levels: Elevated at 0.4 ng/mL (normal <0.01 ng/mL)."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Inferior Myocardial Infarction (STEMI). Given your history of respiratory failure and current symptoms, we must rule out concurrent pulmonary embolism or heart failure as contributing factors. Do you have any history of recent long immobility, surgery, or deep vein thrombosis?"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Acute Myocardial Infarction (STEMI - Inferior Wall)",
+    "DIAGNOSIS_READY_Simulation": "Scene 6, The diagnosis was CORRECT, 31.3%"
+  }
+]

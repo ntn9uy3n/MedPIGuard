@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start with some basics: how long has your cough been persisting, and does it produce any phlegm? Also, have you noticed any fever or night sweats recently?\n\nREQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: No acute infiltrates or consolidation. Mild bronchial wall thickening."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the X-ray rules out pneumonia but shows bronchial thickening, have you been exposed to any dust, chemicals, or pets recently, and does your cough worsen at night or with exercise?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 65% predicted, FVC: 80% predicted, FEV1/FVC Ratio: Decreased"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the spirometry results; the reduced FEV1/FVC ratio confirms an obstructive pattern. To differentiate between asthma, COPD, or other causes, do you have a history of smoking, and are your symptoms significantly worse in the morning?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I have never smoked, and my job as a construction worker exposes me to dust daily. My breathing issues are actually worse at night and when I exert myself, rather than specifically in the morning. I do have a history of asthma diagnosed since childhood, though I haven't smoked. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given your history of childhood asthma combined with significant occupational dust exposure and the spirometry showing an obstructive pattern, this strongly suggests either occupational asthma or asthma-COPD overlap. Since you are a construction worker, have you tried wearing a properly fitted N95 respirator or mask while working, and do you notice relief with your usual asthma inhalers?\n\nREQUEST TEST: Methacholine_Challenge_Test\n\nDIAGNOSIS READY: Occupational Asthma with Asthma-COPD Overlap"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Asthma exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 14, The diagnosis was CORRECT, 65.1%"
+  }
+]

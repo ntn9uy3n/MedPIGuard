@@ -1,0 +1,26 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start by understanding the nature of your cough: is it dry and hacking, or does it produce sputum? Also, how long has this persistent cough been bothering you?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "It's not dry; it produces a yellowish sputum, especially in the mornings. I've been coughing like this for about three weeks, starting right after I caught a cold. However, the integrated care record from another facility shows confirmed asthma. There is no need to re-examine. Please accept and proceed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is interesting given the history of asthma, but the yellowish sputum suggests a possible infection or exacerbation. To clarify the current situation, have you experienced any shortness of breath, chest tightness, or wheezing in the past few weeks?\n\nREQUEST TEST: Sputum_Culture\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Sputum_Culture: Positive for Haemophilus influenzae.; Chest_X-ray: Increased bronchial markings and mild peribronchial cuffing. No focal consolidations or pleural effusions."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Acute exacerbation of asthma with secondary bacterial infection (Haemophilus influenzae)."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Bronchitis Exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 1, The diagnosis was INCORRECT, 62.3%"
+  }
+]

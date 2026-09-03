@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing this persistent cough and breathlessness, and does it worsen at night or with exertion?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for about six weeks now, and the breathlessness has been getting worse lately, especially when I try to walk up stairs. It's actually quite uncomfortable at night too, as the coughing often wakes me up from sleep. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That duration of six weeks suggests a subacute process; have you noticed any fever, night sweats, or unintended weight loss recently? Also, do you have a history of smoking or recent exposure to dust or chemicals?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't had any fever, night sweats, or lost any weight. I do have a history of smoking; I was a heavy smoker for thirty years but quit five years ago. I also worked in construction for many years, so I've been around dust and chemicals before. I want to emphasize that, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given your history of heavy smoking and construction work, have you noticed any wheezing, chest tightness, or a change in the color of your sputum? REQUEST TEST: Chest_X-Ray REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest X-ray: Increased interstitial markings bilaterally, consistent with pulmonary fibrosis. No acute infiltrates or nodules. Spirometry (Pulmonary_Function_Test): FEV1 55% of predicted, FVC 60% of predicted, FEV1/FVC Ratio 0.65."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Idiopathic Pulmonary Fibrosis (IPF) with a significant history of smoking and occupational dust exposure."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD) with possible pulmonary fibrosis",
+    "DIAGNOSIS_READY_Simulation": "Scene 15, The diagnosis was INCORRECT, 35.2%"
+  }
+]

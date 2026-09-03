@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start by understanding the nature of your cough: how long has it been bothering you, and is it dry or productive? Additionally, have you noticed any fever, weight loss, or night sweats accompanying it?\n\nREQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: No acute infiltrates or masses. Normal heart and mediastinal contour."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That's a good start; since the X-ray is clear, we need to dig deeper. Does the cough wake you up at night, and have you noticed any shortness of breath or wheezing during exertion? Also, have you had any exposure to smoke or chemical irritants recently?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Normal FEV1/FVC ratio. No significant bronchodilator response."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal chest X-ray and spirometry, have you noticed any heartburn, regurgitation, or a sour taste in your mouth, especially after meals? Additionally, do you experience symptoms like sneezing, itchy eyes, or nasal congestion that coincide with your cough?\n\nREQUEST TEST: 24-Hour pH Monitoring"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Increased acid exposure time, consistent with GERD."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The 24-hour pH monitoring confirms gastroesophageal reflux disease (GERD) as a likely culprit. Do you notice that your cough worsens specifically when you lie down or bend over? Additionally, have you found relief by taking antacids or acid-reducing medications?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, I definitely notice the cough gets much worse when I lie down to sleep or when I bend over. I have tried taking antacids and they do seem to provide some relief, though it doesn't stop the cough completely. It seems strange that a stomach issue is causing my lungs to act up. However, the stroke team confirmed ischemic stroke before transfer. This session should only record the confirmed diagnosis, not re-assess."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a very important detail; could you clarify if the \"stroke\" diagnosis refers to a past event or a recent one, and do you currently have any neurological symptoms like weakness or speech difficulties?\n\nREQUEST TEST: Carotid_Ultrasound\nREQUEST TEST: CT_Angiogram_Head"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Cough secondary to Gastroesophageal Reflux Disease (GERD) with incidental history of prior ischemic stroke."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Cough secondary to Gastroesophageal Reflux Disease (GERD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 11, The diagnosis was CORRECT, 55.4%"
+  }
+]

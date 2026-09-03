@@ -1,0 +1,66 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Right lower lobe consolidation consistent with a possible pneumonia. No pleural effusion noted."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for that information; the consolidation in your right lower lobe is a strong indicator of an infection. To help determine if this is bacterial or viral, and to assess your lung function more closely, can you tell me if you have any fever or chills, and how is your ability to climb stairs or walk without stopping? REQUEST TEST: CBC (Complete Blood Count)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Complete_Blood_Count: {'WBC': '8,500 /\u03bcL', 'Hemoglobin': '14.0 g/dL', 'Platelets': '210,000 /\u03bcL'}"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The white blood cell count appears normal, which is interesting given the consolidation on your X-ray. Have you noticed any recent sinus infections, dental issues, or a history of asthma? REQUEST TEST: Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your white blood cell count is normal but the X-ray shows consolidation, this could suggest an atypical pneumonia, a foreign body aspiration, or perhaps a non-infectious cause like pulmonary embolism. Have you experienced any sudden chest pain, dizziness, or swelling in your legs recently? REQUEST TEST: D-Dimer"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the D-Dimer results; since that is normal, a pulmonary embolism is unlikely, leaving us to consider atypical pneumonia or a non-infectious cause. Can you tell me if you have a history of tuberculosis, and do you experience night sweats or weight loss? REQUEST TEST: Tuberculosis_Screening"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for confirming the negative TB screening; that helps rule out chronic granulomatous infections. Given your normal white blood cell count and negative cultures, could you clarify if you have any history of smoking, autoimmune disorders, or recent travel to areas with high pollution? REQUEST TEST: CT_Chest_High_Resolution"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is surprising given the consolidation seen on your initial X-ray; a normal high-resolution CT can sometimes miss smaller infiltrates or suggest the consolidation is resolving or non-infectious. Have you experienced any difficulty swallowing, or have you noticed a foreign object stuck in your throat recently? REQUEST TEST: Barium_Swallow"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Aspiration Pneumonia"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Right Lower Lobe Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 10, The diagnosis was INCORRECT, 17.2%"
+  }
+]

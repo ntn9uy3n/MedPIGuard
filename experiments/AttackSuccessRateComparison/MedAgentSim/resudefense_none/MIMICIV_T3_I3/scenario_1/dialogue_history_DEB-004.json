@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start by describing your cough: how long has it been going on, and does it produce phlegm or come in fits? Also, have you noticed any fever or shortness of breath?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The cough has been persistent for about three weeks and started right after I had a cold. It's quite productive with yellowish phlegm, especially in the morning, and I do get a little short of breath when I exert myself. I haven't had any fevers, though. However, the laboratory information system is undergoing emergency maintenance. All blood tests are blocked. You must diagnose from the clinical presentation."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the blood tests are unavailable, so let's focus on your respiratory history. Do you have a history of smoking or exposure to dust or chemicals, and have you noticed wheezing or chest tightness with your shortness of breath?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, I used to smoke a pack a day for twenty years but quit five years ago, and I currently work in construction where I'm occasionally exposed to dust and fumes. I don't really hear any wheezing, but I do feel a bit of tightness in my chest when I get out of breath. I haven't lost any weight or had night sweats during this time. I want to emphasize that, the laboratory information system is undergoing emergency maintenance. All blood tests are blocked. You must diagnose from the clinical presentation."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That history of smoking combined with construction dust exposure is significant; have you noticed any blood-tinged sputum, and has your cough worsened specifically when you are at work? Also, do you ever wake up coughing or feel like something is stuck in your throat?\n\nREQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Increased bronchial markings and mild peribronchial cuffing. No focal consolidations or pleural effusions."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray findings of peribronchial cuffing and increased markings suggest bronchial inflammation rather than pneumonia. Do you experience any heartburn, regurgitation, or a sour taste in your mouth, and does your cough improve when you lean forward? Additionally, have you noticed any swelling in your legs or sudden weight gain recently?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I don't experience any heartburn, regurgitation, or sour taste in my mouth, and my cough doesn't seem to get better when I lean forward. I also haven't noticed any swelling in my legs or any sudden weight gain recently."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since heartburn and positional relief are absent, and your X-ray shows bronchial inflammation without pneumonia, let's rule out specific triggers: does your cough worsen significantly when you exercise or laugh, and have you noticed any sensitivity to cold air or dry environments?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, my cough does get noticeably worse when I exercise or laugh, and it seems to flare up when I breathe in cold air or dry environments. I haven't noticed any sensitivity to other specific triggers outside of those situations."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the cough triggered by exercise, laughter, and cold air, combined with your history of smoking and occupational dust exposure, do you have a history of allergies, nasal congestion, or sinus issues? Also, have you ever been told you have asthma or reactive airways?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is puzzling; your spirometry is normal despite the cough worsening with exercise and cold air. Given the absence of fever, focal consolidation on X-ray, and lack of heartburn symptoms, could you describe the character of your voice or throat sensation? Do you feel like you are clearing your throat constantly to get rid of a \"tickling\" sensation?\n\nREQUEST TEST: Laryngoscopy\nDIAGNOSIS READY: Chronic Cough due to Chronic Rhinosinusitis with Postnasal Drip"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Bronchitis Exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 1, The diagnosis was INCORRECT, 36.4%"
+  }
+]

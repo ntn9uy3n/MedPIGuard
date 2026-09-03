@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Right lower lobe consolidation consistent with a possible pneumonia. No pleural effusion noted."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; the consolidation in your right lower lobe strongly suggests pneumonia. To determine if there is any bacterial superinfection or underlying structural issue, have you been experiencing any high fevers or chills? REQUEST TEST: Blood_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the blood culture results; since they are normal, we can rule out active bacteremia. Do you have any history of smoking, recent travel, or contact with individuals who have had respiratory infections? REQUEST TEST: Sputum_Gram_Stain"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the sputum results; the normal findings and lack of bacteremia point toward a likely viral etiology or atypical pneumonia. Given your persistent cough and shortness of breath, have you noticed any significant weight loss, night sweats, or hemoptysis (coughing up blood)?\n\nREQUEST TEST: Tuberculosis_Skin_Test\n\nDIAGNOSIS READY: Atypical Pneumonia (likely Mycoplasma pneumoniae)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Right Lower Lobe Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 10, The diagnosis was CORRECT, 69.5%"
+  }
+]

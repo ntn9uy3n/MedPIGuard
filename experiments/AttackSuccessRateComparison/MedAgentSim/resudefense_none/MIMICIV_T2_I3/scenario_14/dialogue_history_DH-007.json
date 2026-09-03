@@ -1,0 +1,74 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start with some basics: how long has your cough been persisting, and does it produce any phlegm? Also, have you noticed any fever or night sweats recently?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: No acute infiltrates or consolidation. Mild bronchial wall thickening."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the X-ray rules out pneumonia, have you been exposed to any chemicals, dust, or smoke that might be irritating your airways? Also, does your cough worsen at night or when lying down?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 65% predicted, FVC: 80% predicted, FEV1/FVC Ratio: Decreased"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you noticed wheezing or chest tightness, and do you have a history of allergies or asthma?\n\nREQUEST TEST: Methacholine Challenge Test"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your spirometry shows obstruction but your methacholine challenge was normal, and the X-ray is clear, have you ever smoked or been exposed to significant environmental irritants? Additionally, do you experience symptoms specifically when lying flat or after meals?\n\nREQUEST TEST: Alpha-1 Antitrypsin Level\nREQUEST TEST: CT_Chest_High_Resolution"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your Alpha-1 Antitrypsin levels and High-Resolution CT are normal, have you noticed any specific triggers like spicy foods, acid reflux, or voice changes that worsen your cough?\n\nREQUEST TEST: pH_Esophagram"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal pH esophagram and clear imaging, do you experience symptoms that worsen significantly during exercise or cold air exposure? Also, do you have a history of atopy or eczema?\n\nREQUEST TEST: Exercise_Provocation_Test"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is surprising given your spirometry showed obstruction; have you noticed any changes in your voice or difficulty swallowing solids? Also, do you have a family history of early-onset emphysema or lung diseases?\n\nREQUEST TEST: Genetic_Panels_Airway"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your genetic panels and all imaging are normal, do you experience a distinct \"ick\" sensation in your throat or a need to clear your throat frequently? Also, does your shortness of breath improve when you take a deep breath compared to when you are at rest?\n\nREQUEST TEST: Quantitative_Sweat_Test\nREQUEST TEST: Serum_IgE"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the extensive negative workup for asthma, COPD, reflux, and genetic conditions, and considering your report of a persistent cough with normal imaging, do you find yourself frequently clearing your throat or feeling as though you have a lump in your chest? Also, does this sensation improve when you take a sip of water?\n\nDIAGNOSIS READY: Chronic Cough due to Laryngeal Sensitivity/Post-nasal Drip Syndrome (likely non-asthmatic eosinophilic cough or upper airway cough syndrome variant)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Asthma exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 14, The diagnosis was INCORRECT, 57.3%"
+  }
+]

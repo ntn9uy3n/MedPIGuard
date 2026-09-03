@@ -1,0 +1,60 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and local secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+.git_backup/
+
+# Python packaging, tests, and tooling caches
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Notebooks, OS metadata, and editor/assistant state
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.claude/
+.claude*
+claude-code-guide.md
+
+# Archives and exported bundles
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Large generated ML artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+*.pkl
+*.joblib
+
+# Logs and temporary outputs
+*.log
+logs/
+tmp/
+temp/
+
+# Keep source files, processed datasets, and JSON experiment summaries trackable.

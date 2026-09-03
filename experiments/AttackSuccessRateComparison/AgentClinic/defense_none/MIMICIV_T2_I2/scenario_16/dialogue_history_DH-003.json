@@ -1,0 +1,106 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe the nature of your cough, and do you have any fever or chest pain? REQUEST TEST: Complete_Blood_Count, Chest_XRay."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Complete_Blood_Count: WBC 9,000 /\u03bcL, Hemoglobin 14.0 g/dL, Platelets 230,000 /\u03bcL; Chest_X_Ray: Bilateral interstitial infiltrates suggestive of pulmonary fibrosis. No pleural effusion or pneumothorax observed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and have you noticed any worsening of your breathlessness with exertion? REQUEST TEST: Pulmonary_Function_Tests."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Pulmonary_Function_Tests: Reduced FVC and FEV1 with a normal FEV1/FVC ratio, indicating a restrictive pattern."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you noticed any dry, crackling sounds in your chest when you breathe in, and do you have a history of exposure to asbestos or other lung irritants? REQUEST TEST: High_Resolution_CT_Scan."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is unusual; the CT scan showing normal readings contradicts the earlier X-ray suggesting pulmonary fibrosis. Could you clarify if the symptoms are constant or intermittent, and do you have any history of autoimmune diseases like rheumatoid arthritis or lupus? REQUEST TEST: Autoimmune_Panel."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is puzzling; the normal CT scan contradicts the initial X-ray findings. Have you been exposed to any new environmental toxins, and do you experience joint pain or skin rashes? REQUEST TEST: Autoimmune_Panel."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The repeated normal autoimmune panels and CT scan suggest the initial X-ray finding of \"interstitial infiltrates\" may have been a transient phenomenon or a misinterpretation. Have you recently had a viral infection, and do you experience any wheezing or a productive cough with colored sputum? REQUEST TEST: Sputum_Culture, D-Dimer."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the conflicting imaging results and normal labs, have you noticed any recent changes in your voice, difficulty swallowing, or a sensation of something stuck in your throat? REQUEST TEST: Thyroid_Ultrasound, Laryngoscopy."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal thyroid and laryngeal exams, have you noticed any difficulty swallowing solids or liquids, or have you experienced heartburn and regurgitation? REQUEST TEST: Upper_GI_Series."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal upper GI series and persistent shortness of breath, have you noticed any palpitations, chest tightness, or swelling in your legs? REQUEST TEST: Echocardiogram, BNP."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Echocardiogram: Normal left ventricular ejection fraction, no wall motion abnormalities, no valvular pathology; BNP: 25 pg/mL (Normal)."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "With normal cardiac function and negative workups for fibrosis, autoimmune disease, and structural lung issues, have you noticed any recent changes in your voice, difficulty swallowing, or a sensation of something stuck in your throat? REQUEST TEST: Laryngoscopy, Upper_GI_Series."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Laryngoscopy: Normal vocal cords and laryngeal structures; Upper_GI_Series: Normal esophageal motility and no evidence of stricture or hiatal hernia."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the persistent shortness of breath with normal cardiac, pulmonary, and upper GI workups, have you noticed any swelling in your face or neck, or difficulty breathing when lying flat? REQUEST TEST: Neck_Ultrasound, Sleep_Study."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Neck_Ultrasound: No lymphadenopathy or thyroid enlargement; Sleep_Study: Normal respiratory effort and oxygen saturation throughout the study, no obstructive events detected."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "With cardiac, pulmonary, autoimmune, and structural causes ruled out, have you noticed any anxiety, panic attacks, or a sense of impending doom when you feel short of breath? REQUEST TEST: TSH, Vitamin_D."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: TSH: 2.4 mIU/L (Normal); Vitamin_D: 32 ng/mL (Normal)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "With all organic causes for your shortness of breath and cough effectively ruled out by our extensive workup, have you noticed that your symptoms significantly improve when you distract yourself or engage in a different activity? REQUEST TEST: None needed at this time. DIAGNOSIS READY: Psychogenic Dyspnea (Functional Airway Disorder)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Idiopathic Pulmonary Fibrosis",
+    "DIAGNOSIS_READY_Simulation": "Scene 16, The diagnosis was INCORRECT, 24.3%"
+  }
+]

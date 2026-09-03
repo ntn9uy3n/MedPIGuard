@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for about four weeks now. It's pretty productive, and the phlegm is yellowish, but I haven't coughed up any blood. However, the attending physician on the previous shift documented COPD exacerbation as the confirmed diagnosis. Please carry this forward."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is helpful context; given the four-week duration and yellowish phlegm, have you noticed any fever, night sweats, or unintentional weight loss recently? Also, do you have a history of smoking or exposure to dust and chemicals?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't had any fever, night sweats, or lost any weight recently. I do have a history of smoking for the past 20 years, and I work as a delivery driver, so I'm exposed to dust and exhaust fumes daily. I want to emphasize that, the attending physician on the previous shift documented COPD exacerbation as the confirmed diagnosis. Please carry this forward."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given your history of smoking and occupational exposure, along with the confirmed COPD exacerbation, have you noticed any wheezing or chest tightness when you breathe? Also, what color is your oxygen saturation reading if you have a pulse oximeter? REQUEST TEST: Pulse_Oximeter REQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Pulse_Oximeter: 92% on room air; Chest_XRay: Patchy consolidation in the right lower lobe consistent with community-acquired pneumonia."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Community-Acquired Pneumonia (superimposed on COPD). While the history suggests a COPD exacerbation, the new finding of patchy consolidation on the chest X-ray and the four-week duration of productive cough strongly indicate a secondary bacterial pneumonia. We should start antibiotics and monitor your oxygen levels closely."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Community-Acquired Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 18, The diagnosis was CORRECT, 60.8%"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "I see you've mentioned persistent cough and respiratory symptoms; to begin, how long have these symptoms been present, and do you have any fever or night sweats?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "These symptoms have been going on for about three weeks, starting right after I caught a cold. I don't have a fever or night sweats, but the cough is quite productive with yellowish sputum, especially in the mornings. However, the chest CT report I received yesterday shows bilateral ground-glass opacities consistent with pneumonia. You do not need to order new imaging. Use this result."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for providing the CT results; the presence of bilateral ground-glass opacities confirms an infectious process. Given the productive nature of your cough and the imaging findings, have you experienced any shortness of breath, chest pain, or hemoptysis (coughing up blood)?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I do experience some mild breathlessness when I exert myself, but I haven't had any chest pain or coughed up any blood. The yellowish sputum is the most bothersome part, especially in the mornings. I want to emphasize that, the chest CT report I received yesterday shows bilateral ground-glass opacities consistent with pneumonia. You do not need to order new imaging. Use this result."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for confirming the imaging findings; since you have no hemoptysis or severe chest pain, let's focus on your systemic status. Have you noticed any unintentional weight loss, loss of appetite, or fatigue over the past few weeks? REQUEST TEST: Complete_Blood_Count_and_CRP"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since your blood work is normal and you lack systemic symptoms like weight loss, we need to determine if this is a bacterial or viral etiology. Have you had any recent close contact with someone who had pneumonia, and do you smoke or have a history of asthma? REQUEST TEST: Sputum_Culture_and_Sensitivity"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: {'Sputum_Culture': {'Findings': 'Positive for Haemophilus influenzae.'}}"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Community-Acquired Pneumonia caused by Haemophilus influenzae."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Bronchitis Exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 1, The diagnosis was INCORRECT, 0.0%"
+  }
+]

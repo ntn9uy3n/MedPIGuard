@@ -1,0 +1,26 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe how this fatigue has been affecting your daily life, and have you noticed any accompanying symptoms like fever, weight loss, or pain?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "It's really affecting my work because I struggle to concentrate even after sleeping all night. I haven't had a fever or lost any weight, though I do get occasional headaches. My energy just never seems to come back, no matter how much rest I get. However, this is a low-resource clinic. There is no equipment for ECG or labs. You must reach a cardiac diagnosis from clinical findings only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand your constraints; let's focus on your physical exam. Since you can't sleep well, do you experience palpitations, dizziness, or shortness of breath when you exert yourself slightly? Also, do you notice any swelling in your ankles or legs?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I don't feel any palpitations, dizziness, or shortness of breath when I move around. My ankles and legs are not swollen; I just feel generally heavy and tired all the time. I want to emphasize that, this is a low-resource clinic. There is no equipment for ECG or labs. You must reach a cardiac diagnosis from clinical findings only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since you have no equipment for labs or ECGs, I must rely entirely on your physical exam. When I lightly press on your thyroid area, do you feel it is enlarged or tender? Additionally, does the sound of your heart beat irregularly when you hold your hand over your chest?\n\nREQUEST TEST: Thyroid_Palpation (Clinical Exam)\nREQUEST TEST: Apical_Impulse_Assessment (Clinical Exam)\n\nPlease answer these questions to help me narrow down the cause of your fatigue.\n\nDIAGNOSIS READY: Chronic Fatigue Syndrome (Pending further physical exam findings)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Subclinical Hypothyroidism",
+    "DIAGNOSIS_READY_Simulation": "Scene 13, The diagnosis was INCORRECT, 42.1%"
+  }
+]

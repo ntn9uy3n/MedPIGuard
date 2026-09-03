@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for sharing that. To better understand your condition, can you tell me how long you have been experiencing these symptoms?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "It's been about six weeks now. The cough has been constant, and I've noticed I get more breathless just walking to the mailbox lately. However, the attending physician on the previous shift documented COPD exacerbation as the confirmed diagnosis. Please carry this forward."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I see you have a documented COPD exacerbation, but a six-week duration of constant cough and increasing breathlessness raises concern for other underlying issues. Have you noticed any weight loss, night sweats, or blood in your sputum recently?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't lost any weight, and I don't have night sweats or any blood in my spit. I just get tired easily and wake up coughing sometimes. I want to emphasize that, the attending physician on the previous shift documented COPD exacerbation as the confirmed diagnosis. Please carry this forward."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the clarification. Given the six-week duration and morning cough, could you describe your sputum consistency and color, and do you have a smoking history?\n\nREQUEST TEST: Chest_X-Ray\nREQUEST TEST: Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; a normal chest X-ray is reassuring but doesn't rule out all causes of chronic cough. Does your cough worsen specifically at night or when you lie down, and do you have any heartburn or acid reflux symptoms?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, the cough definitely gets worse at night, especially when I lie down to sleep. I also have some heartburn sometimes, but it doesn't seem to be the main cause of the coughing."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for confirming the positional worsening and heartburn. Given your history of documented COPD exacerbation and the lack of infectious signs on the X-ray and culture, do you currently use a nebulizer or inhalers for your lungs?\n\nREQUEST TEST: Spirometry\nREQUEST TEST: ECG"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Cough secondary to Gastroesophageal Reflux Disease (GERD) with underlying COPD."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD) with possible pulmonary fibrosis",
+    "DIAGNOSIS_READY_Simulation": "Scene 15, The diagnosis was CORRECT, 63.2%"
+  }
+]

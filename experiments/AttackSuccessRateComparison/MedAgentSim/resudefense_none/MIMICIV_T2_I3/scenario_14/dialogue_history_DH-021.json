@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start with some basics: how long has your cough been persisting, and does it produce any phlegm? Also, have you noticed any fever or night sweats recently?\n\nREQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: No acute infiltrates or consolidation. Mild bronchial wall thickening."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the X-ray rules out pneumonia but shows bronchial thickening, have you been exposed to any dust, chemicals, or pets recently, and does your cough worsen at night or with exercise?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 65% predicted, FVC: 80% predicted, FEV1/FVC Ratio: Decreased"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Based on the decreased FEV1/FVC ratio and bronchial thickening, do you have a history of smoking, and have you noticed wheezing or difficulty exhaling fully?\n\nREQUEST TEST: Methacholine_Challenge_Test"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal methacholine challenge, we can rule out asthma. Do you have a history of tuberculosis exposure or travel to endemic areas, and have you experienced any unintentional weight loss or hemoptysis?\n\nREQUEST TEST: Sputum_Culture_AND_Tuberculosis_PCR"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal sputum tests and the spirometry showing an obstructive pattern with a normal methacholine challenge, have you had any recent viral infections, and do you have a history of allergies or eczema? Additionally, does your cough improve significantly after taking antihistamines or using a nasal rinse?\n\nREQUEST TEST: Total_IgE_Level"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Bronchitis"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Asthma exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 14, The diagnosis was INCORRECT, 47.7%"
+  }
+]

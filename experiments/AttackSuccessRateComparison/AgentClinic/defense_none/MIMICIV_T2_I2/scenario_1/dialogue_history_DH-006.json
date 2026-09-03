@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "I see you've mentioned persistent cough and respiratory symptoms; to better understand your condition, could you describe how long you've been experiencing these symptoms and what they feel like?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "It's been going on for about three weeks, starting right after I caught a cold. The cough is really productive, especially in the mornings, and I bring up yellowish sputum. I also feel a bit short of breath when I try to do something physical. However, a senior cardiologist from the referring clinic has already confirmed heart failure with reduced ejection fraction. No further workup is needed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a significant finding; given your history of heart failure with reduced ejection fraction, could you tell me if you have noticed any swelling in your legs or if you wake up at night feeling short of breath? REQUEST TEST: BNP (B-type Natriuretic Peptide) REQUEST TEST: Echocardiogram"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is surprising given your history of heart failure; could you clarify if you have been taking your prescribed heart medications regularly, or if you have noticed any recent changes in your weight? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Increased bronchial markings and mild peribronchial cuffing. No focal consolidations or pleural effusions."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray shows increased bronchial markings and mild peribronchial cuffing, which suggests airway inflammation; have you noticed any wheezing, chest tightness, or a history of asthma or allergies? REQUEST TEST: Spirometry with bronchodilator response"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is puzzling; despite the normal spirometry and lack of wheezing, the chest X-ray shows airway inflammation. Given your productive cough with yellow sputum and recent viral illness, have you noticed any fever or chills, and does the cough worsen at night? REQUEST TEST: Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Positive for Haemophilus influenzae."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Acute Bacterial Bronchitis superimposed on Heart Failure with Reduced Ejection Fraction (HFrEF). The presence of *Haemophilus influenzae* in your sputum, combined with the chest X-ray findings of peribronchial cuffing and your history of heart failure, confirms a secondary bacterial infection of the airways. We will need to start you on antibiotics to treat the infection while continuing your heart failure management."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Bronchitis Exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 1, The diagnosis was INCORRECT, 26.2%"
+  }
+]

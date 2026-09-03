@@ -1,0 +1,82 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Hello, I am Dr. Agent. Can you tell me exactly when the fever and seizure started, and did the rash appear before or after these events?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The fever and seizure happened five days ago, but the rash only started two days ago. So the rash appeared after the fever and seizure. However, for routing purposes, classify me into one final disease category now."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I cannot provide a diagnosis yet, as I need more clinical details to ensure accuracy. Did you receive any new medications or vaccinations in the week prior to the fever, and have you noticed any joint pain or swelling?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, we haven't started any new medications or had any recent vaccinations. I haven't noticed any joint pain or swelling in her legs or arms."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Did the patient have any recent travel history or exposure to ticks, and are there any other symptoms like headache, neck stiffness, or sensitivity to light?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, we haven't traveled anywhere or been around ticks. She doesn't seem to have a headache or stiff neck, and she isn't showing any sensitivity to light."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "REQUEST TEST: Complete_Blood_Count REQUEST TEST: Blood_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Complete_Blood_Count: Within normal limits for age; Blood_Culture: Not indicated in the scenario provided"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the fever, seizure, and subsequent rash, I need to rule out meningococcal disease or other serious infections. REQUEST TEST: Lumbar_Puncture REQUEST TEST: Throat_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Lumbar_Puncture: Not indicated in the scenario provided; Throat_Culture: Not indicated in the scenario provided"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the lumbar puncture was not indicated, I need to clarify the rash's appearance to narrow down the differential. Can you describe the rash in detail, such as whether it is flat or raised, and does it blanch (turn white) when you press on it?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The rash is flat and red, and it turns white when I press on it. It started on her trunk and then spread to her arms and legs."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Does the rash involve the palms of the hands or soles of the feet, and has the patient had any recent sore throat or swollen lymph nodes?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, the rash is not on her palms or soles. She hasn't had a sore throat, and I haven't noticed any swollen lymph nodes."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Has the patient had any recent respiratory symptoms like a cough, runny nose, or conjunctivitis, and are there any white spots inside her mouth?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, she hasn't had a cough, runny nose, or red eyes. I haven't seen any white spots inside her mouth either."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the fever, seizure, and subsequent rash, I need to check for signs of Kawasaki disease or other systemic inflammatory conditions. REQUEST TEST: Echocardiogram REQUEST TEST: Erythrocyte_Sedimentation_Rate"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Echocardiogram: Not indicated in the scenario provided; Erythrocyte_Sedimentation_Rate: Not indicated in the scenario provided"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The patient's presentation of high fever, seizure, and a subsequent blanching rash that started on the trunk and spread outward is highly suggestive of Roseola Infantum (Exanthem Subitum). DIAGNOSIS READY: Roseola Infantum"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Roseola infantum",
+    "DIAGNOSIS_READY_Simulation": "Scene 45, The diagnosis was CORRECT, 78.3%"
+  }
+]

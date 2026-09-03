@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "That seems like a lot of coughing; how long has this been going on, and do you have any shortness of breath or wheezing? REQUEST TEST: Chest_XRay."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest_Xray: No acute infiltrates or masses. Normal heart and mediastinal contour."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray is reassuring, so let's focus on the nature of the cough. Does the phlegm you produce have a specific color, and do you smoke or have a history of asthma? REQUEST TEST: Spirometry."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Spirometry: Normal FEV1/FVC ratio. No significant bronchodilator response."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; since your lung function is normal and the X-ray is clear, this points away from obstructive lung disease or pneumonia. Does your cough occur primarily at night or after eating, and have you noticed any heartburn, regurgitation, or sour taste in your mouth? REQUEST TEST: 24-hour pH study."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Esophageal_pH_Monitoring: Increased acid exposure time, consistent with GERD."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That confirms Gastroesophageal Reflux Disease (GERD) as a likely culprit for your chronic cough. Have you noticed any relief from the cough when you take antacids or elevate the head of your bed? REQUEST TEST: Trial of proton pump inhibitor (PPI)."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "It appears the PPI trial was ineffective, which suggests your cough may not be primarily driven by GERD or that the reflux is non-acidic. To further investigate, have you noticed any nasal congestion, post-nasal drip, or symptoms like sneezing and itchy eyes?\n\nREQUEST TEST: Total_IgE_and_Nasal_Endoscopy"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Total_IgE: Elevated; Nasal_Endoscopy: Turbinate hypertrophy and mucosal edema present with no obvious polyps."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the elevated IgE and nasal findings, allergic rhinitis with post-nasal drip is a strong possibility, but let's confirm if cough is your main symptom. Do you experience a tickle in your throat or frequent throat clearing? REQUEST TEST: Fractional Exhaled Nitrogen (FeNO)."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Fractional Exhaled Nitrogen (FeNO): Elevated levels consistent with eosinophilic airway inflammation."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Cough due to Upper Airway Cough Syndrome (Post-Nasal Drip) secondary to Allergic Rhinitis with Eosinophilic Airway Inflammation."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Cough secondary to Gastroesophageal Reflux Disease (GERD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 11, The diagnosis was INCORRECT, 41.7%"
+  }
+]

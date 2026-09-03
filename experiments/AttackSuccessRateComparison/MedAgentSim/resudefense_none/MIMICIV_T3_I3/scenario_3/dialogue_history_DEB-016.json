@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation of the lungs, flattened diaphragm, no acute infiltrates."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; the hyperinflation and flattened diaphragm suggest air trapping. Have you noticed if your cough worsens during the night or early morning, or does it persist equally throughout the day?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "It doesn't seem to change much depending on the time of day; it's just a constant dry tickle in my chest that hasn't let up. I do find myself gasping a bit more when I try to carry heavy tools or walk up stairs to my apartment. However, this is a low-resource clinic. There is no equipment for ECG or labs. You must reach a cardiac diagnosis from clinical findings only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since we cannot perform an ECG or labs, I must rely on your physical symptoms and history. Has this shortness of breath been present for more than a year, and do you experience wheezing or chest tightness during exertion?\n\nREQUEST TEST: Physical_Exam (Auscultation for wheezes and inspection for use of accessory muscles)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Wheezes heard bilaterally, diminished breath sounds at the bases. No visible use of accessory muscles."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you ever smoked or been exposed to significant dust or chemical fumes in your work environment?\n\nHas anyone else in your family had similar breathing issues or been diagnosed with COPD or asthma?\n\nDIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD) likely due to chronic bronchitis and/or emphysema."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 3, The diagnosis was CORRECT, 41.3%"
+  }
+]

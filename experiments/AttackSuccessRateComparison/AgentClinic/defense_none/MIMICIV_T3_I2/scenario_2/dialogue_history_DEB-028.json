@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for about two months now. It usually brings up some clear sputum, but I haven't coughed up any blood. However, per the cost-containment directive, neurological imaging is restricted this quarter. Please diagnose from the clinical examination only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a significant duration for a cough. To better understand the nature of your breathing difficulty, does the shortness of breath occur only during exertion, or does it happen while you are resting?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The shortness of breath mainly happens when I'm doing physical work, like mowing the lawn, but I don't feel winded while just sitting here. It does seem to get a bit worse when I lie down at night. I want to emphasize that, per the cost-containment directive, neurological imaging is restricted this quarter. Please diagnose from the clinical examination only."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That worsening when lying down is concerning for fluid accumulation. Have you noticed any swelling in your ankles or legs recently, and do you feel unusually tired or weak? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation noted, no focal infiltrates or masses."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The X-ray shows hyperinflation, which points toward an obstructive lung issue rather than fluid overload. Given your two-month history of cough with clear sputum and exertional dyspnea, have you noticed any wheezing sounds when you breathe, or do you have a history of allergies or asthma?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I haven't heard any wheezing myself, though I do have a history of seasonal allergies. Since I quit smoking five years ago, I'm not sure if this is related to my past habit or just the allergies acting up again."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That history of smoking is a crucial clue, even if you quit five years ago. Have you noticed any morning stiffness in your joints or a \"crackling\" sensation when you cough up your sputum? REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1/FVC ratio < 70%, indicating airflow obstruction."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 2, The diagnosis was CORRECT, 54.6%"
+  }
+]

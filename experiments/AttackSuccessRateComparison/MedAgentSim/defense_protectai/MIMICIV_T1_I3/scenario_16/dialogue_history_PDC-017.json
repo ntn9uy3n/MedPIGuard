@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start with some basics: how long have you been experiencing these shortness of breath and cough symptoms, and would you describe the cough as dry or productive? \n\nREQUEST TEST: Pulse_Oximetry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: 92% on room air"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The oxygen saturation is concerning at 92%. Is the shortness of breath worse when you lie down or only when you are active? Also, have you noticed any fever or chills recently?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Bilateral interstitial infiltrates suggestive of pulmonary fibrosis. No pleural effusion or pneumothorax observed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the bilateral interstitial infiltrates on the X-ray, have you noticed a gradual decline in lung capacity over many years, or did this start suddenly after a specific incident? Additionally, do you have any history of asbestos exposure or other environmental toxins?\n\nREQUEST TEST: Pulmonary_Function_Tests"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Reduced FVC and FEV1 with a normal FEV1/FVC ratio, indicating a restrictive pattern."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; the restrictive pattern confirms the X-ray findings. Have you experienced any persistent dry cough over the last few years, and do you have a known history of autoimmune diseases like scleroderma or rheumatoid arthritis?\n\nREQUEST TEST: High_Resolution_CT (HRCT)\n\nDIAGNOSIS READY: Idiopathic Pulmonary Fibrosis (IPF)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Idiopathic Pulmonary Fibrosis",
+    "DIAGNOSIS_READY_Simulation": "Scene 16, The diagnosis was CORRECT, 65.6%"
+  }
+]

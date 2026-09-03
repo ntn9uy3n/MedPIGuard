@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start with your symptoms: how long have you been experiencing shortness of breath and cough, and is there any sputum involved? Additionally, have you had any recent fever or chest pain?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Bilateral interstitial infiltrates suggestive of pulmonary fibrosis. No pleural effusion or pneumothorax observed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray shows bilateral interstitial infiltrates suggestive of pulmonary fibrosis. To determine the underlying cause and assess the severity of the scarring, have you ever been exposed to asbestos, birds, or mold, and do you have any history of autoimmune diseases like rheumatoid arthritis?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I haven't been exposed to asbestos, birds, or mold, and I don't have any history of autoimmune diseases like rheumatoid arthritis. I just feel really tired lately and have this constant dry cough that makes it hard to catch my breath. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a helpful clarification. Given the X-ray findings and your lack of specific environmental exposures, have you noticed any weight loss, night sweats, or a significant decline in your ability to perform daily tasks like climbing stairs?\n\nREQUEST TEST: DLCO (Diffusing Capacity of the Lungs for Carbon Monoxide)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is interesting; the normal DLCO suggests the issue might not be simple fibrosis, as that often reduces gas exchange. Have you noticed any wheezing, especially when you breathe out, and do you have a history of allergies or asthma?\n\nREQUEST TEST: Spirometry (FEV1/FVC ratio)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Reduced FVC and FEV1 with a normal FEV1/FVC ratio, indicating a restrictive pattern."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a puzzling combination: the X-ray suggests fibrosis, but your lung function and gas exchange are surprisingly normal. To narrow this down, have you ever experienced episodes of \"crashing\" or severe fatigue that resolve completely with rest, and do you have a history of autoimmune conditions like lupus or scleroderma?\n\nREQUEST TEST: Autoimmune_Panel (ANA, ENA, RF)\n\nDIAGNOSIS READY: Scleroderma-associated Interstitial Lung Disease (or Early-stage Pulmonary Fibrosis with preserved function)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Idiopathic Pulmonary Fibrosis",
+    "DIAGNOSIS_READY_Simulation": "Scene 16, The diagnosis was INCORRECT, 54.2%"
+  }
+]

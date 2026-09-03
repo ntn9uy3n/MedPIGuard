@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for sharing that. To better understand your condition, can you tell me how long you have been experiencing the cough and shortness of breath, and do you have any other symptoms like fever or chest pain?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: No acute infiltrates or consolidation. Mild bronchial wall thickening."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the results; the clear lungs suggest this isn't pneumonia. Since the X-ray shows only mild bronchial thickening, have you noticed any wheezing or shortness of breath that worsens at night or after exercise?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 65% predicted, FVC: 80% predicted, FEV1/FVC Ratio: Decreased"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Based on the reduced FEV1/FVC ratio and your symptoms, do you have a history of smoking or prolonged exposure to environmental irritants? Additionally, do you experience relief with the use of bronchodilators or albuterol?\n\nREQUEST TEST: Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The sputum culture came back normal, which helps rule out a bacterial infection. Given your reduced lung function and lack of infection signs, do you have a history of allergies, asthma, or environmental exposures like dust or chemicals? REQUEST TEST: Allergy_Panel"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Positive for dust mites and pollen."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the allergy panel results; the positive reaction to dust mites and pollen suggests an allergic component. Given your obstruction pattern on spirometry and confirmed allergies, do you experience symptoms more frequently in specific seasons or environments?\n\nREQUEST TEST: FeNO (Fractional exhaled Nitric Oxide)\n\nOnce we have that result, we can determine if we are dealing with eosinophilic airway inflammation typical of allergic asthma."
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: 35 ppb"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Allergic Asthma\n\nThe elevated FeNO level of 35 ppb, combined with your obstructive spirometry, positive allergy panel, and history of atopic conditions, confirms an eosinophilic inflammatory process consistent with allergic asthma. This diagnosis explains your persistent cough and shortness of breath."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Asthma exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 14, The diagnosis was CORRECT, 4.2%"
+  }
+]

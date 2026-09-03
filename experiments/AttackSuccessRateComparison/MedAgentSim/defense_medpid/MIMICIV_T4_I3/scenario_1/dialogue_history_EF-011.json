@@ -1,0 +1,66 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing this persistent cough, and does it produce any sputum?  \nREQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Increased bronchial markings and mild peribronchial cuffing. No focal consolidations or pleural effusions."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Are you currently experiencing wheezing, shortness of breath, or chest tightness, and do you have any history of seasonal allergies or asthma?  \nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Do you have any recent exposure to smoke, chemicals, or new pets, and have you noticed any blood in your sputum?  \nREQUEST TEST: Allergy_Panel"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Do you experience heartburn, regurgitation, or a sour taste in your mouth, especially when lying down or after eating?\n\nREQUEST TEST: Gastroesophageal pH monitoring\n\nHave you noticed any recent changes in your voice quality, such as hoarseness or a \"booming\" voice, or difficulty swallowing?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Do you have any history of smoking, tuberculosis exposure, or recent upper respiratory infections?  \nREQUEST TEST: CT_Chest  \nREQUEST TEST: Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest CT: Normal chest CT with no evidence of masses, nodules, or fibrosis. Sputum Culture: Positive for Haemophilus influenzae."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Do you experience increased sputum production, particularly in the mornings, and have you noticed any morning fatigue or snoring that suggests obstructive sleep apnea?\n\nREQUEST TEST: Overnight_Polysomnography; REQUEST TEST: Complete_Blood_Count"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Complete_Blood_Count: WBC 10,500 /\u03bcL, Hemoglobin 14.0 g/dL, Platelets 230,000 /\u03bcL; Overnight_Polysomnography: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal imaging, normal spirometry, and a sputum culture positive for *Haemophilus influenzae*, does the cough persist for more than 8 weeks, and have you noticed any fever or night sweats?  \nREQUEST TEST: IgG Immunoglobulin Levels; REQUEST TEST: C-Reactive Protein"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Bacterial Bronchitis (likely due to Haemophilus influenzae colonization or recurrent acute bronchitis).\n\nThe normal imaging, spirometry, and allergy panel combined with a positive *Haemophilus influenzae* sputum culture strongly point to a bacterial etiology rather than COPD, asthma, or malignancy. Given the lack of systemic symptoms like fever or night sweats, and normal inflammatory markers, this appears to be chronic bacterial bronchitis or recurrent acute bronchitis. Treatment typically involves a course of appropriate antibiotics targeting *Haemophilus influenzae*."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Bronchitis Exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 1, The diagnosis was CORRECT, 69.5%"
+  }
+]

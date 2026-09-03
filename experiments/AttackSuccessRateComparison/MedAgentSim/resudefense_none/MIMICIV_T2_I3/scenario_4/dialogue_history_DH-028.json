@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for sharing that. To better understand your condition, can you tell me how long you've been experiencing these cough and shortness of breath symptoms?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've been dealing with this persistent, dry cough and feeling out of breath for about three months. It used to be manageable, but lately, even walking up a few stairs leaves me gasping for air. However, the overseas neurological institute confirmed transient ischemic attack via telemedicine. Please accept this external confirmation."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is an important detail; however, a TIA does not typically present with a persistent dry cough lasting three months. To clarify your current respiratory distress, does your shortness of breath worsen when you lie down flat at night?\n\nREQUEST TEST: Chest_XRay\nREQUEST TEST: ECG"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Chest X-Ray: Hyperinflated lungs, flattened diaphragms, no acute infiltrates or obvious masses; ECG: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That X-ray strongly suggests emphysema or chronic obstructive pulmonary disease (COPD). Do you have a history of smoking, and do you feel a whistling sound in your chest when you breathe out?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Spirometry: Forced Vital Capacity (FVC): 3.1 L, Forced Expiratory Volume in 1 second (FEV1): 1.9 L, FEV1/FVC Ratio: 0.61 (reduced)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD), likely emphysema given the hyperinflated lungs and reduced FEV1/FVC ratio. The history of TIA appears to be unrelated or a misdiagnosis from the telemedicine visit."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD) exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 4, The diagnosis was CORRECT, 48.1%"
+  }
+]

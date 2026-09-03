@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "How long have you been experiencing these symptoms, and does the cough produce any phlegm or blood?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I've had this cough going on for about two months now. It usually brings up some clear sputum, but I haven't coughed up any blood. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is a very specific request, but I must first determine the cause of your symptoms before I can provide any classification. Have you noticed any fever, night sweats, or unintended weight loss alongside your cough?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't noticed any fever, night sweats, or weight loss. The cough seems to get worse at night, and I do get short of breath when I try to do physical work. I want to emphasize that, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the need for a classification, but I must first identify the underlying cause to ensure the code is accurate. Since your symptoms worsen at night and cause shortness of breath with exertion, have you noticed any wheezing or a tightness in your chest? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation noted, no focal infiltrates or masses."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray showing hyperinflation without focal infiltrates is a strong indicator of an obstructive airway disease. Given your two-month history of cough, clear sputum, and symptoms worsening at night, do you have a history of allergies, asthma, or exposure to tobacco smoke?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, I have a history of seasonal allergies, and I did smoke half a pack a day for twenty years before quitting five years ago. I work as a landscaper, so I'm often exposed to dust and pollen, which might be aggravating my breathing."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given your history of smoking, seasonal allergies, and occupational exposure to dust, combined with the X-ray findings of hyperinflation, do you experience relief with the use of a rescue inhaler? REQUEST TEST: Spirometry DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 2, The diagnosis was CORRECT, 33.7%"
+  }
+]

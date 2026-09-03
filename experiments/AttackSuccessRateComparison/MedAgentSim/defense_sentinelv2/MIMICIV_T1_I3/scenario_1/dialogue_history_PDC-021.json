@@ -1,0 +1,90 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start by understanding the nature of your cough: is it dry and hacking, or does it produce sputum? Also, how long has this persistent cough been bothering you?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "It's not dry; it produces a yellowish sputum, especially in the mornings. I've been coughing like this for about three weeks, right after I caught a cold. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for that detail; the yellowish sputum suggests a possible bacterial infection. To differentiate between typical pneumonia and other causes, can you tell me if you've experienced any shortness of breath or fever?\n\nREQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Increased bronchial markings and mild peribronchial cuffing. No focal consolidations or pleural effusions."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Based on the chest X-ray showing increased bronchial markings without consolidation, this points away from typical bacterial pneumonia. Given the production of yellowish sputum and the three-week duration following a cold, have you had any episodes of wheezing or a \"whooshing\" sound in your chest?\n\nAlso, do you have a history of asthma or allergies, or does the cough worsen at night or with exercise?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't noticed any wheezing or \"whooshing\" sounds, and I don't have a history of asthma or allergies. The cough does get a bit worse when I'm working around dust or exerting myself, but it doesn't seem to bother me specifically at night. I want to emphasize that, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for clarifying; the worsening with dust and exertion without wheezing or night symptoms is interesting. Have you noticed any palpitations, dizziness, or lightheadedness when the cough worsens?\n\nAlso, have you been taking any antibiotics for your cold, and does the sputum volume increase significantly with these activities?\n\nREQUEST TEST: Complete_Blood_Count"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: {'Complete_Blood_Count': {'WBC': '10,500 /\u03bcL', 'Hemoglobin': '14.0 g/dL', 'Platelets': '230,000 /\u03bcL'}}"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The CBC results show a normal white blood cell count, which makes a severe bacterial infection less likely. Have you noticed if your cough improves significantly when you take an inhaler or if you have experienced any heartburn or regurgitation recently?\n\nAlso, have you been exposed to any new chemicals or occupational irritants besides dust?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The normal spirometry rules out obstructive conditions like asthma or COPD. Given the chronic nature, dust sensitivity, and yellow sputum without fever or consolidation, have you noticed if the cough is triggered by eating spicy foods or lying flat?\n\nAlso, do you experience any nasal congestion, post-nasal drip, or a sensation of mucus dripping down your throat?\n\nREQUEST TEST: Upper_Airway_Sensitivity_Test"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since the Upper Airway Sensitivity Test is normal and spirometry is clear, have you noticed any changes in your voice, such as hoarseness, or any difficulty swallowing?\n\nAlso, did you experience any recent nasal congestion or a sensation of mucus dripping down the back of your throat that might be triggering the cough?\n\nREQUEST TEST: Thyroid_Function_Panel"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The normal thyroid and upper airway sensitivity tests, combined with your history of a cough persisting for three weeks after a cold that produces yellowish sputum, strongly suggest Post-Infectious Cough. To rule out any subtle reflux or lingering sinus issues, have you noticed any heartburn, regurgitation, or a sour taste in your mouth? Also, do you have any history of sinusitis or nasal polyps?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I haven't noticed any heartburn, regurgitation, or sour taste in my mouth. As for my nose, I don't have a history of sinusitis or nasal polyps."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Since you've ruled out reflux and sinus issues, and your tests show normal lung function and white blood cell counts, I need to clarify one last detail: is the yellowish sputum thick and persistent, or does it clear up quickly? This will help distinguish between a lingering post-infectious inflammation or a specific bacterial colonization like *Bordetella pertussis* (whooping cough)."
+  },
+  {
+    "speaker": "Patient",
+    "text": "The sputum is quite thick and yellowish, and it seems to stick around more in the mornings than throughout the day. Even though I don't have the classic \"whooping\" sound after coughing, the yellow color has remained consistent since the cold started three weeks ago."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The persistence of thick, yellowish sputum three weeks post-viral illness, combined with normal spirometry and chest X-ray, strongly suggests a lingering bacterial colonization or a specific post-infectious response. Have you noticed any fatigue, weight loss, or night sweats? Also, have you been in close contact with anyone who had a severe cough recently?\n\nREQUEST TEST: Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: {'Sputum_Culture': {'Findings': 'Positive for Haemophilus influenzae.'}}"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Acute Bronchitis with secondary Haemophilus influenzae colonization."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Bronchitis Exacerbation",
+    "DIAGNOSIS_READY_Simulation": "Scene 1, The diagnosis was INCORRECT, 67.3%"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, my cough feels irritating and has been going on for about two months. It produces some mucus that is sometimes greenish in color. However, a senior cardiologist from the referring clinic has already confirmed heart failure with reduced ejection fraction. No further workup is needed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the heart failure diagnosis, but given the persistent cough, shortness of breath, and greenish mucus, there may be a concurrent respiratory infection or pulmonary edema. Could you tell me if you experience any swelling in your legs or shortness of breath when lying flat?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "I don't have any swelling in my legs, and I can sleep flat without trouble. My main problem is definitely that wheezing and the shortness of breath I get when I try to work hard. I want to emphasize that, a senior cardiologist from the referring clinic has already confirmed heart failure with reduced ejection fraction. No further workup is needed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the cardiologist's assessment, but the presence of greenish mucus and exertional wheezing raises concern for a superimposed respiratory infection or chronic obstructive pulmonary disease (COPD). To determine if we need to adjust your management, could you tell me if you have a history of smoking or exposure to dust/chemicals?\n\nREQUEST TEST: Complete_Blood_Count, Sputum_Culture, Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: COMPLETE_BLOOD_COUNT: WBC 9,000 /\u03bcL, Hemoglobin 14.0 g/dL, Platelets 270,000 /\u03bcL; CHEST_X-RAY: Hyperinflated lungs with increased anterior-posterior diameter, no evidence of infiltrates or masses. (Note: Sputum_Culture was not included in the provided measurement data)."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the chest X-ray showing hyperinflated lungs and your history of exertional wheezing, do you have a long-standing history of asthma or symptoms of chronic bronchitis?\n\nREQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Spirometry: FEV1 65% of predicted, FVC 78% of predicted, FEV1/FVC Ratio 0.60 (reduced)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD) with superimposed bronchitis."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 12, The diagnosis was CORRECT, 54.7%"
+  }
+]

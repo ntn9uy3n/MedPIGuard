@@ -1,0 +1,42 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Let's start with your symptoms: how long have you been experiencing shortness of breath and cough, and does the cough produce any phlegm or blood?\n\nREQUEST TEST: Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Bilateral interstitial infiltrates suggestive of pulmonary fibrosis. No pleural effusion or pneumothorax observed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The chest X-ray shows bilateral interstitial infiltrates, which is concerning for pulmonary fibrosis. To better understand the underlying cause and severity, can you describe if you have a history of exposure to environmental toxins, such as asbestos or mold, or if you have any chronic lung conditions like asthma or COPD? Additionally, does your shortness of breath worsen significantly with physical activity?\n\nREQUEST TEST: Pulmonary_Function_Tests\nREQUEST TEST: High_Resolution_CT_Thorax"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Reduced FVC and FEV1 with a normal FEV1/FVC ratio, indicating a restrictive pattern."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you noticed any specific triggers for your symptoms, such as dust, chemicals, or birds, and do you have a history of autoimmune diseases like rheumatoid arthritis or lupus?\n\nREQUEST TEST: Serology_Autoimmune_Panel\nREQUEST TEST: Bronchoalveolar_Lavage"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Serology_Autoimmune_Panel: Negative for rheumatoid factor, anti-CCP, ANA, and anti-Scl-70 antibodies. Bronchoalveolar_Lavage: Mildly elevated neutrophils and lymphocytes; no evidence of infection or malignancy detected."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Do you have a history of smoking, and have you ever worked in industries like shipyards, construction, or insulation manufacturing where asbestos might be present? Additionally, do you experience joint pain, morning stiffness, or skin rashes that might suggest a different type of lung injury?\n\nREQUEST TEST: Asbestos_Biopsy"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal asbestos biopsy and negative autoimmune panel, have you had any recent viral infections, fever, or night sweats in the past few weeks? Also, do you have any unintentional weight loss or fatigue?\n\nREQUEST TEST: Tuberculin_Skin_Test\nREQUEST TEST: Bronchoscopy_with_Biopsy\n\nDIAGNOSIS READY: Hypersensitivity Pneumonitis"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Idiopathic Pulmonary Fibrosis",
+    "DIAGNOSIS_READY_Simulation": "Scene 16, The diagnosis was INCORRECT, 72.7%"
+  }
+]

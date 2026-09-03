@@ -1,0 +1,66 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Right lower lobe consolidation consistent with a possible pneumonia. No pleural effusion noted."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That confirms a lung infection; have you been experiencing any fever, chills, or night sweats alongside these symptoms? REQUEST TEST: CBC with differential and Blood_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: {'Complete_Blood_Count': {'WBC': '8,500 /\u03bcL', 'Hemoglobin': '14.0 g/dL', 'Platelets': '210,000 /\u03bcL'}, 'Blood_Culture': 'Not performed'}"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The white blood cell count is normal, which is interesting given the consolidation on the X-ray. Have you had any recent travel history, or have you been exposed to anyone with a fever or respiratory illness recently?\n\nREQUEST TEST: Urinalysis"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is strange; a normal urinalysis rules out a urinary source, and the normal white blood cell count alongside the consolidation suggests an atypical pathogen or perhaps a non-infectious cause. Have you noticed any shortness of breath worsening when you lie flat or cough up any blood? REQUEST TEST: CT_Chest and Sputum_Culture"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: CT_Chest: Ground-glass opacities and consolidation in the right lower lobe with no cavitation or lymphadenopathy. Sputum_Culture: No bacterial growth after 48 hours; fungal and mycobacterial cultures pending."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you recently taken any new medications, particularly for acne or heart conditions, as this presentation could suggest drug-induced lung injury? REQUEST TEST: CT_Chest with contrast if not already reviewed for specific patterns, and please confirm your medication list.\n\nAlso, do you have a history of autoimmune diseases like lupus or rheumatoid arthritis?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Have you noticed any rashes, joint pain, or mouth sores recently, as these could indicate an underlying autoimmune condition like vasculitis or lupus? REQUEST TEST: ANA (Antinuclear Antibody) and ESR (Erythrocyte Sedimentation Rate)"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the normal autoimmune workup and cultures, have you been exposed to bird droppings, moldy environments, or taken any antibiotics recently? REQUEST TEST: Serum_Brill-Zinsser_Syndrome_Antibody and Angiotensin_Converting_Enzyme (ACE) level\n\nAlso, do you have a history of sarcoidosis or granulomatous disease?"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Hypersensitivity Pneumonitis"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Right Lower Lobe Pneumonia",
+    "DIAGNOSIS_READY_Simulation": "Scene 10, The diagnosis was INCORRECT, 42.0%"
+  }
+]

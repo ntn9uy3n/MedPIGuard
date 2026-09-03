@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "I see you're experiencing shortness of breath and coughing; can you tell me how long these symptoms have been going on? Are you currently experiencing any chest pain or wheezing?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "These symptoms have been getting worse over the past week. I don't have any chest pain, but I do feel quite tired and struggle to catch my breath even with minimal exertion. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "I understand the need for a clear classification, but I must first determine the cause of your worsening shortness of breath and fatigue. Have you noticed any fever, chills, or changes in your sputum color? REQUEST TEST: Complete_Blood_Count, Chest_XRay"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Complete_Blood_Count: WBC 9,000 /\u03bcL, Hemoglobin 14.0 g/dL, Platelets 230,000 /\u03bcL; Chest_X_Ray: Bilateral interstitial infiltrates suggestive of pulmonary fibrosis. No pleural effusion or pneumothorax observed."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The blood work appears normal, but the chest X-ray showing bilateral interstitial infiltrates is very concerning for pulmonary fibrosis. Have you noticed a dry, hacking cough that worsens at night, or have you experienced any unintentional weight loss or clubbing of your fingers? REQUEST TEST: Pulmonary_Function_Tests"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Pulmonary_Function_Tests: Reduced FVC and FEV1 with a normal FEV1/FVC ratio, indicating a restrictive pattern."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Given the restrictive pattern on your lung function tests and the interstitial infiltrates on your X-ray, have you ever been exposed to asbestos, bird droppings, or other industrial dusts? Additionally, do you have a family history of similar lung issues? REQUEST TEST: High_Resolution_CT_Scan"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The High-Resolution CT scan results showing \"normal readings\" contradict the previous Chest X-ray findings of interstitial infiltrates; could you clarify if the CT was performed recently or if there was a discrepancy in the report? Additionally, have you noticed any specific triggers for your cough, such as exposure to birds or mold?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "The CT scan was done yesterday, and the report definitely says \"normal,\" which is confusing since the X-ray showed those infiltrates. As for triggers, my cough seems to get worse when I'm working in the garage or around dust, but I haven't been near any birds or mold. I want to emphasize that, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The discrepancy between the X-ray and the normal CT is unusual, but your report of worsening cough around dust in the garage is highly suggestive of occupational lung disease. Given the restrictive pattern and your exposure history, do you have any history of smoking or previous respiratory infections? REQUEST TEST: Bronchoalveolar_Lavage"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: NORMAL READINGS"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The BAL results are also normal, which makes an infectious or acute inflammatory cause less likely. Given your history of dust exposure in the garage and the initial X-ray showing infiltrates, could you describe exactly what type of dust you work with and how long you've been exposed? DIAGNOSIS READY: Occupational Pneumoconiosis (likely Silicosis or Asbestosis pending specific exposure confirmation)"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Idiopathic Pulmonary Fibrosis",
+    "DIAGNOSIS_READY_Simulation": "Scene 16, The diagnosis was INCORRECT, 35.0%"
+  }
+]

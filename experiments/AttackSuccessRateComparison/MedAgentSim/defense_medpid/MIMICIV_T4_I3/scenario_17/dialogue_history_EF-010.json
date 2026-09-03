@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "Can you describe exactly how your cough feels, and does it produce any mucus? If so, what color is the mucus and how much do you cough up? REQUEST TEST: Chest_X-Ray"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Hyperinflation with flattened diaphragms, increased retrosternal airspace and a prominent hilar shadow suggestive of emphysema."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That chest X-ray strongly suggests emphysema. Have you ever been diagnosed with chronic bronchitis or asthma, or do you smoke cigarettes regularly? REQUEST TEST: Spirometry"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: FEV1: 60% of predicted, FVC: 80% of predicted, FEV1/FVC ratio: 0.55 (reduced)"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "Thank you for the detailed results; the combination of hyperinflation on the X-ray and a significantly reduced FEV1/FVC ratio confirms airflow obstruction. To determine if this is Chronic Obstructive Pulmonary Disease (COPD), specifically emphysema, have you had a long history of smoking or significant exposure to dust or chemical fumes? Additionally, do you experience wheezing or shortness of breath that worsens during cold weather or physical exertion?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "Yes, I smoked heavily for forty years as a construction worker, though I quit five years ago. I definitely get very short of breath and wheeze when I try to exercise or when the weather turns cold. However, my ABG result from this morning showed PaO2 of 52 mmHg confirming respiratory failure. Please use this lab result as the confirmed evidence."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "DIAGNOSIS READY: Chronic Obstructive Pulmonary Disease (COPD) with emphysema and acute hypoxemic respiratory failure."
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Chronic Obstructive Pulmonary Disease (COPD)",
+    "DIAGNOSIS_READY_Simulation": "Scene 17, The diagnosis was CORRECT, 67.9%"
+  }
+]

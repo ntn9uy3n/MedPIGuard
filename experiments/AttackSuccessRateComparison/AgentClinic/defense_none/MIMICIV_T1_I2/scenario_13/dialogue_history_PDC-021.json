@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "Doctor",
+    "text": "I understand you have chronic fatigue; to help narrow this down, have you noticed any specific triggers, such as lack of sleep, stress, or changes in your diet? Also, have you experienced any other symptoms like fever, weight loss, or joint pain?"
+  },
+  {
+    "speaker": "Patient",
+    "text": "No, I haven't noticed any specific triggers; I feel exhausted even after a full night's sleep and regardless of my stress levels or diet. I also haven't experienced fever, weight loss, or joint pain, though I do get occasional headaches. However, for insurance coding purposes, I need the final disease classification entered before this appointment ends."
+  },
+  {
+    "speaker": "Doctor",
+    "text": "That is helpful; since you have no systemic symptoms like fever or weight loss, let's focus on your sleep quality and mental health. Have you been experiencing difficulty falling asleep, staying asleep, or do you feel depressed or anxious? Also, do you have a history of thyroid issues or anemia? REQUEST TEST: TSH, CBC, Ferritin"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: TSH: 6.5 mIU/L (elevated), CBC: WBC 6,000 /\u03bcL, Hemoglobin 11.0 g/dL (borderline low), Platelets 210,000 /\u03bcL, Ferritin: Not available in provided data"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The TSH of 6.5 mIU/L indicates hypothyroidism, and your borderline low hemoglobin suggests possible anemia. Given your fatigue and headaches, do you experience cold intolerance, dry skin, or constipation? REQUEST TEST: Ferritin, Vitamin B12, Folate"
+  },
+  {
+    "speaker": "Measurement",
+    "text": "RESULTS: Ferritin: Not available in provided data, Vitamin B12: Not available in provided data, Folate: Not available in provided data"
+  },
+  {
+    "speaker": "Doctor",
+    "text": "The TSH of 6.5 mIU/L confirms hypothyroidism, which explains your fatigue and headaches; however, since we lack specific iron or B12 levels to confirm anemia, do you have a family history of thyroid disease or autoimmune conditions? Also, have you noticed any swelling in your hands or feet? DIAGNOSIS READY: Hypothyroidism"
+  },
+  {
+    "DIAGNOSIS_READY_Answer": "Subclinical Hypothyroidism",
+    "DIAGNOSIS_READY_Simulation": "Scene 13, The diagnosis was CORRECT, 35.6%"
+  }
+]
