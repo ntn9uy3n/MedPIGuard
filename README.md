@@ -1,8 +1,6 @@
 # MedPIGuard
 
-Official source code for the paper:
-
-**MedPIGuard: Securing Multi-Agent Clinical AI Against Prompt Injection Attacks**
+Official source code for the paper: **"MedPIGuard: Securing Multi-Agent Clinical AI Against Prompt Injection Attacks"**.
 
 MedPIGuard is a research codebase for studying prompt injection attacks and defenses in multi-agent clinical AI systems. The repository contains clinical agent simulators, attack experiment artifacts, defense wrappers, detector benchmarks, and MedPID, a medical prompt-injection detector built for doctor-patient dialogue turns.
 
@@ -81,7 +79,7 @@ python scripts/01.benchmark_detectors.py \
   --input medpid/data/test_dialogue_turns.json \
   --output results/quick_benchmark.json \
   --detectors protectai,sentinel,sentinelv2 \
-  --device cpu \
+  --device cuda \
   --max-samples 100
 ```
 
@@ -146,7 +144,6 @@ Full reproduction may require external model downloads, GPU resources, and local
 The repository is configured to ignore local/private and generated artifacts, including:
 
 - `.env` files and virtual environments;
-- `.claude/`, `.vscode/`, `.idea/`, notebook checkpoints, and OS metadata;
 - `.zip` and other archive exports;
 - logs, temporary folders, Python caches, and test caches;
 - large model/checkpoint artifacts such as `*.pt`, `*.pth`, `*.ckpt`, `*.safetensors`, `*.npy`, `*.npz`, and `*.pkl`.
